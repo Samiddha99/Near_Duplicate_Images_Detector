@@ -1,0 +1,76 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  Stochastic ARG Matching (r2)
+  Reference: Zhang & Chang, ACM MM'04, pp.877-884
+════════════════════════════════════════════════════════════════════════
+  Images              : 21
+  Total pairs         : 210
+  Pair predictions    : 210
+  Runtime             : 5.1 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 0
+  No duplicate groups formed at this method's threshold.
+
+CONFIRMED PAIRS : 0   REJECTED : 210
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 0
+    False Positives (FP) : 0
+    False Negatives (FN) : 0
+    True Negatives  (TN) : 210
+    Precision            : 100.00%
+    Recall               : 100.00%
+    F1-Score             : 100.00%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 0
+    GT classes (≥2 imgs) : 0
+    Pure groups          : 0/0
+    Contaminated groups  : 0
+    Avg group purity     : 1.0000
+    Avg group completeness: 1.0000
+    Grouped / ungrouped  : 0 / 21
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 21
+    NEG leaked into groups: 0/21
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.0000
+    μ_FP  mean score of FP  : 0.0000
+    μ_REJ mean score of rej : 0.2412
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=2,000):
+    Precision :  100.00%   [100.00%, 100.00%]
+    Recall    :  100.00%   [100.00%, 100.00%]
+    F1        :  100.00%   [100.00%, 100.00%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 1.000000
+    pₑ (expected agreement) : 1.000000
+    κ                       : 1.0000   (Near-perfect)
+    95% CI                  : [1.0000, 1.0000]
+    SE(κ)                   : 0.000000
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  Interest-point detector      : FAST (SUSAN-substitute), K=40
+  Gabor bank                   : 2 scales × 3 orientations = 6 kernels
+  Vertex attribute dim         : 11 (x, y, R, G, B, 6 Gabor mags)
+  Vertex kernel α              : 3.0
+  Edge kernel β                : 0.0001
+  IND decision threshold λ     : 0.55
+  Matching surrogate           : Hungarian (linear_sum_assignment)
+                                 + pairwise-distance correlation
+  Note: exact MRF/LBP computation is intractable at this graph size (|V|=40); the Hungarian lower-bound is the standard tractable surrogate (Leordeanu & Hebert 2005).
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — Stochastic ARG Matching (r2)
+════════════════════════════════════════════════════════════════════════

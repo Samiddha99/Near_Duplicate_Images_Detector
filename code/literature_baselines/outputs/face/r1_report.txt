@@ -1,0 +1,139 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  pHash + ViT + Siamese (r1)
+  Reference: Jakhar & Borah, IPM 62 (2025) 104086
+════════════════════════════════════════════════════════════════════════
+  Images              : 21
+  Total pairs         : 210
+  Pair predictions    : 210
+  Runtime             : 5.3 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 2
+  Group 1 (14 images):
+    • NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg
+    • NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg
+    • NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg
+    • NEG_img (1461).jpg
+    • NEG_img (312).jpg
+    • NEG_img (425).jpg
+    • NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg
+    • NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg
+    • NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg
+    • NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg
+    • NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg
+    • NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg
+    • NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg
+    • NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg
+
+  Group 2 (3 images):
+    • NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg
+    • NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg
+    • NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg
+
+CONFIRMED PAIRS : 26   REJECTED : 184
+
+  Top 26 highest-scoring confirmed pairs:
+    score=0.8375 [FP]  NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg  ↔  NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg
+    score=0.8278 [FP]  NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg  ↔  NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg
+    score=0.8243 [FP]  NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg  ↔  NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg
+    score=0.8212 [FP]  NEG_img (1461).jpg  ↔  NEG_img (425).jpg
+    score=0.8212 [FP]  NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg  ↔  NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg
+    score=0.8149 [FP]  NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg  ↔  NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg
+    score=0.7917 [FP]  NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg  ↔  NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg
+    score=0.7721 [FP]  NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg  ↔  NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg
+    score=0.7584 [FP]  NEG_img (312).jpg  ↔  NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg
+    score=0.7554 [FP]  NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg  ↔  NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg
+    score=0.7518 [FP]  NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg  ↔  NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg
+    score=0.7427 [FP]  NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg  ↔  NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg
+    score=0.7335 [FP]  NEG_img (425).jpg  ↔  NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg
+    score=0.7313 [FP]  NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg  ↔  NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg
+    score=0.7265 [FP]  NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg  ↔  NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg
+    score=0.7249 [FP]  NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg  ↔  NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg
+    score=0.7142 [FP]  NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg  ↔  NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg
+    score=0.7032 [FP]  NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg  ↔  NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg
+    score=0.6885 [FP]  NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg  ↔  NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg
+    score=0.6734 [FP]  NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg  ↔  NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg
+    score=0.6121 [FP]  NEG_img (1461).jpg  ↔  NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg
+    score=0.6075 [FP]  NEG_img (425).jpg  ↔  NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg
+    score=0.6030 [FP]  NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg  ↔  NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg
+    score=0.5983 [FP]  NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg  ↔  NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg
+    score=0.5706 [FP]  NEG_img (425).jpg  ↔  NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg
+    score=0.5399 [FP]  NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg  ↔  NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 0
+    False Positives (FP) : 26
+    False Negatives (FN) : 0
+    True Negatives  (TN) : 184
+    Precision            : 0.00%
+    Recall               : 100.00%
+    F1-Score             : 0.00%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 2
+    GT classes (≥2 imgs) : 0
+    Pure groups          : 0/2
+    Contaminated groups  : 2
+    Avg group purity     : 0.2024
+    Avg group completeness: 1.0000
+    Grouped / ungrouped  : 17 / 4
+    Contaminated group breakdown:
+      [14 members] NEG__NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg: 1, NEG__NEG_img (312).jpg: 1, NEG__NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg: 1, NEG__NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg: 1, NEG__NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg: 1, NEG__NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg: 1, NEG__NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg: 1, NEG__NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg: 1, NEG__NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg: 1, NEG__NEG_img (1461).jpg: 1, NEG__NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg: 1, NEG__NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg: 1, NEG__NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg: 1, NEG__NEG_img (425).jpg: 1
+      [3 members] NEG__NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg: 1, NEG__NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg: 1, NEG__NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg: 1
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 21
+    NEG leaked into groups: 17/21
+      Leaked: NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg
+      Leaked: NEG_img (312).jpg
+      Leaked: NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg
+      Leaked: NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg
+      Leaked: NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg
+      Leaked: NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg
+      Leaked: NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg
+      Leaked: NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg
+      Leaked: NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg
+      Leaked: NEG_img (1461).jpg
+      Leaked: NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg
+      Leaked: NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg
+      Leaked: NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg
+      Leaked: NEG_img (425).jpg
+      Leaked: NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg
+      Leaked: NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg
+      Leaked: NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.0000
+    μ_FP  mean score of FP  : 0.7210
+    μ_REJ mean score of rej : 0.0000
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=2,000):
+    Precision :    0.00%   [0.00%, 0.00%]
+    Recall    :  100.00%   [100.00%, 100.00%]
+    F1        :    0.00%   [0.00%, 0.00%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 0.876190
+    pₑ (expected agreement) : 0.876190
+    κ                       : 0.0000   (Slight)
+    95% CI                  : [-0.3598, 0.3598]
+    SE(κ)                   : 0.183575
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  Stage-1 pHash (64-bit DCT)  — Hamming≤24 filter
+  Stage-2 ViT-B/16 embedding   — CLS pooled, L2-normalised
+  Siamese surrogate: σ(1.5·pHashSim + 3.0·cosViT − 2.0) > 0.5
+  Device used: cpu
+  Total pairs scored: 210 (pruned by pHash filter: 184)
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — pHash + ViT + Siamese (r1)
+════════════════════════════════════════════════════════════════════════

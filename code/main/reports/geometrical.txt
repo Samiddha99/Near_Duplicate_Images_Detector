@@ -1,0 +1,1068 @@
+══════════════════════════════════════════════════════════════════════
+  RESULTS
+══════════════════════════════════════════════════════════════════════
+  Images    : 326
+  Screened  : 52,975 pairs
+  Candidates: 11,299
+  Confirmed : 4,434
+  Groups    : 8
+  Threshold : 0.5
+  Workers   : 16 threads
+  GPU       : CPU
+══════════════════════════════════════════════════════════════════════
+
+  DUPLICATE GROUPS: 8
+
+  Group 1 (40 images):
+    • abstract_art_ORIGINAL.png
+    • abstract_art_blur_3.png
+    • abstract_art_blur_5.png
+    • abstract_art_bright_050.png
+    • abstract_art_bright_150.png
+    • abstract_art_combo_crop_rot15_dark.png
+    • abstract_art_combo_flip_contrast_blur.png
+    • abstract_art_combo_rot30_bright.png
+    • abstract_art_combo_rot75_small.png
+    • abstract_art_combo_zoom_sharp_bright.png
+    • abstract_art_contrast_040.png
+    • abstract_art_contrast_200.png
+    • abstract_art_crop_center.png
+    • abstract_art_crop_topleft.png
+    • abstract_art_edge_enhance.png
+    • abstract_art_flip_both.png
+    • abstract_art_flip_h.png
+    • abstract_art_flip_v.png
+    • abstract_art_jpeg_q05.jpg
+    • abstract_art_jpeg_q10.jpg
+    • abstract_art_rot120.png
+    • abstract_art_rot15.png
+    • abstract_art_rot180.png
+    • abstract_art_rot203.png
+    • abstract_art_rot270.png
+    • abstract_art_rot33.png
+    • abstract_art_rot350.png
+    • abstract_art_rot45.png
+    • abstract_art_rot67.png
+    • abstract_art_rot90.png
+    • abstract_art_saturate_020.png
+    • abstract_art_saturate_200.png
+    • abstract_art_scale_050.png
+    • abstract_art_scale_200.png
+    • abstract_art_sharpen.png
+    • abstract_art_shift_diag.png
+    • abstract_art_shift_down30.png
+    • abstract_art_shift_right40.png
+    • abstract_art_stretch_h.png
+    • abstract_art_zoom_2x.png
+
+  Group 2 (40 images):
+    • car_ORIGINAL.png
+    • car_blur_3.png
+    • car_blur_5.png
+    • car_bright_050.png
+    • car_bright_150.png
+    • car_combo_crop_rot15_dark.png
+    • car_combo_flip_contrast_blur.png
+    • car_combo_rot30_bright.png
+    • car_combo_rot75_small.png
+    • car_combo_zoom_sharp_bright.png
+    • car_contrast_040.png
+    • car_contrast_200.png
+    • car_crop_center.png
+    • car_crop_topleft.png
+    • car_edge_enhance.png
+    • car_flip_both.png
+    • car_flip_h.png
+    • car_flip_v.png
+    • car_jpeg_q05.jpg
+    • car_jpeg_q10.jpg
+    • car_rot120.png
+    • car_rot15.png
+    • car_rot180.png
+    • car_rot203.png
+    • car_rot270.png
+    • car_rot33.png
+    • car_rot350.png
+    • car_rot45.png
+    • car_rot67.png
+    • car_rot90.png
+    • car_saturate_020.png
+    • car_saturate_200.png
+    • car_scale_050.png
+    • car_scale_200.png
+    • car_sharpen.png
+    • car_shift_diag.png
+    • car_shift_down30.png
+    • car_shift_right40.png
+    • car_stretch_h.png
+    • car_zoom_2x.png
+
+  Group 3 (40 images):
+    • food_plate_ORIGINAL.png
+    • food_plate_blur_3.png
+    • food_plate_blur_5.png
+    • food_plate_bright_050.png
+    • food_plate_bright_150.png
+    • food_plate_combo_crop_rot15_dark.png
+    • food_plate_combo_flip_contrast_blur.png
+    • food_plate_combo_rot30_bright.png
+    • food_plate_combo_rot75_small.png
+    • food_plate_combo_zoom_sharp_bright.png
+    • food_plate_contrast_040.png
+    • food_plate_contrast_200.png
+    • food_plate_crop_center.png
+    • food_plate_crop_topleft.png
+    • food_plate_edge_enhance.png
+    • food_plate_flip_both.png
+    • food_plate_flip_h.png
+    • food_plate_flip_v.png
+    • food_plate_jpeg_q05.jpg
+    • food_plate_jpeg_q10.jpg
+    • food_plate_rot120.png
+    • food_plate_rot15.png
+    • food_plate_rot180.png
+    • food_plate_rot203.png
+    • food_plate_rot270.png
+    • food_plate_rot33.png
+    • food_plate_rot350.png
+    • food_plate_rot45.png
+    • food_plate_rot67.png
+    • food_plate_rot90.png
+    • food_plate_saturate_020.png
+    • food_plate_saturate_200.png
+    • food_plate_scale_050.png
+    • food_plate_scale_200.png
+    • food_plate_sharpen.png
+    • food_plate_shift_diag.png
+    • food_plate_shift_down30.png
+    • food_plate_shift_right40.png
+    • food_plate_stretch_h.png
+    • food_plate_zoom_2x.png
+
+  Group 4 (40 images):
+    • landscape_ORIGINAL.png
+    • landscape_blur_3.png
+    • landscape_blur_5.png
+    • landscape_bright_050.png
+    • landscape_bright_150.png
+    • landscape_combo_crop_rot15_dark.png
+    • landscape_combo_flip_contrast_blur.png
+    • landscape_combo_rot30_bright.png
+    • landscape_combo_rot75_small.png
+    • landscape_combo_zoom_sharp_bright.png
+    • landscape_contrast_040.png
+    • landscape_contrast_200.png
+    • landscape_crop_center.png
+    • landscape_crop_topleft.png
+    • landscape_edge_enhance.png
+    • landscape_flip_both.png
+    • landscape_flip_h.png
+    • landscape_flip_v.png
+    • landscape_jpeg_q05.jpg
+    • landscape_jpeg_q10.jpg
+    • landscape_rot120.png
+    • landscape_rot15.png
+    • landscape_rot180.png
+    • landscape_rot203.png
+    • landscape_rot270.png
+    • landscape_rot33.png
+    • landscape_rot350.png
+    • landscape_rot45.png
+    • landscape_rot67.png
+    • landscape_rot90.png
+    • landscape_saturate_020.png
+    • landscape_saturate_200.png
+    • landscape_scale_050.png
+    • landscape_scale_200.png
+    • landscape_sharpen.png
+    • landscape_shift_diag.png
+    • landscape_shift_down30.png
+    • landscape_shift_right40.png
+    • landscape_stretch_h.png
+    • landscape_zoom_2x.png
+
+  Group 5 (40 images):
+    • portrait_ORIGINAL.png
+    • portrait_blur_3.png
+    • portrait_blur_5.png
+    • portrait_bright_050.png
+    • portrait_bright_150.png
+    • portrait_combo_crop_rot15_dark.png
+    • portrait_combo_flip_contrast_blur.png
+    • portrait_combo_rot30_bright.png
+    • portrait_combo_rot75_small.png
+    • portrait_combo_zoom_sharp_bright.png
+    • portrait_contrast_040.png
+    • portrait_contrast_200.png
+    • portrait_crop_center.png
+    • portrait_crop_topleft.png
+    • portrait_edge_enhance.png
+    • portrait_flip_both.png
+    • portrait_flip_h.png
+    • portrait_flip_v.png
+    • portrait_jpeg_q05.jpg
+    • portrait_jpeg_q10.jpg
+    • portrait_rot120.png
+    • portrait_rot15.png
+    • portrait_rot180.png
+    • portrait_rot203.png
+    • portrait_rot270.png
+    • portrait_rot33.png
+    • portrait_rot350.png
+    • portrait_rot45.png
+    • portrait_rot67.png
+    • portrait_rot90.png
+    • portrait_saturate_020.png
+    • portrait_saturate_200.png
+    • portrait_scale_050.png
+    • portrait_scale_200.png
+    • portrait_sharpen.png
+    • portrait_shift_diag.png
+    • portrait_shift_down30.png
+    • portrait_shift_right40.png
+    • portrait_stretch_h.png
+    • portrait_zoom_2x.png
+
+  Group 6 (40 images):
+    • underwater_ORIGINAL.png
+    • underwater_blur_3.png
+    • underwater_blur_5.png
+    • underwater_bright_050.png
+    • underwater_bright_150.png
+    • underwater_combo_crop_rot15_dark.png
+    • underwater_combo_flip_contrast_blur.png
+    • underwater_combo_rot30_bright.png
+    • underwater_combo_rot75_small.png
+    • underwater_combo_zoom_sharp_bright.png
+    • underwater_contrast_040.png
+    • underwater_contrast_200.png
+    • underwater_crop_center.png
+    • underwater_crop_topleft.png
+    • underwater_edge_enhance.png
+    • underwater_flip_both.png
+    • underwater_flip_h.png
+    • underwater_flip_v.png
+    • underwater_jpeg_q05.jpg
+    • underwater_jpeg_q10.jpg
+    • underwater_rot120.png
+    • underwater_rot15.png
+    • underwater_rot180.png
+    • underwater_rot203.png
+    • underwater_rot270.png
+    • underwater_rot33.png
+    • underwater_rot350.png
+    • underwater_rot45.png
+    • underwater_rot67.png
+    • underwater_rot90.png
+    • underwater_saturate_020.png
+    • underwater_saturate_200.png
+    • underwater_scale_050.png
+    • underwater_scale_200.png
+    • underwater_sharpen.png
+    • underwater_shift_diag.png
+    • underwater_shift_down30.png
+    • underwater_shift_right40.png
+    • underwater_stretch_h.png
+    • underwater_zoom_2x.png
+
+  Group 7 (39 images):
+    • night_scene_ORIGINAL.png
+    • night_scene_blur_3.png
+    • night_scene_bright_050.png
+    • night_scene_bright_150.png
+    • night_scene_combo_crop_rot15_dark.png
+    • night_scene_combo_flip_contrast_blur.png
+    • night_scene_combo_rot30_bright.png
+    • night_scene_combo_rot75_small.png
+    • night_scene_combo_zoom_sharp_bright.png
+    • night_scene_contrast_040.png
+    • night_scene_contrast_200.png
+    • night_scene_crop_center.png
+    • night_scene_crop_topleft.png
+    • night_scene_edge_enhance.png
+    • night_scene_flip_both.png
+    • night_scene_flip_h.png
+    • night_scene_flip_v.png
+    • night_scene_jpeg_q05.jpg
+    • night_scene_jpeg_q10.jpg
+    • night_scene_rot120.png
+    • night_scene_rot15.png
+    • night_scene_rot180.png
+    • night_scene_rot203.png
+    • night_scene_rot270.png
+    • night_scene_rot33.png
+    • night_scene_rot350.png
+    • night_scene_rot45.png
+    • night_scene_rot67.png
+    • night_scene_rot90.png
+    • night_scene_saturate_020.png
+    • night_scene_saturate_200.png
+    • night_scene_scale_050.png
+    • night_scene_scale_200.png
+    • night_scene_sharpen.png
+    • night_scene_shift_diag.png
+    • night_scene_shift_down30.png
+    • night_scene_shift_right40.png
+    • night_scene_stretch_h.png
+    • night_scene_zoom_2x.png
+
+  Group 8 (38 images):
+    • flower_ORIGINAL.png
+    • flower_blur_3.png
+    • flower_blur_5.png
+    • flower_bright_050.png
+    • flower_bright_150.png
+    • flower_combo_flip_contrast_blur.png
+    • flower_combo_rot30_bright.png
+    • flower_combo_rot75_small.png
+    • flower_combo_zoom_sharp_bright.png
+    • flower_contrast_040.png
+    • flower_contrast_200.png
+    • flower_crop_center.png
+    • flower_crop_topleft.png
+    • flower_edge_enhance.png
+    • flower_flip_both.png
+    • flower_flip_h.png
+    • flower_flip_v.png
+    • flower_jpeg_q10.jpg
+    • flower_rot120.png
+    • flower_rot15.png
+    • flower_rot180.png
+    • flower_rot203.png
+    • flower_rot270.png
+    • flower_rot33.png
+    • flower_rot350.png
+    • flower_rot45.png
+    • flower_rot67.png
+    • flower_rot90.png
+    • flower_saturate_020.png
+    • flower_saturate_200.png
+    • flower_scale_050.png
+    • flower_scale_200.png
+    • flower_sharpen.png
+    • flower_shift_diag.png
+    • flower_shift_down30.png
+    • flower_shift_right40.png
+    • flower_stretch_h.png
+    • flower_zoom_2x.png
+
+  Top 60 of 4434 pairs:
+
+  ┌─ abstract_art_flip_both.png
+  └─ abstract_art_ORIGINAL.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9250
+                warp_ssim  █████████████████░░░  0.8856
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_both.png
+  └─ abstract_art_rot180.png  conf=1.0000  inliers=1332  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_both.png
+  └─ abstract_art_rot270.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9161
+                warp_ssim  ███████████████░░░░░  0.7784
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_both.png
+  └─ abstract_art_rot90.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9152
+                warp_ssim  ███████████████░░░░░  0.7788
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_both.png
+  └─ abstract_art_flip_v.png  conf=1.0000  inliers=1332 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_both.png
+  └─ abstract_art_flip_h.png  conf=1.0000  inliers=1332 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9250
+                warp_ssim  █████████████████░░░  0.8856
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_h.png
+  └─ abstract_art_flip_v.png  conf=1.0000  inliers=1337  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  █████████████████░░░  0.8923
+                warp_ssim  █████████████░░░░░░░  0.6713
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_h.png
+  └─ abstract_art_rot270.png  conf=1.0000  inliers=1337 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9161
+                warp_ssim  ███████████████░░░░░  0.7799
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_h.png
+  └─ abstract_art_rot180.png  conf=1.0000  inliers=1337 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  █████████████████░░░  0.8923
+                warp_ssim  █████████████░░░░░░░  0.6713
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_h.png
+  └─ abstract_art_ORIGINAL.png  conf=1.0000  inliers=1337 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_h.png
+  └─ abstract_art_rot90.png  conf=1.0000  inliers=1337 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9156
+                warp_ssim  ███████████████░░░░░  0.7810
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_v.png
+  └─ abstract_art_ORIGINAL.png  conf=1.0000  inliers=1337 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  █████████████████░░░  0.8931
+                warp_ssim  █████████████░░░░░░░  0.6723
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_v.png
+  └─ abstract_art_rot270.png  conf=1.0000  inliers=1337 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9154
+                warp_ssim  ███████████████░░░░░  0.7810
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_v.png
+  └─ abstract_art_rot180.png  conf=1.0000  inliers=1337 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_flip_v.png
+  └─ abstract_art_rot90.png  conf=1.0000  inliers=1337 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9157
+                warp_ssim  ███████████████░░░░░  0.7791
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0617
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_ORIGINAL.png
+  └─ abstract_art_rot180.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9242
+                warp_ssim  █████████████████░░░  0.8845
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_ORIGINAL.png
+  └─ abstract_art_rot270.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9149
+                warp_ssim  ███████████████░░░░░  0.7797
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_ORIGINAL.png
+  └─ abstract_art_rot90.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9155
+                warp_ssim  ███████████████░░░░░  0.7795
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_rot180.png
+  └─ abstract_art_rot270.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9161
+                warp_ssim  ███████████████░░░░░  0.7784
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_rot180.png
+  └─ abstract_art_rot90.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9152
+                warp_ssim  ███████████████░░░░░  0.7788
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ abstract_art_rot270.png
+  └─ abstract_art_rot90.png  conf=1.0000  inliers=1332  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  █████████████████░░░  0.8923
+                warp_ssim  █████████████░░░░░░░  0.6698
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ car_flip_both.png
+  └─ car_flip_v.png  conf=1.0000  inliers=380 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0695
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ car_flip_both.png
+  └─ car_rot180.png  conf=1.0000  inliers=380  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ car_flip_h.png
+  └─ car_ORIGINAL.png  conf=1.0000  inliers=380 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0695
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ car_flip_v.png
+  └─ car_rot180.png  conf=1.0000  inliers=380 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0695
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ flower_flip_both.png
+  └─ flower_rot180.png  conf=1.0000  inliers=59  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_both.png
+  └─ food_plate_flip_v.png  conf=1.0000  inliers=342 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0568
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_both.png
+  └─ food_plate_rot180.png  conf=1.0000  inliers=342  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_both.png
+  └─ food_plate_rot270.png  conf=1.0000  inliers=342  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ███████████████████░  0.9784
+                warp_ssim  ███████████████████░  0.9542
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_h.png
+  └─ food_plate_ORIGINAL.png  conf=1.0000  inliers=343 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0569
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_h.png
+  └─ food_plate_rot90.png  conf=1.0000  inliers=343 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ███████████████████░  0.9812
+                warp_ssim  ███████████████████░  0.9606
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0569
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_v.png
+  └─ food_plate_rot180.png  conf=1.0000  inliers=343 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0568
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_ORIGINAL.png
+  └─ food_plate_rot270.png  conf=1.0000  inliers=342  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ███████████████████░  0.9808
+                warp_ssim  ███████████████████░  0.9622
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_rot180.png
+  └─ food_plate_rot270.png  conf=1.0000  inliers=342  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ███████████████████░  0.9784
+                warp_ssim  ███████████████████░  0.9542
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ landscape_flip_both.png
+  └─ landscape_rot180.png  conf=1.0000  inliers=96  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_flip_both.png
+  └─ portrait_flip_v.png  conf=1.0000  inliers=336 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0597
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_flip_both.png
+  └─ portrait_rot180.png  conf=1.0000  inliers=336  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_flip_h.png
+  └─ portrait_ORIGINAL.png  conf=1.0000  inliers=336 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0597
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_flip_h.png
+  └─ portrait_rot270.png  conf=1.0000  inliers=336 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ███████████████████░  0.9876
+                warp_ssim  ███████████████████░  0.9697
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0597
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_flip_v.png
+  └─ portrait_rot180.png  conf=1.0000  inliers=336 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0597
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_flip_v.png
+  └─ portrait_rot270.png  conf=1.0000  inliers=336 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ███████████████████░  0.9865
+                warp_ssim  ███████████████████░  0.9673
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0597
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_flip_v.png
+  └─ portrait_rot90.png  conf=1.0000  inliers=336 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ███████████████████░  0.9863
+                warp_ssim  ███████████████████░  0.9722
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0597
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ underwater_flip_both.png
+  └─ underwater_ORIGINAL.png  conf=1.0000  inliers=1004  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9444
+                warp_ssim  ██████████████████░░  0.9037
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ underwater_flip_both.png
+  └─ underwater_flip_h.png  conf=1.0000  inliers=1004 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+           warp_pixel_sim  ██████████████████░░  0.9444
+                warp_ssim  ██████████████████░░  0.9037
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0695
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ underwater_flip_both.png
+  └─ underwater_rot180.png  conf=1.0000  inliers=1004  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ underwater_flip_both.png
+  └─ underwater_flip_v.png  conf=1.0000  inliers=1004 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0695
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ underwater_flip_h.png
+  └─ underwater_ORIGINAL.png  conf=1.0000  inliers=1004 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0695
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ underwater_flip_v.png
+  └─ underwater_rot180.png  conf=1.0000  inliers=1004 [FLIP]  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0695
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ underwater_rot270.png
+  └─ underwater_rot90.png  conf=1.0000  inliers=1011  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9999
+           warp_pixel_sim  ██████████████████░░  0.9384
+                warp_ssim  █████████████████░░░  0.8770
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_both.png
+  └─ food_plate_flip_h.png  conf=0.9999  inliers=342 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9996
+           warp_pixel_sim  ███████████████████░  0.9745
+                warp_ssim  ██████████████████░░  0.9449
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0569
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_both.png
+  └─ food_plate_ORIGINAL.png  conf=0.9999  inliers=342  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9996
+           warp_pixel_sim  ███████████████████░  0.9745
+                warp_ssim  ██████████████████░░  0.9449
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_both.png
+  └─ food_plate_rot90.png  conf=0.9999  inliers=342  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9998
+           warp_pixel_sim  ███████████████████░  0.9780
+                warp_ssim  ███████████████████░  0.9591
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_h.png
+  └─ food_plate_rot270.png  conf=0.9999  inliers=343 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9998
+           warp_pixel_sim  ███████████████████░  0.9804
+                warp_ssim  ███████████████████░  0.9654
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0568
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_ORIGINAL.png
+  └─ food_plate_rot180.png  conf=0.9999  inliers=342  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9996
+           warp_pixel_sim  ███████████████████░  0.9761
+                warp_ssim  ██████████████████░░  0.9455
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_ORIGINAL.png
+  └─ food_plate_rot90.png  conf=0.9999  inliers=342  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9996
+           warp_pixel_sim  ███████████████████░  0.9791
+                warp_ssim  ███████████████████░  0.9556
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_rot180.png
+  └─ food_plate_rot90.png  conf=0.9999  inliers=342  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9998
+           warp_pixel_sim  ███████████████████░  0.9780
+                warp_ssim  ███████████████████░  0.9591
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_ORIGINAL.png
+  └─ portrait_rot270.png  conf=0.9999  inliers=336  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9997
+           warp_pixel_sim  ███████████████████░  0.9832
+                warp_ssim  ███████████████████░  0.9641
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ underwater_flip_v.png
+  └─ underwater_ORIGINAL.png  conf=0.9999  inliers=1004 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9997
+           warp_pixel_sim  ██████████████████░░  0.9396
+                warp_ssim  █████████████████░░░  0.8854
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0695
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ food_plate_flip_v.png
+  └─ food_plate_rot90.png  conf=0.9998  inliers=343 [FLIP]  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9992
+           warp_pixel_sim  ███████████████████░  0.9823
+                warp_ssim  ███████████████████░  0.9502
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0568
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ portrait_flip_both.png
+  └─ portrait_rot270.png  conf=0.9998  inliers=336  [global]
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9994
+           warp_pixel_sim  ███████████████████░  0.9873
+                warp_ssim  ███████████████████░  0.9709
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+══════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS (Section 4.2)
+══════════════════════════════════════════════════════════════════════
+
+  ── 4.2.1 Pair-Level Metrics ──
+    True Positives  (TP)  : 4,434
+    False Positives (FP)  : 0
+    False Negatives (FN)  : 1,806
+    True Negatives  (TN)  : 46,735
+    Pair Precision        : 100.00%
+    Pair Recall           : 71.06%
+    Pair F1-Score         : 83.08%
+
+  ── 4.2.2 Group-Level Metrics ──
+    Groups detected       : 8
+    GT classes (≥2 imgs)  : 8
+    Pure groups           : 8/8
+    Contaminated groups   : 0
+    Avg group purity      : 1.0000
+    Avg group completeness: 0.9906
+    Grouped images        : 317/326
+    Ungrouped images      : 9
+
+  ── 4.2.3 NEG Leakage ──
+    NEG images in dataset : 6
+    NEG leaked into groups: 0/6
+
+  ── 4.2.4 Screening Efficiency ──
+    Total pairs           : 52,975
+    Candidates (passed)   : 11,299
+    Screening pass rate   : 21.3%
+    GT duplicate pairs    : 6,240
+    GT pairs in candidates: 5,266
+    Screening recall      : 84.39%
+    Verification confirm  : 39.2%  (4434/11299)
+
+  ── 4.2.5 Confidence Distribution ──
+    Confirmed pairs (TP+FP): 4,434
+    Rejected candidates    : 6,865
+    μ_TP  (mean TP conf)   : 0.8129
+    min TP confidence       : 0.5021
+    μ_REJ (mean REJ conf)  : 0.1356
+    max REJ confidence      : 0.7067
+    Decision margin (Δ)    : -0.2046  (min_TP=0.5021 − max_REJ=0.7067)
+
+  ── Group Completeness per GT Class ──
+    flower: 38/40 = 0.9500
+    night_scene: 39/40 = 0.9750
+══════════════════════════════════════════════════════════════════════
+
+
+══════════════════════════════════════════════════════════════════════
+  BASELINE COMPARISON — F1 Scores (Section 4.6.3)
+══════════════════════════════════════════════════════════════════════
+
+  Method                         TP      FP      FN    Prec%     Rec%      F1%
+  ───────────────────────── ─────── ─────── ─────── ──────── ──────── ────────
+  Proposed (full system)      4,434       0   1,806  100.00%   71.06%   83.08%
+  pHash (Ham<=10)             1,005       5   5,235   99.50%   16.11%   27.72%
+  dHash (Ham<=10)             1,301      34   4,939   97.45%   20.85%   34.35%
+  Hist-only (>0.70)           2,648     995   3,592   72.69%   42.44%   53.59%
+  ORB-ratio (>0.50)           4,417     279   1,823   94.06%   70.79%   80.78%
+  SSIM-only (>0.50)           4,161       1   2,079   99.98%   66.68%   80.00%
+  Pixel-sim (>0.85)           3,962       0   2,278  100.00%   63.49%   77.67%
+══════════════════════════════════════════════════════════════════════
+
+
+══════════════════════════════════════════════════════════════════════
+  STATISTICAL SIGNIFICANCE TESTS (Section 4.3)
+══════════════════════════════════════════════════════════════════════
+
+  ── 4.3.1 McNemar's Test (α=0.05) ──
+    Comparison of our method vs single-metric baselines
+    on 11,299 verified candidate pairs.
+
+    Baseline                               n01    n10         χ²    p-value  Sig?
+    ─────────────────────────────────── ────── ────── ────────── ────────── ─────
+    pHash (Hamming≤10)                    3603    169    3124.47     <0.001   Yes
+    dHash (Hamming≤10)                    3375    208    2797.53     <0.001   Yes
+    Histogram-only (hist>0.70)            3096    315    2265.73     <0.001   Yes
+    ORB-ratio-only (ratio>0.50)            605    309      95.21     <0.001   Yes
+    SSIM-only (ssim>0.50)                  288     14     246.78     <0.001   Yes
+    Pixel-sim-only (pix>0.85)              501     29     418.57     <0.001   Yes
+
+  ── 4.3.2 Wilcoxon Signed-Rank Test ──
+    Comparing confidence distributions: our method vs SSIM-only.
+
+    True Positives (n=4,434):
+      Median Δ (ours−warp_ssim) : +0.0023
+      W+ = 5370013,  W- = 4356242
+      z = -5.9947,  p-value = <0.001  → Significant
+    Rejected pairs (n=6,865):
+      Median Δ (ours−warp_ssim) : +0.0766
+      W+ = 23496481,  W- = 71064
+      z = -71.3247,  p-value = <0.001  → Significant
+
+  ── 4.3.3 Friedman Test with Nemenyi Post-Hoc ──
+    NOTE: Friedman test requires results from multiple datasets.
+    Use compute_friedman_test() with F1 scores from all datasets.
+    See Section 4.6.3 in the paper for the aggregated analysis.
+
+  ── 4.3.4 Bootstrap 95% Confidence Intervals (B=10,000) ──
+    Metric           Value                     95% CI
+    ────────────  ────────   ────────────────────────
+    Precision      100.00%   [100.00%, 100.00%]
+    Recall          71.06%   [70.18%, 71.92%]
+    F1-Score        83.08%   [82.48%, 83.66%]
+
+  ── 4.3.5 Cohen's Kappa (κ) ──
+    Total pairs (n)       : 52,975
+    Observed agreement p₀ : 0.965908
+    Expected agreement pₑ : 0.818227
+    Cohen's Kappa (κ)     : 0.8124
+    95% CI                : [0.8039, 0.8210]
+    SE(κ)                 : 0.004337
+    Interpretation        : Near-perfect agreement
+      (Landis & Koch, 1977: 0.81–1.00 = near-perfect)
+══════════════════════════════════════════════════════════════════════

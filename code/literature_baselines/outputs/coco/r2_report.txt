@@ -1,0 +1,1209 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  Stochastic ARG Matching (r2)
+  Reference: Zhang & Chang, ACM MM'04, pp.877-884
+════════════════════════════════════════════════════════════════════════
+  Images              : 1,020
+  Total pairs         : 519,690
+  Pair predictions    : 519,690
+  Runtime             : 2384.2 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 177
+  Group 1 (17 images):
+    • Pastoral Grazing Cow_aug_1.jpg
+    • Pastoral Grazing Cow_aug_10.jpg
+    • Pastoral Grazing Cow_aug_12.jpg
+    • Pastoral Grazing Cow_aug_14.jpg
+    • Pastoral Grazing Cow_aug_15.jpg
+    • Pastoral Grazing Cow_aug_16.jpg
+    • Pastoral Grazing Cow_aug_17.jpg
+    • Pastoral Grazing Cow_aug_18.jpg
+    • Pastoral Grazing Cow_aug_19.jpg
+    • Pastoral Grazing Cow_aug_2.jpg
+    • Pastoral Grazing Cow_aug_3.jpg
+    • Pastoral Grazing Cow_aug_4.jpg
+    • Pastoral Grazing Cow_aug_5.jpg
+    • Pastoral Grazing Cow_aug_6.jpg
+    • Pastoral Grazing Cow_aug_7.jpg
+    • Pastoral Grazing Cow_aug_8.jpg
+    • Pastoral Grazing Cow_aug_9.jpg
+
+  Group 2 (15 images):
+    • Middle Eastern Street_aug_1.jpg
+    • Middle Eastern Street_aug_11.jpg
+    • Middle Eastern Street_aug_12.jpg
+    • Middle Eastern Street_aug_14.jpg
+    • Middle Eastern Street_aug_15.jpg
+    • Middle Eastern Street_aug_16.jpg
+    • Middle Eastern Street_aug_17.jpg
+    • Middle Eastern Street_aug_18.jpg
+    • Middle Eastern Street_aug_2.jpg
+    • Middle Eastern Street_aug_3.jpg
+    • Middle Eastern Street_aug_4.jpg
+    • Middle Eastern Street_aug_5.jpg
+    • Middle Eastern Street_aug_6.jpg
+    • Middle Eastern Street_aug_7.jpg
+    • Middle Eastern Street_aug_8.jpg
+
+  Group 3 (14 images):
+    • Baseball Home Plate_aug_10.jpg
+    • Baseball Home Plate_aug_11.jpg
+    • Baseball Home Plate_aug_12.jpg
+    • Baseball Home Plate_aug_13.jpg
+    • Baseball Home Plate_aug_14.jpg
+    • Baseball Home Plate_aug_16.jpg
+    • Baseball Home Plate_aug_19.jpg
+    • Baseball Home Plate_aug_2.jpg
+    • Baseball Home Plate_aug_20.jpg
+    • Baseball Home Plate_aug_3.jpg
+    • Baseball Home Plate_aug_4.jpg
+    • Baseball Home Plate_aug_5.jpg
+    • Baseball Home Plate_aug_6.jpg
+    • Baseball Home Plate_aug_7.jpg
+
+  Group 4 (13 images):
+    • Potluck Buffet Spread_aug_11.jpg
+    • Potluck Buffet Spread_aug_12.jpg
+    • Potluck Buffet Spread_aug_16.jpg
+    • Potluck Buffet Spread_aug_18.jpg
+    • Potluck Buffet Spread_aug_19.jpg
+    • Potluck Buffet Spread_aug_2.jpg
+    • Potluck Buffet Spread_aug_20.jpg
+    • Potluck Buffet Spread_aug_3.jpg
+    • Potluck Buffet Spread_aug_5.jpg
+    • Potluck Buffet Spread_aug_6.jpg
+    • Potluck Buffet Spread_aug_7.jpg
+    • Potluck Buffet Spread_aug_8.jpg
+    • Potluck Buffet Spread_aug_9.jpg
+
+  Group 5 (13 images):
+    • Rural Train Passing_aug_1.jpg
+    • Rural Train Passing_aug_10.jpg
+    • Rural Train Passing_aug_11.jpg
+    • Rural Train Passing_aug_12.jpg
+    • Rural Train Passing_aug_14.jpg
+    • Rural Train Passing_aug_16.jpg
+    • Rural Train Passing_aug_17.jpg
+    • Rural Train Passing_aug_18.jpg
+    • Rural Train Passing_aug_3.jpg
+    • Rural Train Passing_aug_4.jpg
+    • Rural Train Passing_aug_5.jpg
+    • Rural Train Passing_aug_6.jpg
+    • Rural Train Passing_aug_7.jpg
+
+  Group 6 (12 images):
+    • Baseball Batter Swinging_aug_1.jpg
+    • Baseball Batter Swinging_aug_11.jpg
+    • Baseball Batter Swinging_aug_13.jpg
+    • Baseball Batter Swinging_aug_15.jpg
+    • Baseball Batter Swinging_aug_17.jpg
+    • Baseball Batter Swinging_aug_18.jpg
+    • Baseball Batter Swinging_aug_19.jpg
+    • Baseball Batter Swinging_aug_20.jpg
+    • Baseball Batter Swinging_aug_3.jpg
+    • Baseball Batter Swinging_aug_4.jpg
+    • Baseball Batter Swinging_aug_5.jpg
+    • Baseball Batter Swinging_aug_7.jpg
+
+  Group 7 (12 images):
+    • Indoor Giraffe Exhibit_aug_1.jpg
+    • Indoor Giraffe Exhibit_aug_10.jpg
+    • Indoor Giraffe Exhibit_aug_14.jpg
+    • Indoor Giraffe Exhibit_aug_15.jpg
+    • Indoor Giraffe Exhibit_aug_16.jpg
+    • Indoor Giraffe Exhibit_aug_17.jpg
+    • Indoor Giraffe Exhibit_aug_19.jpg
+    • Indoor Giraffe Exhibit_aug_2.jpg
+    • Indoor Giraffe Exhibit_aug_20.jpg
+    • Indoor Giraffe Exhibit_aug_4.jpg
+    • Indoor Giraffe Exhibit_aug_7.jpg
+    • Indoor Giraffe Exhibit_aug_8.jpg
+
+  Group 8 (12 images):
+    • Owl Candle Clock_aug_1.jpg
+    • Owl Candle Clock_aug_11.jpg
+    • Owl Candle Clock_aug_12.jpg
+    • Owl Candle Clock_aug_14.jpg
+    • Owl Candle Clock_aug_15.jpg
+    • Owl Candle Clock_aug_18.jpg
+    • Owl Candle Clock_aug_19.jpg
+    • Owl Candle Clock_aug_2.jpg
+    • Owl Candle Clock_aug_3.jpg
+    • Owl Candle Clock_aug_4.jpg
+    • Owl Candle Clock_aug_8.jpg
+    • Owl Candle Clock_aug_9.jpg
+
+  Group 9 (12 images):
+    • Rice Stir Fry_aug_1.jpg
+    • Rice Stir Fry_aug_10.jpg
+    • Rice Stir Fry_aug_11.jpg
+    • Rice Stir Fry_aug_14.jpg
+    • Rice Stir Fry_aug_15.jpg
+    • Rice Stir Fry_aug_16.jpg
+    • Rice Stir Fry_aug_17.jpg
+    • Rice Stir Fry_aug_18.jpg
+    • Rice Stir Fry_aug_2.jpg
+    • Rice Stir Fry_aug_3.jpg
+    • Rice Stir Fry_aug_4.jpg
+    • Rice Stir Fry_aug_9.jpg
+
+  Group 10 (12 images):
+    • Rustic Wooden Bedroom_aug_1.jpg
+    • Rustic Wooden Bedroom_aug_11.jpg
+    • Rustic Wooden Bedroom_aug_12.jpg
+    • Rustic Wooden Bedroom_aug_13.jpg
+    • Rustic Wooden Bedroom_aug_14.jpg
+    • Rustic Wooden Bedroom_aug_15.jpg
+    • Rustic Wooden Bedroom_aug_16.jpg
+    • Rustic Wooden Bedroom_aug_19.jpg
+    • Rustic Wooden Bedroom_aug_2.jpg
+    • Rustic Wooden Bedroom_aug_6.jpg
+    • Rustic Wooden Bedroom_aug_7.jpg
+    • Rustic Wooden Bedroom_aug_8.jpg
+
+  Group 11 (12 images):
+    • Waxwing Bird Flock_aug_1.jpg
+    • Waxwing Bird Flock_aug_13.jpg
+    • Waxwing Bird Flock_aug_14.jpg
+    • Waxwing Bird Flock_aug_15.jpg
+    • Waxwing Bird Flock_aug_16.jpg
+    • Waxwing Bird Flock_aug_18.jpg
+    • Waxwing Bird Flock_aug_19.jpg
+    • Waxwing Bird Flock_aug_2.jpg
+    • Waxwing Bird Flock_aug_20.jpg
+    • Waxwing Bird Flock_aug_3.jpg
+    • Waxwing Bird Flock_aug_5.jpg
+    • Waxwing Bird Flock_aug_7.jpg
+
+  Group 12 (11 images):
+    • Falcon Wings Spread_aug_1.jpg
+    • Falcon Wings Spread_aug_10.jpg
+    • Falcon Wings Spread_aug_18.jpg
+    • Falcon Wings Spread_aug_19.jpg
+    • Falcon Wings Spread_aug_2.jpg
+    • Falcon Wings Spread_aug_20.jpg
+    • Falcon Wings Spread_aug_3.jpg
+    • Falcon Wings Spread_aug_4.jpg
+    • Falcon Wings Spread_aug_5.jpg
+    • Falcon Wings Spread_aug_7.jpg
+    • Falcon Wings Spread_aug_9.jpg
+
+  Group 13 (11 images):
+    • Kite Flying Field_aug_11.jpg
+    • Kite Flying Field_aug_13.jpg
+    • Kite Flying Field_aug_14.jpg
+    • Kite Flying Field_aug_18.jpg
+    • Kite Flying Field_aug_2.jpg
+    • Kite Flying Field_aug_20.jpg
+    • Kite Flying Field_aug_3.jpg
+    • Kite Flying Field_aug_4.jpg
+    • Kite Flying Field_aug_5.jpg
+    • Kite Flying Field_aug_7.jpg
+    • Kite Flying Field_aug_9.jpg
+
+  Group 14 (11 images):
+    • Ocean Wave Surfer_aug_1.jpg
+    • Ocean Wave Surfer_aug_10.jpg
+    • Ocean Wave Surfer_aug_11.jpg
+    • Ocean Wave Surfer_aug_12.jpg
+    • Ocean Wave Surfer_aug_13.jpg
+    • Ocean Wave Surfer_aug_14.jpg
+    • Ocean Wave Surfer_aug_16.jpg
+    • Ocean Wave Surfer_aug_18.jpg
+    • Ocean Wave Surfer_aug_3.jpg
+    • Ocean Wave Surfer_aug_4.jpg
+    • Ocean Wave Surfer_aug_9.jpg
+
+  Group 15 (11 images):
+    • Zoo Elephant Day_aug_1.jpg
+    • Zoo Elephant Day_aug_10.jpg
+    • Zoo Elephant Day_aug_15.jpg
+    • Zoo Elephant Day_aug_19.jpg
+    • Zoo Elephant Day_aug_2.jpg
+    • Zoo Elephant Day_aug_20.jpg
+    • Zoo Elephant Day_aug_3.jpg
+    • Zoo Elephant Day_aug_4.jpg
+    • Zoo Elephant Day_aug_5.jpg
+    • Zoo Elephant Day_aug_8.jpg
+    • Zoo Elephant Day_aug_9.jpg
+
+  Group 16 (10 images):
+    • Couch Remote Controls_aug_1.jpg
+    • Couch Remote Controls_aug_10.jpg
+    • Couch Remote Controls_aug_12.jpg
+    • Couch Remote Controls_aug_14.jpg
+    • Couch Remote Controls_aug_16.jpg
+    • Couch Remote Controls_aug_17.jpg
+    • Couch Remote Controls_aug_3.jpg
+    • Couch Remote Controls_aug_6.jpg
+    • Couch Remote Controls_aug_7.jpg
+    • Couch Remote Controls_aug_9.jpg
+
+  Group 17 (10 images):
+    • Fenced Zoo Zebra_aug_1.jpg
+    • Fenced Zoo Zebra_aug_11.jpg
+    • Fenced Zoo Zebra_aug_12.jpg
+    • Fenced Zoo Zebra_aug_15.jpg
+    • Fenced Zoo Zebra_aug_16.jpg
+    • Fenced Zoo Zebra_aug_17.jpg
+    • Fenced Zoo Zebra_aug_4.jpg
+    • Fenced Zoo Zebra_aug_6.jpg
+    • Fenced Zoo Zebra_aug_8.jpg
+    • Fenced Zoo Zebra_aug_9.jpg
+
+  Group 18 (10 images):
+    • Meat Topped Pizza_aug_11.jpg
+    • Meat Topped Pizza_aug_15.jpg
+    • Meat Topped Pizza_aug_16.jpg
+    • Meat Topped Pizza_aug_18.jpg
+    • Meat Topped Pizza_aug_3.jpg
+    • Meat Topped Pizza_aug_4.jpg
+    • Meat Topped Pizza_aug_6.jpg
+    • Meat Topped Pizza_aug_7.jpg
+    • Meat Topped Pizza_aug_8.jpg
+    • Meat Topped Pizza_aug_9.jpg
+
+  Group 19 (10 images):
+    • Mountain Sunset Motorcycles_aug_1.jpg
+    • Mountain Sunset Motorcycles_aug_15.jpg
+    • Mountain Sunset Motorcycles_aug_16.jpg
+    • Mountain Sunset Motorcycles_aug_17.jpg
+    • Mountain Sunset Motorcycles_aug_18.jpg
+    • Mountain Sunset Motorcycles_aug_19.jpg
+    • Mountain Sunset Motorcycles_aug_2.jpg
+    • Mountain Sunset Motorcycles_aug_3.jpg
+    • Mountain Sunset Motorcycles_aug_5.jpg
+    • Mountain Sunset Motorcycles_aug_9.jpg
+
+  Group 20 (10 images):
+    • Steak Fries Broccoli_aug_1.jpg
+    • Steak Fries Broccoli_aug_14.jpg
+    • Steak Fries Broccoli_aug_15.jpg
+    • Steak Fries Broccoli_aug_16.jpg
+    • Steak Fries Broccoli_aug_19.jpg
+    • Steak Fries Broccoli_aug_2.jpg
+    • Steak Fries Broccoli_aug_5.jpg
+    • Steak Fries Broccoli_aug_7.jpg
+    • Steak Fries Broccoli_aug_8.jpg
+    • Steak Fries Broccoli_aug_9.jpg
+
+  Group 21 (9 images):
+    • Bento Lunch Box_aug_14.jpg
+    • Bento Lunch Box_aug_16.jpg
+    • Bento Lunch Box_aug_17.jpg
+    • Bento Lunch Box_aug_18.jpg
+    • Bento Lunch Box_aug_19.jpg
+    • Bento Lunch Box_aug_20.jpg
+    • Bento Lunch Box_aug_4.jpg
+    • Bento Lunch Box_aug_7.jpg
+    • Bento Lunch Box_aug_9.jpg
+
+  Group 22 (9 images):
+    • Railway Train Yard_aug_11.jpg
+    • Railway Train Yard_aug_15.jpg
+    • Railway Train Yard_aug_16.jpg
+    • Railway Train Yard_aug_17.jpg
+    • Railway Train Yard_aug_20.jpg
+    • Railway Train Yard_aug_3.jpg
+    • Railway Train Yard_aug_6.jpg
+    • Railway Train Yard_aug_8.jpg
+    • Railway Train Yard_aug_9.jpg
+
+  Group 23 (9 images):
+    • Stuffed Teddy Bear_aug_1.jpg
+    • Stuffed Teddy Bear_aug_11.jpg
+    • Stuffed Teddy Bear_aug_14.jpg
+    • Stuffed Teddy Bear_aug_15.jpg
+    • Stuffed Teddy Bear_aug_16.jpg
+    • Stuffed Teddy Bear_aug_18.jpg
+    • Stuffed Teddy Bear_aug_19.jpg
+    • Stuffed Teddy Bear_aug_5.jpg
+    • Stuffed Teddy Bear_aug_8.jpg
+
+  Group 24 (8 images):
+    • Outdoor Coffee Break_aug_1.jpg
+    • Outdoor Coffee Break_aug_10.jpg
+    • Outdoor Coffee Break_aug_15.jpg
+    • Outdoor Coffee Break_aug_2.jpg
+    • Outdoor Coffee Break_aug_3.jpg
+    • Outdoor Coffee Break_aug_4.jpg
+    • Outdoor Coffee Break_aug_5.jpg
+    • Outdoor Coffee Break_aug_7.jpg
+
+  Group 25 (8 images):
+    • Park Baseball Game_aug_10.jpg
+    • Park Baseball Game_aug_15.jpg
+    • Park Baseball Game_aug_16.jpg
+    • Park Baseball Game_aug_19.jpg
+    • Park Baseball Game_aug_2.jpg
+    • Park Baseball Game_aug_3.jpg
+    • Park Baseball Game_aug_4.jpg
+    • Park Baseball Game_aug_6.jpg
+
+  Group 26 (8 images):
+    • Street Parade Spectators_aug_11.jpg
+    • Street Parade Spectators_aug_14.jpg
+    • Street Parade Spectators_aug_16.jpg
+    • Street Parade Spectators_aug_17.jpg
+    • Street Parade Spectators_aug_19.jpg
+    • Street Parade Spectators_aug_3.jpg
+    • Street Parade Spectators_aug_4.jpg
+    • Street Parade Spectators_aug_7.jpg
+
+  Group 27 (7 images):
+    • Air France Airbus_aug_17.jpg
+    • Air France Airbus_aug_2.jpg
+    • Air France Airbus_aug_20.jpg
+    • Air France Airbus_aug_4.jpg
+    • Air France Airbus_aug_6.jpg
+    • Air France Airbus_aug_7.jpg
+    • Air France Airbus_aug_8.jpg
+
+  Group 28 (7 images):
+    • Black Bear Foraging_aug_10.jpg
+    • Black Bear Foraging_aug_17.jpg
+    • Black Bear Foraging_aug_18.jpg
+    • Black Bear Foraging_aug_3.jpg
+    • Black Bear Foraging_aug_5.jpg
+    • Black Bear Foraging_aug_7.jpg
+    • Black Bear Foraging_aug_8.jpg
+
+  Group 29 (7 images):
+    • Snowboard Rack Resort_aug_10.jpg
+    • Snowboard Rack Resort_aug_18.jpg
+    • Snowboard Rack Resort_aug_19.jpg
+    • Snowboard Rack Resort_aug_4.jpg
+    • Snowboard Rack Resort_aug_5.jpg
+    • Snowboard Rack Resort_aug_6.jpg
+    • Snowboard Rack Resort_aug_7.jpg
+
+  Group 30 (7 images):
+    • White Flower Vase_aug_12.jpg
+    • White Flower Vase_aug_13.jpg
+    • White Flower Vase_aug_16.jpg
+    • White Flower Vase_aug_18.jpg
+    • White Flower Vase_aug_2.jpg
+    • White Flower Vase_aug_4.jpg
+    • White Flower Vase_aug_8.jpg
+
+  Group 31 (6 images):
+    • Clay Court Tennis_aug_13.jpg
+    • Clay Court Tennis_aug_15.jpg
+    • Clay Court Tennis_aug_2.jpg
+    • Clay Court Tennis_aug_20.jpg
+    • Clay Court Tennis_aug_5.jpg
+    • Clay Court Tennis_aug_6.jpg
+
+  Group 32 (6 images):
+    • Jungle Elephant Ride_aug_1.jpg
+    • Jungle Elephant Ride_aug_10.jpg
+    • Jungle Elephant Ride_aug_16.jpg
+    • Jungle Elephant Ride_aug_4.jpg
+    • Jungle Elephant Ride_aug_5.jpg
+    • Jungle Elephant Ride_aug_8.jpg
+
+  Group 33 (6 images):
+    • Outdoor Coffee Break_aug_12.jpg
+    • Outdoor Coffee Break_aug_14.jpg
+    • Outdoor Coffee Break_aug_16.jpg
+    • Outdoor Coffee Break_aug_17.jpg
+    • Outdoor Coffee Break_aug_19.jpg
+    • Outdoor Coffee Break_aug_9.jpg
+
+  Group 34 (6 images):
+    • Vintage Motorcycle Mailbox_aug_10.jpg
+    • Vintage Motorcycle Mailbox_aug_12.jpg
+    • Vintage Motorcycle Mailbox_aug_13.jpg
+    • Vintage Motorcycle Mailbox_aug_14.jpg
+    • Vintage Motorcycle Mailbox_aug_6.jpg
+    • Vintage Motorcycle Mailbox_aug_9.jpg
+
+  Group 35 (5 images):
+    • Equestrian Horse Show_aug_17.jpg
+    • Equestrian Horse Show_aug_19.jpg
+    • Equestrian Horse Show_aug_2.jpg
+    • Equestrian Horse Show_aug_20.jpg
+    • Equestrian Horse Show_aug_4.jpg
+
+  Group 36 (5 images):
+    • Giraffe Head Portrait_aug_19.jpg
+    • Giraffe Head Portrait_aug_2.jpg
+    • Giraffe Head Portrait_aug_4.jpg
+    • Giraffe Head Portrait_aug_6.jpg
+    • Giraffe Head Portrait_aug_7.jpg
+
+  Group 37 (5 images):
+    • Giraffe Pair Nuzzling_aug_17.jpg
+    • Giraffe Pair Nuzzling_aug_20.jpg
+    • Giraffe Pair Nuzzling_aug_5.jpg
+    • Giraffe Pair Nuzzling_aug_6.jpg
+    • Giraffe Pair Nuzzling_aug_8.jpg
+
+  Group 38 (5 images):
+    • Loaded Chili Dog_aug_1.jpg
+    • Loaded Chili Dog_aug_10.jpg
+    • Loaded Chili Dog_aug_15.jpg
+    • Loaded Chili Dog_aug_16.jpg
+    • Loaded Chili Dog_aug_17.jpg
+
+  Group 39 (5 images):
+    • Meat Topped Pizza_aug_17.jpg
+    • Meat Topped Pizza_aug_19.jpg
+    • Meat Topped Pizza_aug_2.jpg
+    • Meat Topped Pizza_aug_20.jpg
+    • Meat Topped Pizza_aug_5.jpg
+
+  Group 40 (5 images):
+    • Rolex Street Clock_aug_1.jpg
+    • Rolex Street Clock_aug_10.jpg
+    • Rolex Street Clock_aug_14.jpg
+    • Rolex Street Clock_aug_18.jpg
+    • Rolex Street Clock_aug_19.jpg
+
+  Group 41 (5 images):
+    • Rolex Street Clock_aug_12.jpg
+    • Rolex Street Clock_aug_16.jpg
+    • Rolex Street Clock_aug_20.jpg
+    • Rolex Street Clock_aug_4.jpg
+    • Rolex Street Clock_aug_5.jpg
+
+  Group 42 (5 images):
+    • Skatepark Graffiti Wall_aug_11.jpg
+    • Skatepark Graffiti Wall_aug_13.jpg
+    • Skatepark Graffiti Wall_aug_14.jpg
+    • Skatepark Graffiti Wall_aug_16.jpg
+    • Skatepark Graffiti Wall_aug_5.jpg
+
+  Group 43 (5 images):
+    • Three Grazing Zebras_aug_1.jpg
+    • Three Grazing Zebras_aug_15.jpg
+    • Three Grazing Zebras_aug_18.jpg
+    • Three Grazing Zebras_aug_4.jpg
+    • Three Grazing Zebras_aug_9.jpg
+
+  Group 44 (5 images):
+    • Tudor Clock Building_aug_10.jpg
+    • Tudor Clock Building_aug_14.jpg
+    • Tudor Clock Building_aug_15.jpg
+    • Tudor Clock Building_aug_16.jpg
+    • Tudor Clock Building_aug_8.jpg
+
+  Group 45 (5 images):
+    • Vintage Motorcycle Parked_aug_1.jpg
+    • Vintage Motorcycle Parked_aug_12.jpg
+    • Vintage Motorcycle Parked_aug_15.jpg
+    • Vintage Motorcycle Parked_aug_3.jpg
+    • Vintage Motorcycle Parked_aug_7.jpg
+
+  Group 46 (4 images):
+    • Chocolate Layer Cake_aug_11.jpg
+    • Chocolate Layer Cake_aug_14.jpg
+    • Chocolate Layer Cake_aug_15.jpg
+    • Chocolate Layer Cake_aug_4.jpg
+
+  Group 47 (4 images):
+    • City Taxi Street_aug_10.jpg
+    • City Taxi Street_aug_12.jpg
+    • City Taxi Street_aug_20.jpg
+    • City Taxi Street_aug_3.jpg
+
+  Group 48 (4 images):
+    • Clay Court Tennis_aug_14.jpg
+    • Clay Court Tennis_aug_16.jpg
+    • Clay Court Tennis_aug_4.jpg
+    • Clay Court Tennis_aug_9.jpg
+
+  Group 49 (4 images):
+    • Couch Remote Controls_aug_11.jpg
+    • Couch Remote Controls_aug_2.jpg
+    • Couch Remote Controls_aug_4.jpg
+    • Couch Remote Controls_aug_8.jpg
+
+  Group 50 (4 images):
+    • Giraffe Among Trees_aug_16.jpg
+    • Giraffe Among Trees_aug_18.jpg
+    • Giraffe Among Trees_aug_2.jpg
+    • Giraffe Among Trees_aug_9.jpg
+
+  Group 51 (4 images):
+    • Giraffe Head Portrait_aug_1.jpg
+    • Giraffe Head Portrait_aug_11.jpg
+    • Giraffe Head Portrait_aug_18.jpg
+    • Giraffe Head Portrait_aug_20.jpg
+
+  Group 52 (4 images):
+    • Giraffe Head Portrait_aug_10.jpg
+    • Giraffe Head Portrait_aug_12.jpg
+    • Giraffe Head Portrait_aug_16.jpg
+    • Giraffe Head Portrait_aug_3.jpg
+
+  Group 53 (4 images):
+    • Loaded Chili Dog_aug_12.jpg
+    • Loaded Chili Dog_aug_19.jpg
+    • Loaded Chili Dog_aug_20.jpg
+    • Loaded Chili Dog_aug_7.jpg
+
+  Group 54 (4 images):
+    • Park Baseball Game_aug_1.jpg
+    • Park Baseball Game_aug_14.jpg
+    • Park Baseball Game_aug_20.jpg
+    • Park Baseball Game_aug_5.jpg
+
+  Group 55 (4 images):
+    • Railway Train Yard_aug_1.jpg
+    • Railway Train Yard_aug_12.jpg
+    • Railway Train Yard_aug_14.jpg
+    • Railway Train Yard_aug_5.jpg
+
+  Group 56 (4 images):
+    • Resting Brown Cows_aug_13.jpg
+    • Resting Brown Cows_aug_17.jpg
+    • Resting Brown Cows_aug_4.jpg
+    • Resting Brown Cows_aug_5.jpg
+
+  Group 57 (4 images):
+    • Resting Brown Cows_aug_15.jpg
+    • Resting Brown Cows_aug_16.jpg
+    • Resting Brown Cows_aug_6.jpg
+    • Resting Brown Cows_aug_7.jpg
+
+  Group 58 (4 images):
+    • Royal Jordanian Takeoff_aug_12.jpg
+    • Royal Jordanian Takeoff_aug_15.jpg
+    • Royal Jordanian Takeoff_aug_4.jpg
+    • Royal Jordanian Takeoff_aug_7.jpg
+
+  Group 59 (4 images):
+    • Royal Jordanian Takeoff_aug_13.jpg
+    • Royal Jordanian Takeoff_aug_17.jpg
+    • Royal Jordanian Takeoff_aug_2.jpg
+    • Royal Jordanian Takeoff_aug_3.jpg
+
+  Group 60 (4 images):
+    • Skatepark Graffiti Wall_aug_17.jpg
+    • Skatepark Graffiti Wall_aug_20.jpg
+    • Skatepark Graffiti Wall_aug_4.jpg
+    • Skatepark Graffiti Wall_aug_6.jpg
+
+  Group 61 (4 images):
+    • Three Grazing Zebras_aug_13.jpg
+    • Three Grazing Zebras_aug_16.jpg
+    • Three Grazing Zebras_aug_19.jpg
+    • Three Grazing Zebras_aug_8.jpg
+
+  Group 62 (4 images):
+    • Tudor Clock Building_aug_17.jpg
+    • Tudor Clock Building_aug_3.jpg
+    • Tudor Clock Building_aug_7.jpg
+    • Tudor Clock Building_aug_9.jpg
+
+  Group 63 (4 images):
+    • Vintage Motorcycle Mailbox_aug_11.jpg
+    • Vintage Motorcycle Mailbox_aug_20.jpg
+    • Vintage Motorcycle Mailbox_aug_3.jpg
+    • Vintage Motorcycle Mailbox_aug_7.jpg
+
+  Group 64 (4 images):
+    • Vintage Motorcycle Parked_aug_13.jpg
+    • Vintage Motorcycle Parked_aug_18.jpg
+    • Vintage Motorcycle Parked_aug_5.jpg
+    • Vintage Motorcycle Parked_aug_8.jpg
+
+  Group 65 (4 images):
+    • Zoo Elephant Day_aug_11.jpg
+    • Zoo Elephant Day_aug_12.jpg
+    • Zoo Elephant Day_aug_13.jpg
+    • Zoo Elephant Day_aug_6.jpg
+
+  Group 66 (3 images):
+    • Air France Airbus_aug_10.jpg
+    • Air France Airbus_aug_18.jpg
+    • Air France Airbus_aug_5.jpg
+
+  Group 67 (3 images):
+    • Air France Airbus_aug_11.jpg
+    • Air France Airbus_aug_3.jpg
+    • Air France Airbus_aug_9.jpg
+
+  Group 68 (3 images):
+    • Autumn Skateboard Trick_aug_13.jpg
+    • Autumn Skateboard Trick_aug_20.jpg
+    • Autumn Skateboard Trick_aug_6.jpg
+
+  Group 69 (3 images):
+    • Black Bear Foraging_aug_11.jpg
+    • Black Bear Foraging_aug_20.jpg
+    • Black Bear Foraging_aug_9.jpg
+
+  Group 70 (3 images):
+    • Black Bear Foraging_aug_13.jpg
+    • Black Bear Foraging_aug_16.jpg
+    • Black Bear Foraging_aug_6.jpg
+
+  Group 71 (3 images):
+    • Chocolate Layer Cake_aug_13.jpg
+    • Chocolate Layer Cake_aug_16.jpg
+    • Chocolate Layer Cake_aug_19.jpg
+
+  Group 72 (3 images):
+    • Church Clock Tower_aug_10.jpg
+    • Church Clock Tower_aug_8.jpg
+    • Church Clock Tower_aug_9.jpg
+
+  Group 73 (3 images):
+    • Clay Court Tennis_aug_1.jpg
+    • Clay Court Tennis_aug_17.jpg
+    • Clay Court Tennis_aug_19.jpg
+
+  Group 74 (3 images):
+    • Couch Remote Controls_aug_13.jpg
+    • Couch Remote Controls_aug_18.jpg
+    • Couch Remote Controls_aug_20.jpg
+
+  Group 75 (3 images):
+    • Equestrian Horse Show_aug_13.jpg
+    • Equestrian Horse Show_aug_14.jpg
+    • Equestrian Horse Show_aug_18.jpg
+
+  Group 76 (3 images):
+    • Giraffes Feeding Together_aug_11.jpg
+    • Giraffes Feeding Together_aug_14.jpg
+    • Giraffes Feeding Together_aug_3.jpg
+
+  Group 77 (3 images):
+    • Giraffes Feeding Together_aug_6.jpg
+    • Giraffes Feeding Together_aug_7.jpg
+    • Giraffes Feeding Together_aug_8.jpg
+
+  Group 78 (3 images):
+    • Grazing Zebra Field_aug_1.jpg
+    • Grazing Zebra Field_aug_19.jpg
+    • Grazing Zebra Field_aug_7.jpg
+
+  Group 79 (3 images):
+    • Grazing Zebra Field_aug_14.jpg
+    • Grazing Zebra Field_aug_20.jpg
+    • Grazing Zebra Field_aug_6.jpg
+
+  Group 80 (3 images):
+    • Grazing Zebra Field_aug_16.jpg
+    • Grazing Zebra Field_aug_17.jpg
+    • Grazing Zebra Field_aug_18.jpg
+
+  Group 81 (3 images):
+    • Jungle Elephant Ride_aug_11.jpg
+    • Jungle Elephant Ride_aug_17.jpg
+    • Jungle Elephant Ride_aug_7.jpg
+
+  Group 82 (3 images):
+    • Kite Flying Field_aug_12.jpg
+    • Kite Flying Field_aug_16.jpg
+    • Kite Flying Field_aug_6.jpg
+
+  Group 83 (3 images):
+    • Mountain Sunset Motorcycles_aug_12.jpg
+    • Mountain Sunset Motorcycles_aug_6.jpg
+    • Mountain Sunset Motorcycles_aug_7.jpg
+
+  Group 84 (3 images):
+    • Ocean Wave Surfer_aug_19.jpg
+    • Ocean Wave Surfer_aug_20.jpg
+    • Ocean Wave Surfer_aug_5.jpg
+
+  Group 85 (3 images):
+    • Owl Candle Clock_aug_10.jpg
+    • Owl Candle Clock_aug_5.jpg
+    • Owl Candle Clock_aug_7.jpg
+
+  Group 86 (3 images):
+    • Park Baseball Game_aug_11.jpg
+    • Park Baseball Game_aug_12.jpg
+    • Park Baseball Game_aug_18.jpg
+
+  Group 87 (3 images):
+    • Park Baseball Game_aug_17.jpg
+    • Park Baseball Game_aug_7.jpg
+    • Park Baseball Game_aug_9.jpg
+
+  Group 88 (3 images):
+    • Rolex Street Clock_aug_2.jpg
+    • Rolex Street Clock_aug_3.jpg
+    • Rolex Street Clock_aug_7.jpg
+
+  Group 89 (3 images):
+    • Royal Jordanian Takeoff_aug_19.jpg
+    • Royal Jordanian Takeoff_aug_8.jpg
+    • Royal Jordanian Takeoff_aug_9.jpg
+
+  Group 90 (3 images):
+    • Rustic Wooden Bedroom_aug_10.jpg
+    • Rustic Wooden Bedroom_aug_20.jpg
+    • Rustic Wooden Bedroom_aug_4.jpg
+
+  Group 91 (3 images):
+    • Skatepark Graffiti Wall_aug_1.jpg
+    • Skatepark Graffiti Wall_aug_10.jpg
+    • Skatepark Graffiti Wall_aug_2.jpg
+
+  Group 92 (3 images):
+    • Snowboard Rack Resort_aug_15.jpg
+    • Snowboard Rack Resort_aug_16.jpg
+    • Snowboard Rack Resort_aug_20.jpg
+
+  Group 93 (3 images):
+    • Street Parade Spectators_aug_1.jpg
+    • Street Parade Spectators_aug_13.jpg
+    • Street Parade Spectators_aug_2.jpg
+
+  Group 94 (3 images):
+    • Stuffed Teddy Bear_aug_13.jpg
+    • Stuffed Teddy Bear_aug_3.jpg
+    • Stuffed Teddy Bear_aug_7.jpg
+
+  Group 95 (3 images):
+    • Stuffed Teddy Bear_aug_2.jpg
+    • Stuffed Teddy Bear_aug_4.jpg
+    • Stuffed Teddy Bear_aug_6.jpg
+
+  Group 96 (3 images):
+    • Three Grazing Zebras_aug_10.jpg
+    • Three Grazing Zebras_aug_6.jpg
+    • Three Grazing Zebras_aug_7.jpg
+
+  Group 97 (3 images):
+    • Three Grazing Zebras_aug_12.jpg
+    • Three Grazing Zebras_aug_2.jpg
+    • Three Grazing Zebras_aug_3.jpg
+
+  Group 98 (3 images):
+    • Tudor Clock Building_aug_13.jpg
+    • Tudor Clock Building_aug_18.jpg
+    • Tudor Clock Building_aug_5.jpg
+
+  Group 99 (3 images):
+    • Vintage Motorcycle Parked_aug_11.jpg
+    • Vintage Motorcycle Parked_aug_16.jpg
+    • Vintage Motorcycle Parked_aug_9.jpg
+
+  Group 100 (3 images):
+    • Waxwing Bird Flock_aug_10.jpg
+    • Waxwing Bird Flock_aug_4.jpg
+    • Waxwing Bird Flock_aug_9.jpg
+
+  Group 101 (3 images):
+    • White Flower Vase_aug_1.jpg
+    • White Flower Vase_aug_14.jpg
+    • White Flower Vase_aug_9.jpg
+
+  Group 102 (3 images):
+    • White Flower Vase_aug_11.jpg
+    • White Flower Vase_aug_15.jpg
+    • White Flower Vase_aug_19.jpg
+
+  Group 103 (3 images):
+    • Zoo Elephant Day_aug_14.jpg
+    • Zoo Elephant Day_aug_17.jpg
+    • Zoo Elephant Day_aug_7.jpg
+
+  Group 104 (2 images):
+    • Air France Airbus_aug_1.jpg
+    • Air France Airbus_aug_16.jpg
+
+  Group 105 (2 images):
+    • Air France Airbus_aug_12.jpg
+    • Air France Airbus_aug_13.jpg
+
+  Group 106 (2 images):
+    • Autumn Skateboard Trick_aug_1.jpg
+    • Autumn Skateboard Trick_aug_5.jpg
+
+  Group 107 (2 images):
+    • Autumn Skateboard Trick_aug_10.jpg
+    • Autumn Skateboard Trick_aug_19.jpg
+
+  Group 108 (2 images):
+    • Autumn Skateboard Trick_aug_12.jpg
+    • Autumn Skateboard Trick_aug_14.jpg
+
+  Group 109 (2 images):
+    • Autumn Skateboard Trick_aug_15.jpg
+    • Autumn Skateboard Trick_aug_16.jpg
+
+  Group 110 (2 images):
+    • Autumn Skateboard Trick_aug_2.jpg
+    • Autumn Skateboard Trick_aug_9.jpg
+
+  Group 111 (2 images):
+    • Baseball Batter Swinging_aug_10.jpg
+    • Baseball Batter Swinging_aug_12.jpg
+
+  Group 112 (2 images):
+    • Baseball Batter Swinging_aug_14.jpg
+    • Baseball Batter Swinging_aug_6.jpg
+
+  Group 113 (2 images):
+    • Baseball Home Plate_aug_1.jpg
+    • Baseball Home Plate_aug_15.jpg
+
+  Group 114 (2 images):
+    • Baseball Home Plate_aug_17.jpg
+    • Baseball Home Plate_aug_18.jpg
+
+  Group 115 (2 images):
+    • Bento Lunch Box_aug_15.jpg
+    • Bento Lunch Box_aug_2.jpg
+
+  Group 116 (2 images):
+    • Bento Lunch Box_aug_6.jpg
+    • Bento Lunch Box_aug_8.jpg
+
+  Group 117 (2 images):
+    • Chocolate Layer Cake_aug_10.jpg
+    • Chocolate Layer Cake_aug_17.jpg
+
+  Group 118 (2 images):
+    • Chocolate Layer Cake_aug_18.jpg
+    • Chocolate Layer Cake_aug_6.jpg
+
+  Group 119 (2 images):
+    • Church Clock Tower_aug_1.jpg
+    • Church Clock Tower_aug_2.jpg
+
+  Group 120 (2 images):
+    • Church Clock Tower_aug_18.jpg
+    • Church Clock Tower_aug_6.jpg
+
+  Group 121 (2 images):
+    • City Taxi Street_aug_11.jpg
+    • City Taxi Street_aug_6.jpg
+
+  Group 122 (2 images):
+    • City Taxi Street_aug_16.jpg
+    • City Taxi Street_aug_2.jpg
+
+  Group 123 (2 images):
+    • City Taxi Street_aug_19.jpg
+    • City Taxi Street_aug_7.jpg
+
+  Group 124 (2 images):
+    • City Taxi Street_aug_8.jpg
+    • City Taxi Street_aug_9.jpg
+
+  Group 125 (2 images):
+    • Clay Court Tennis_aug_10.jpg
+    • Clay Court Tennis_aug_12.jpg
+
+  Group 126 (2 images):
+    • Clay Court Tennis_aug_3.jpg
+    • Clay Court Tennis_aug_8.jpg
+
+  Group 127 (2 images):
+    • Couch Remote Controls_aug_15.jpg
+    • Couch Remote Controls_aug_5.jpg
+
+  Group 128 (2 images):
+    • Equestrian Horse Show_aug_10.jpg
+    • Equestrian Horse Show_aug_15.jpg
+
+  Group 129 (2 images):
+    • Equestrian Horse Show_aug_16.jpg
+    • Equestrian Horse Show_aug_7.jpg
+
+  Group 130 (2 images):
+    • Falcon Wings Spread_aug_13.jpg
+    • Falcon Wings Spread_aug_15.jpg
+
+  Group 131 (2 images):
+    • Falcon Wings Spread_aug_14.jpg
+    • Falcon Wings Spread_aug_6.jpg
+
+  Group 132 (2 images):
+    • Falcon Wings Spread_aug_17.jpg
+    • Falcon Wings Spread_aug_8.jpg
+
+  Group 133 (2 images):
+    • Fenced Zoo Zebra_aug_10.jpg
+    • Fenced Zoo Zebra_aug_18.jpg
+
+  Group 134 (2 images):
+    • Fenced Zoo Zebra_aug_13.jpg
+    • Fenced Zoo Zebra_aug_5.jpg
+
+  Group 135 (2 images):
+    • Fenced Zoo Zebra_aug_14.jpg
+    • Fenced Zoo Zebra_aug_7.jpg
+
+  Group 136 (2 images):
+    • Fenced Zoo Zebra_aug_19.jpg
+    • Fenced Zoo Zebra_aug_2.jpg
+
+  Group 137 (2 images):
+    • Giraffe Among Trees_aug_11.jpg
+    • Giraffe Among Trees_aug_14.jpg
+
+  Group 138 (2 images):
+    • Giraffe Head Portrait_aug_14.jpg
+    • Giraffe Head Portrait_aug_17.jpg
+
+  Group 139 (2 images):
+    • Giraffe Pair Nuzzling_aug_11.jpg
+    • Giraffe Pair Nuzzling_aug_3.jpg
+
+  Group 140 (2 images):
+    • Giraffe Pair Nuzzling_aug_4.jpg
+    • Giraffe Pair Nuzzling_aug_9.jpg
+
+  Group 141 (2 images):
+    • Giraffes Feeding Together_aug_17.jpg
+    • Giraffes Feeding Together_aug_18.jpg
+
+  Group 142 (2 images):
+    • Giraffes Feeding Together_aug_5.jpg
+    • Giraffes Feeding Together_aug_9.jpg
+
+  Group 143 (2 images):
+    • Grazing Zebra Field_aug_12.jpg
+    • Grazing Zebra Field_aug_3.jpg
+
+  Group 144 (2 images):
+    • Indoor Giraffe Exhibit_aug_11.jpg
+    • Indoor Giraffe Exhibit_aug_3.jpg
+
+  Group 145 (2 images):
+    • Indoor Giraffe Exhibit_aug_5.jpg
+    • Indoor Giraffe Exhibit_aug_9.jpg
+
+  Group 146 (2 images):
+    • Jungle Elephant Ride_aug_12.jpg
+    • Jungle Elephant Ride_aug_15.jpg
+
+  Group 147 (2 images):
+    • Jungle Elephant Ride_aug_13.jpg
+    • Jungle Elephant Ride_aug_2.jpg
+
+  Group 148 (2 images):
+    • Jungle Elephant Ride_aug_19.jpg
+    • Jungle Elephant Ride_aug_9.jpg
+
+  Group 149 (2 images):
+    • Kite Flying Field_aug_10.jpg
+    • Kite Flying Field_aug_15.jpg
+
+  Group 150 (2 images):
+    • Kite Flying Field_aug_19.jpg
+    • Kite Flying Field_aug_8.jpg
+
+  Group 151 (2 images):
+    • Meat Topped Pizza_aug_13.jpg
+    • Meat Topped Pizza_aug_14.jpg
+
+  Group 152 (2 images):
+    • Mountain Sunset Motorcycles_aug_11.jpg
+    • Mountain Sunset Motorcycles_aug_13.jpg
+
+  Group 153 (2 images):
+    • Ocean Wave Surfer_aug_15.jpg
+    • Ocean Wave Surfer_aug_17.jpg
+
+  Group 154 (2 images):
+    • Owl Candle Clock_aug_17.jpg
+    • Owl Candle Clock_aug_20.jpg
+
+  Group 155 (2 images):
+    • Pastoral Grazing Cow_aug_13.jpg
+    • Pastoral Grazing Cow_aug_20.jpg
+
+  Group 156 (2 images):
+    • Railway Train Yard_aug_13.jpg
+    • Railway Train Yard_aug_7.jpg
+
+  Group 157 (2 images):
+    • Railway Train Yard_aug_19.jpg
+    • Railway Train Yard_aug_4.jpg
+
+  Group 158 (2 images):
+    • Resting Brown Cows_aug_1.jpg
+    • Resting Brown Cows_aug_14.jpg
+
+  Group 159 (2 images):
+    • Resting Brown Cows_aug_11.jpg
+    • Resting Brown Cows_aug_19.jpg
+
+  Group 160 (2 images):
+    • Rice Stir Fry_aug_13.jpg
+    • Rice Stir Fry_aug_7.jpg
+
+  Group 161 (2 images):
+    • Rice Stir Fry_aug_20.jpg
+    • Rice Stir Fry_aug_5.jpg
+
+  Group 162 (2 images):
+    • Rolex Street Clock_aug_8.jpg
+    • Rolex Street Clock_aug_9.jpg
+
+  Group 163 (2 images):
+    • Royal Jordanian Takeoff_aug_1.jpg
+    • Royal Jordanian Takeoff_aug_20.jpg
+
+  Group 164 (2 images):
+    • Royal Jordanian Takeoff_aug_10.jpg
+    • Royal Jordanian Takeoff_aug_6.jpg
+
+  Group 165 (2 images):
+    • Rustic Wooden Bedroom_aug_3.jpg
+    • Rustic Wooden Bedroom_aug_5.jpg
+
+  Group 166 (2 images):
+    • Snowboard Rack Resort_aug_1.jpg
+    • Snowboard Rack Resort_aug_2.jpg
+
+  Group 167 (2 images):
+    • Street Parade Spectators_aug_12.jpg
+    • Street Parade Spectators_aug_18.jpg
+
+  Group 168 (2 images):
+    • Street Parade Spectators_aug_5.jpg
+    • Street Parade Spectators_aug_6.jpg
+
+  Group 169 (2 images):
+    • Stuffed Teddy Bear_aug_10.jpg
+    • Stuffed Teddy Bear_aug_20.jpg
+
+  Group 170 (2 images):
+    • Tudor Clock Building_aug_1.jpg
+    • Tudor Clock Building_aug_19.jpg
+
+  Group 171 (2 images):
+    • Tudor Clock Building_aug_11.jpg
+    • Tudor Clock Building_aug_20.jpg
+
+  Group 172 (2 images):
+    • Vintage Motorcycle Mailbox_aug_18.jpg
+    • Vintage Motorcycle Mailbox_aug_4.jpg
+
+  Group 173 (2 images):
+    • Vintage Motorcycle Parked_aug_10.jpg
+    • Vintage Motorcycle Parked_aug_17.jpg
+
+  Group 174 (2 images):
+    • Vintage Motorcycle Parked_aug_20.jpg
+    • Vintage Motorcycle Parked_aug_6.jpg
+
+  Group 175 (2 images):
+    • Waxwing Bird Flock_aug_11.jpg
+    • Waxwing Bird Flock_aug_6.jpg
+
+  Group 176 (2 images):
+    • White Flower Vase_aug_17.jpg
+    • White Flower Vase_aug_20.jpg
+
+  Group 177 (2 images):
+    • White Flower Vase_aug_3.jpg
+    • White Flower Vase_aug_5.jpg
+
+CONFIRMED PAIRS : 1,325   REJECTED : 518,365
+
+  Top 40 highest-scoring confirmed pairs:
+    score=1.0000 [TP]  Air France Airbus_aug_1.jpg  ↔  Air France Airbus_aug_16.jpg
+    score=1.0000 [TP]  Air France Airbus_aug_12.jpg  ↔  Air France Airbus_aug_13.jpg
+    score=1.0000 [TP]  Autumn Skateboard Trick_aug_10.jpg  ↔  Autumn Skateboard Trick_aug_19.jpg
+    score=1.0000 [TP]  Autumn Skateboard Trick_aug_13.jpg  ↔  Autumn Skateboard Trick_aug_20.jpg
+    score=1.0000 [TP]  Autumn Skateboard Trick_aug_13.jpg  ↔  Autumn Skateboard Trick_aug_6.jpg
+    score=1.0000 [TP]  Autumn Skateboard Trick_aug_20.jpg  ↔  Autumn Skateboard Trick_aug_6.jpg
+    score=1.0000 [TP]  Baseball Batter Swinging_aug_14.jpg  ↔  Baseball Batter Swinging_aug_6.jpg
+    score=1.0000 [TP]  Baseball Batter Swinging_aug_15.jpg  ↔  Baseball Batter Swinging_aug_4.jpg
+    score=1.0000 [TP]  Bento Lunch Box_aug_17.jpg  ↔  Bento Lunch Box_aug_19.jpg
+    score=1.0000 [TP]  Bento Lunch Box_aug_17.jpg  ↔  Bento Lunch Box_aug_9.jpg
+    score=1.0000 [TP]  Bento Lunch Box_aug_19.jpg  ↔  Bento Lunch Box_aug_9.jpg
+    score=1.0000 [TP]  Black Bear Foraging_aug_11.jpg  ↔  Black Bear Foraging_aug_20.jpg
+    score=1.0000 [TP]  Black Bear Foraging_aug_11.jpg  ↔  Black Bear Foraging_aug_9.jpg
+    score=1.0000 [TP]  Black Bear Foraging_aug_20.jpg  ↔  Black Bear Foraging_aug_9.jpg
+    score=1.0000 [TP]  Chocolate Layer Cake_aug_10.jpg  ↔  Chocolate Layer Cake_aug_17.jpg
+    score=1.0000 [TP]  Chocolate Layer Cake_aug_11.jpg  ↔  Chocolate Layer Cake_aug_14.jpg
+    score=1.0000 [TP]  Chocolate Layer Cake_aug_11.jpg  ↔  Chocolate Layer Cake_aug_15.jpg
+    score=1.0000 [TP]  Chocolate Layer Cake_aug_11.jpg  ↔  Chocolate Layer Cake_aug_4.jpg
+    score=1.0000 [TP]  Chocolate Layer Cake_aug_14.jpg  ↔  Chocolate Layer Cake_aug_15.jpg
+    score=1.0000 [TP]  Chocolate Layer Cake_aug_14.jpg  ↔  Chocolate Layer Cake_aug_4.jpg
+    score=1.0000 [TP]  Chocolate Layer Cake_aug_15.jpg  ↔  Chocolate Layer Cake_aug_4.jpg
+    score=1.0000 [TP]  Church Clock Tower_aug_10.jpg  ↔  Church Clock Tower_aug_8.jpg
+    score=1.0000 [TP]  Church Clock Tower_aug_10.jpg  ↔  Church Clock Tower_aug_9.jpg
+    score=1.0000 [TP]  Church Clock Tower_aug_8.jpg  ↔  Church Clock Tower_aug_9.jpg
+    score=1.0000 [TP]  City Taxi Street_aug_16.jpg  ↔  City Taxi Street_aug_2.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_13.jpg  ↔  Clay Court Tennis_aug_15.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_13.jpg  ↔  Clay Court Tennis_aug_20.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_13.jpg  ↔  Clay Court Tennis_aug_5.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_14.jpg  ↔  Clay Court Tennis_aug_16.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_14.jpg  ↔  Clay Court Tennis_aug_4.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_14.jpg  ↔  Clay Court Tennis_aug_9.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_15.jpg  ↔  Clay Court Tennis_aug_20.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_15.jpg  ↔  Clay Court Tennis_aug_5.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_16.jpg  ↔  Clay Court Tennis_aug_4.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_16.jpg  ↔  Clay Court Tennis_aug_9.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_20.jpg  ↔  Clay Court Tennis_aug_5.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_3.jpg  ↔  Clay Court Tennis_aug_8.jpg
+    score=1.0000 [TP]  Clay Court Tennis_aug_4.jpg  ↔  Clay Court Tennis_aug_9.jpg
+    score=1.0000 [TP]  Couch Remote Controls_aug_17.jpg  ↔  Couch Remote Controls_aug_7.jpg
+    score=1.0000 [TP]  Equestrian Horse Show_aug_10.jpg  ↔  Equestrian Horse Show_aug_15.jpg
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 1,325
+    False Positives (FP) : 0
+    False Negatives (FN) : 8,365
+    True Negatives  (TN) : 510,000
+    Precision            : 100.00%
+    Recall               : 13.67%
+    F1-Score             : 24.06%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 177
+    GT classes (≥2 imgs) : 51
+    Pure groups          : 177/177
+    Contaminated groups  : 0
+    Avg group purity     : 1.0000
+    Avg group completeness: 0.4039
+    Grouped / ungrouped  : 738 / 282
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 0
+    NEG leaked into groups: 0/0
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.7541
+    μ_FP  mean score of FP  : 0.0000
+    μ_REJ mean score of rej : 0.1250
+    Decision margin (Δ)     : +0.0007
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=2,000):
+    Precision :  100.00%   [100.00%, 100.00%]
+    Recall    :   13.67%   [13.01%, 14.36%]
+    F1        :   24.06%   [23.02%, 25.12%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 0.983904
+    pₑ (expected agreement) : 0.978900
+    κ                       : 0.2372   (Fair)
+    95% CI                  : [0.2209, 0.2534]
+    SE(κ)                   : 0.008273
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  Interest-point detector      : FAST (SUSAN-substitute), K=40
+  Gabor bank                   : 2 scales × 3 orientations = 6 kernels
+  Vertex attribute dim         : 11 (x, y, R, G, B, 6 Gabor mags)
+  Vertex kernel α              : 3.0
+  Edge kernel β                : 0.0001
+  IND decision threshold λ     : 0.55
+  Matching surrogate           : Hungarian (linear_sum_assignment)
+                                 + pairwise-distance correlation
+  Note: exact MRF/LBP computation is intractable at this graph size (|V|=40); the Hungarian lower-bound is the standard tractable surrogate (Leordeanu & Hebert 2005).
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — Stochastic ARG Matching (r2)
+════════════════════════════════════════════════════════════════════════

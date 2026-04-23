@@ -1,0 +1,1296 @@
+{
+  "method": "pHash + ViT + Siamese (r1)",
+  "paper": "Jakhar & Borah, IPM 62 (2025) 104086",
+  "runtime_sec": 5.260414361953735,
+  "n_images": 21,
+  "total_pairs": 210,
+  "tp": 0,
+  "fp": 26,
+  "fn": 0,
+  "tn": 184,
+  "precision": 0.0,
+  "recall": 100.0,
+  "f1": 0.0,
+  "kappa": 0.0,
+  "P_ci": [
+    0.0,
+    0.0
+  ],
+  "R_ci": [
+    100.0,
+    100.0
+  ],
+  "F_ci": [
+    0.0,
+    0.0
+  ],
+  "n_groups": 2,
+  "purity": 0.20238095238095238,
+  "completeness": 1.0,
+  "pure_groups": 0,
+  "contaminated_groups": 2,
+  "neg_leaked": 17,
+  "neg_total": 21,
+  "pair_predictions": [
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_img (312).jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_img (425).jpg",
+      "score": 0.821168386063988,
+      "pred": 1
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_img (999).jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.6120988028531738,
+      "pred": 1
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (1461).jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_img (425).jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_img (999).jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "score": 0.7583634717210356,
+      "pred": 1
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (312).jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_img (999).jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "score": 0.7334803831620323,
+      "pred": 1
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.6074537689350593,
+      "pred": 1
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.5705910839731834,
+      "pred": 1
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (425).jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_img (999).jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "score": 0.837537871421286,
+      "pred": 1
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.8278356798184695,
+      "pred": 1
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_43_58-PM_jpeg.rf.8ac9cf1834317aeab97a9c35f0b1e0c7.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "score": 0.7249076002710502,
+      "pred": 1
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.7517875690976233,
+      "pred": 1
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_00-PM_jpeg.rf.6fc37c2c3995b655102bf26dacd06eae.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.8148696942640254,
+      "pred": 1
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.8211639219935627,
+      "pred": 1
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-08-27-at-10_44_02-PM-2-_jpeg.rf.04354701ccbb02adaf23e99b2884ef36.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.714158781722047,
+      "pred": 1
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_WhatsApp-Image-2024-10-02-at-7_52_46-PM_jpeg.rf.32a3a8f42f4d2d3c23bee30b197adcb8.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.6030235060336965,
+      "pred": 1
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.7427100800241265,
+      "pred": 1
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.7553845506244166,
+      "pred": 1
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y12_jpeg.rf.00e3f22e1cf9213cb9dadcc132ac73eb.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y13_jpeg.rf.d125ba72922e5a1499c6437cb3bdead7.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.6734126329887763,
+      "pred": 1
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_y1_jpeg.rf.53bd46e870aa6deb231ce27b173e6029.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.7031534404012273,
+      "pred": 1
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "score": 0.7917361777908346,
+      "pred": 1
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.7721354402026994,
+      "pred": 1
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya19_jpg.rf.7d0e85c87c9a3fe6aed21fd57f57b2a8.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "b": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya20_jpg.rf.c3b34f443f5d68fa759d3f3d13f756e1.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "b": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "score": 0.6884788419006949,
+      "pred": 1
+    },
+    {
+      "a": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.5398608479742697,
+      "pred": 1
+    },
+    {
+      "a": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya21_jpg.rf.e0200db908149f7f770dcc1d3f521994.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "b": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.5983222868438182,
+      "pred": 1
+    },
+    {
+      "a": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya26_jpg.rf.5cff7502bc8fa6dfd3b195255f170cd5.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "b": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.8242748826598179,
+      "pred": 1
+    },
+    {
+      "a": "NEG_yahya28_jpg.rf.a2217d7bced8327b4f8e29c24f02439e.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.7265047759322057,
+      "pred": 1
+    },
+    {
+      "a": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "b": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya33_jpg.rf.7022d7624200b938218eb12f2ec4ddd8.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "b": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya49_jpg.rf.b27eb570a67b13dcaf66a3050a5f018b.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "b": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya6_jpg.rf.4a503057687ce767510ea3fb7891f85d.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.0,
+      "pred": 0
+    },
+    {
+      "a": "NEG_yahya75_jpg.rf.ab6cf0a5fb273bd484cddd048b0cad1f.jpg",
+      "b": "NEG_yahya8_jpg.rf.7bb21d99fb806376a7a61f94e6ff5a8a.jpg",
+      "score": 0.7312560445421316,
+      "pred": 1
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  DWT + CNN + KNN (r4)
+  Reference: Singh, Kumar, Ranjan, Nandan; Soft Computing 28:7659-7670, 2024
+════════════════════════════════════════════════════════════════════════
+  Images              : 207
+  Total pairs         : 21,321
+  Pair predictions    : 21,321
+  Runtime             : 7.9 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 5
+  Group 1 (157 images):
+    • NEG_teeth-101 (1).jpg
+    • NEG_teeth-103 (1).jpg
+    • NEG_teeth-104 (1).jpg
+    • NEG_teeth-33 (1).jpg
+    • NEG_teeth-35 (1).jpg
+    • NEG_teeth-36 (1).jpg
+    • NEG_teeth-37 (1).jpg
+    • NEG_teeth-38 (1).jpg
+    • NEG_teeth-39 (1).jpg
+    • NEG_teeth-40 (1).jpg
+    • NEG_teeth-42 (1).jpg
+    • NEG_teeth-43 (1).jpg
+    • NEG_teeth-44 (1).jpg
+    • NEG_teeth-45 (1).jpg
+    • NEG_teeth-46 (1).jpg
+    • NEG_teeth-48 (1).jpg
+    • NEG_teeth-49 (1).jpg
+    • NEG_teeth-50 (1).jpg
+    • NEG_teeth-51 (1).jpg
+    • NEG_teeth-52 (01).jpg
+    • NEG_teeth-53 (01).jpg
+    • NEG_teeth-62 (1).jpg
+    • NEG_teeth-63 (1).jpg
+    • NEG_teeth-64 (1).jpg
+    • NEG_teeth-68 (1).jpg
+    • NEG_teeth-69 (1).jpg
+    • NEG_teeth-73 (1).jpg
+    • NEG_teeth-78 (1).jpg
+    • NEG_teeth-80 (1).jpg
+    • NEG_teeth-81 (1).jpg
+    • NEG_teeth-82 (1).jpg
+    • NEG_teeth-83 (1).jpg
+    • NEG_teeth-84 (1).jpg
+    • NEG_teeth-85 (1).jpg
+    • NEG_teeth-86 (1).jpg
+    • NEG_teeth-93 (1).jpg
+    • NEG_teeth-97 (1).jpg
+    • teeth-01 (1).jpg
+    • teeth-01 (2).jpg
+    • teeth-01 (3).jpg
+    • teeth-03 (1).jpg
+    • teeth-03 (2).jpg
+    • teeth-03 (3).jpg
+    • teeth-04 (1).jpg
+    • teeth-04 (2).jpg
+    • teeth-06 (1).jpg
+    • teeth-06 (2).jpg
+    • teeth-07 (1).jpg
+    • teeth-07 (2).jpg
+    • teeth-08 (1).jpg
+    • teeth-08 (2).jpg
+    • teeth-08 (3).jpg
+    • teeth-09 (1).jpg
+    • teeth-09 (2).jpg
+    • teeth-09 (3).jpg
+    • teeth-10 (1).jpg
+    • teeth-10 (2).jpg
+    • teeth-10 (3).jpg
+    • teeth-10 (4).jpg
+    • teeth-10 (5).jpg
+    • teeth-10 (6).jpg
+    • teeth-10 (7).jpg
+    • teeth-10 (8).jpg
+    • teeth-11 (1).jpg
+    • teeth-11 (2).jpg
+    • teeth-11 (3).jpg
+    • teeth-11 (4).jpg
+    • teeth-11 (5).jpg
+    • teeth-11 (6).jpg
+    • teeth-11 (7).jpg
+    • teeth-11 (8).jpg
+    • teeth-11 (9).jpg
+    • teeth-12 (1).jpg
+    • teeth-12 (2).jpg
+    • teeth-12 (3).jpg
+    • teeth-12 (4).jpg
+    • teeth-12 (5).jpg
+    • teeth-12 (6).jpg
+    • teeth-12 (7).jpg
+    • teeth-12 (8).jpg
+    • teeth-14 (1).jpg
+    • teeth-14 (2).jpg
+    • teeth-14 (3).jpg
+    • teeth-14 (4).jpg
+    • teeth-14 (5).jpg
+    • teeth-14 (6).jpg
+    • teeth-14 (7).jpg
+    • teeth-15 (1).jpg
+    • teeth-15 (2).jpg
+    • teeth-15 (3).jpg
+    • teeth-15 (4).jpg
+    • teeth-15 (5).jpg
+    • teeth-15 (6).jpg
+    • teeth-15 (7).jpg
+    • teeth-16 (1).jpg
+    • teeth-16 (10).jpg
+    • teeth-16 (2).jpg
+    • teeth-16 (3).jpg
+    • teeth-16 (4).jpg
+    • teeth-16 (5).jpg
+    • teeth-16 (6).jpg
+    • teeth-16 (7).jpg
+    • teeth-16 (8).jpg
+    • teeth-16 (9).jpg
+    • teeth-17 (1).jpg
+    • teeth-17 (10).jpg
+    • teeth-17 (2).jpg
+    • teeth-17 (3).jpg
+    • teeth-17 (4).jpg
+    • teeth-17 (5).jpg
+    • teeth-17 (6).jpg
+    • teeth-17 (7).jpg
+    • teeth-17 (8).jpg
+    • teeth-17 (9).jpg
+    • teeth-18 (1).jpg
+    • teeth-18 (10).jpg
+    • teeth-18 (2).jpg
+    • teeth-18 (3).jpg
+    • teeth-18 (4).jpg
+    • teeth-18 (5).jpg
+    • teeth-18 (6).jpg
+    • teeth-18 (7).jpg
+    • teeth-18 (8).jpg
+    • teeth-18 (9).jpg
+    • teeth-20 (1).jpg
+    • teeth-20 (2).jpg
+    • teeth-20 (3).jpg
+    • teeth-20 (4).jpg
+    • teeth-20 (5).jpg
+    • teeth-20 (6).jpg
+    • teeth-20 (7).jpg
+    • teeth-21 (1).jpg
+    • teeth-21 (2).jpg
+    • teeth-22 (1).jpg
+    • teeth-22 (2).jpg
+    • teeth-22 (3).jpg
+    • teeth-23 (1).jpg
+    • teeth-23 (2).jpg
+    • teeth-23 (3).jpg
+    • teeth-24 (1).jpg
+    • teeth-24 (2).jpg
+    • teeth-25 (1).jpg
+    • teeth-25 (2).jpg
+    • teeth-26 (1).jpg
+    • teeth-26 (2).jpg
+    • teeth-27 (1).jpg
+    • teeth-27 (2).jpg
+    • teeth-28 (1).jpg
+    • teeth-28 (2).jpg
+    • teeth-29 (1).jpg
+    • teeth-29 (2).jpg
+    • teeth-30 (1).jpg
+    • teeth-30 (2).jpg
+    • teeth-31 (1).jpg
+    • teeth-31 (2).jpg
+    • teeth-32 (1).jpg
+    • teeth-32 (2).jpg
+
+  Group 2 (17 images):
+    • NEG_teeth-106 (1).jpg
+    • NEG_teeth-77 (1).jpg
+    • NEG_teeth-79 (1).jpg
+    • NEG_teeth-87 (1).jpg
+    • NEG_teeth-88 (1).jpg
+    • NEG_teeth-90 (1).jpg
+    • NEG_teeth-91 (1).jpg
+    • NEG_teeth-96 (1).jpg
+    • NEG_teeth-98 (1).jpg
+    • teeth-13 (1).jpg
+    • teeth-13 (2).jpg
+    • teeth-13 (3).jpg
+    • teeth-13 (4).jpg
+    • teeth-13 (5).jpg
+    • teeth-13 (6).jpg
+    • teeth-13 (7).jpg
+    • teeth-13 (8).jpg
+
+  Group 3 (3 images):
+    • teeth-02 (1).jpg
+    • teeth-02 (2).jpg
+    • teeth-02 (3).jpg
+
+  Group 4 (2 images):
+    • NEG_teeth-75 (1).jpg
+    • NEG_teeth-89 (1).jpg
+
+  Group 5 (2 images):
+    • teeth-05 (1).jpg
+    • teeth-05 (2).jpg
+
+CONFIRMED PAIRS : 709   REJECTED : 20,612
+
+  Top 40 highest-scoring confirmed pairs:
+    score=1.0000 [TP]  teeth-02 (2).jpg  ↔  teeth-02 (3).jpg
+    score=1.0000 [TP]  teeth-01 (2).jpg  ↔  teeth-01 (3).jpg
+    score=0.9998 [TP]  teeth-16 (3).jpg  ↔  teeth-16 (4).jpg
+    score=0.9996 [TP]  teeth-02 (1).jpg  ↔  teeth-02 (2).jpg
+    score=0.9996 [TP]  teeth-02 (1).jpg  ↔  teeth-02 (3).jpg
+    score=0.9984 [TP]  teeth-12 (3).jpg  ↔  teeth-12 (5).jpg
+    score=0.9955 [TP]  teeth-18 (10).jpg  ↔  teeth-18 (2).jpg
+    score=0.9931 [TP]  teeth-05 (1).jpg  ↔  teeth-05 (2).jpg
+    score=0.9924 [TP]  teeth-16 (10).jpg  ↔  teeth-16 (4).jpg
+    score=0.9921 [TP]  teeth-18 (1).jpg  ↔  teeth-18 (6).jpg
+    score=0.9919 [TP]  teeth-16 (10).jpg  ↔  teeth-16 (3).jpg
+    score=0.9916 [TP]  teeth-09 (1).jpg  ↔  teeth-09 (3).jpg
+    score=0.9913 [TP]  teeth-08 (1).jpg  ↔  teeth-08 (2).jpg
+    score=0.9913 [TP]  teeth-11 (2).jpg  ↔  teeth-11 (3).jpg
+    score=0.9913 [TP]  teeth-17 (1).jpg  ↔  teeth-17 (2).jpg
+    score=0.9908 [TP]  teeth-15 (3).jpg  ↔  teeth-15 (6).jpg
+    score=0.9900 [TP]  teeth-16 (4).jpg  ↔  teeth-16 (5).jpg
+    score=0.9898 [TP]  teeth-16 (3).jpg  ↔  teeth-16 (5).jpg
+    score=0.9898 [TP]  teeth-17 (2).jpg  ↔  teeth-17 (9).jpg
+    score=0.9897 [TP]  teeth-10 (1).jpg  ↔  teeth-10 (7).jpg
+    score=0.9897 [TP]  teeth-16 (10).jpg  ↔  teeth-16 (7).jpg
+    score=0.9894 [TP]  teeth-17 (3).jpg  ↔  teeth-17 (9).jpg
+    score=0.9893 [TP]  teeth-10 (1).jpg  ↔  teeth-10 (2).jpg
+    score=0.9891 [TP]  teeth-17 (10).jpg  ↔  teeth-17 (9).jpg
+    score=0.9890 [TP]  teeth-10 (2).jpg  ↔  teeth-10 (3).jpg
+    score=0.9889 [TP]  teeth-10 (1).jpg  ↔  teeth-10 (3).jpg
+    score=0.9887 [TP]  teeth-20 (3).jpg  ↔  teeth-20 (4).jpg
+    score=0.9886 [TP]  teeth-16 (10).jpg  ↔  teeth-16 (5).jpg
+    score=0.9886 [TP]  teeth-10 (2).jpg  ↔  teeth-10 (5).jpg
+    score=0.9886 [TP]  teeth-10 (2).jpg  ↔  teeth-10 (4).jpg
+    score=0.9884 [TP]  teeth-11 (3).jpg  ↔  teeth-11 (9).jpg
+    score=0.9883 [TP]  teeth-18 (6).jpg  ↔  teeth-18 (7).jpg
+    score=0.9883 [TP]  teeth-15 (2).jpg  ↔  teeth-15 (7).jpg
+    score=0.9882 [TP]  teeth-28 (1).jpg  ↔  teeth-28 (2).jpg
+    score=0.9882 [TP]  teeth-17 (5).jpg  ↔  teeth-17 (7).jpg
+    score=0.9881 [TP]  teeth-13 (6).jpg  ↔  teeth-13 (8).jpg
+    score=0.9880 [TP]  teeth-13 (1).jpg  ↔  teeth-13 (4).jpg
+    score=0.9879 [TP]  teeth-13 (6).jpg  ↔  teeth-13 (7).jpg
+    score=0.9879 [TP]  teeth-18 (4).jpg  ↔  teeth-18 (9).jpg
+    score=0.9878 [TP]  teeth-17 (10).jpg  ↔  teeth-17 (7).jpg
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 312
+    False Positives (FP) : 397
+    False Negatives (FN) : 42
+    True Negatives  (TN) : 20,570
+    Precision            : 44.01%
+    Recall               : 88.14%
+    F1-Score             : 58.70%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 5
+    GT classes (≥2 imgs) : 32
+    Pure groups          : 2/5
+    Contaminated groups  : 3
+    Avg group purity     : 0.6069
+    Avg group completeness: 0.9688
+    Grouped / ungrouped  : 181 / 26
+    Contaminated group breakdown:
+      [157 members] teeth-17: 10, teeth-16: 10, teeth-18: 10, teeth-11: 9, teeth-12: 8, teeth-10: 8, teeth-20: 7, teeth-15: 7, teeth-14: 7, teeth-23: 3, teeth-01: 3, teeth-09: 3, teeth-22: 3, teeth-03: 3, teeth-08: 3, teeth-27: 2, teeth-26: 2, teeth-06: 2, teeth-28: 2, teeth-07: 2, teeth-24: 2, teeth-31: 2, teeth-29: 2, teeth-30: 2, teeth-21: 2, teeth-04: 2, teeth-32: 2, teeth-25: 2, NEG__NEG_teeth-44 (1).jpg: 1, NEG__NEG_teeth-37 (1).jpg: 1, NEG__NEG_teeth-40 (1).jpg: 1, NEG__NEG_teeth-93 (1).jpg: 1, NEG__NEG_teeth-69 (1).jpg: 1, NEG__NEG_teeth-84 (1).jpg: 1, NEG__NEG_teeth-97 (1).jpg: 1, NEG__NEG_teeth-38 (1).jpg: 1, NEG__NEG_teeth-45 (1).jpg: 1, NEG__NEG_teeth-62 (1).jpg: 1, NEG__NEG_teeth-43 (1).jpg: 1, NEG__NEG_teeth-83 (1).jpg: 1, NEG__NEG_teeth-64 (1).jpg: 1, NEG__NEG_teeth-46 (1).jpg: 1, NEG__NEG_teeth-42 (1).jpg: 1, NEG__NEG_teeth-82 (1).jpg: 1, NEG__NEG_teeth-63 (1).jpg: 1, NEG__NEG_teeth-50 (1).jpg: 1, NEG__NEG_teeth-78 (1).jpg: 1, NEG__NEG_teeth-81 (1).jpg: 1, NEG__NEG_teeth-68 (1).jpg: 1, NEG__NEG_teeth-52 (01).jpg: 1, NEG__NEG_teeth-51 (1).jpg: 1, NEG__NEG_teeth-86 (1).jpg: 1, NEG__NEG_teeth-103 (1).jpg: 1, NEG__NEG_teeth-49 (1).jpg: 1, NEG__NEG_teeth-33 (1).jpg: 1, NEG__NEG_teeth-35 (1).jpg: 1, NEG__NEG_teeth-80 (1).jpg: 1, NEG__NEG_teeth-36 (1).jpg: 1, NEG__NEG_teeth-53 (01).jpg: 1, NEG__NEG_teeth-104 (1).jpg: 1, NEG__NEG_teeth-73 (1).jpg: 1, NEG__NEG_teeth-48 (1).jpg: 1, NEG__NEG_teeth-39 (1).jpg: 1, NEG__NEG_teeth-85 (1).jpg: 1, NEG__NEG_teeth-101 (1).jpg: 1
+      [17 members] teeth-13: 8, NEG__NEG_teeth-96 (1).jpg: 1, NEG__NEG_teeth-87 (1).jpg: 1, NEG__NEG_teeth-77 (1).jpg: 1, NEG__NEG_teeth-106 (1).jpg: 1, NEG__NEG_teeth-98 (1).jpg: 1, NEG__NEG_teeth-91 (1).jpg: 1, NEG__NEG_teeth-79 (1).jpg: 1, NEG__NEG_teeth-90 (1).jpg: 1, NEG__NEG_teeth-88 (1).jpg: 1
+      [2 members] NEG__NEG_teeth-75 (1).jpg: 1, NEG__NEG_teeth-89 (1).jpg: 1
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 72
+    NEG leaked into groups: 48/72
+      Leaked: NEG_teeth-44 (1).jpg
+      Leaked: NEG_teeth-37 (1).jpg
+      Leaked: NEG_teeth-40 (1).jpg
+      Leaked: NEG_teeth-93 (1).jpg
+      Leaked: NEG_teeth-69 (1).jpg
+      Leaked: NEG_teeth-84 (1).jpg
+      Leaked: NEG_teeth-97 (1).jpg
+      Leaked: NEG_teeth-38 (1).jpg
+      Leaked: NEG_teeth-45 (1).jpg
+      Leaked: NEG_teeth-62 (1).jpg
+      Leaked: NEG_teeth-43 (1).jpg
+      Leaked: NEG_teeth-83 (1).jpg
+      Leaked: NEG_teeth-64 (1).jpg
+      Leaked: NEG_teeth-46 (1).jpg
+      Leaked: NEG_teeth-42 (1).jpg
+      Leaked: NEG_teeth-82 (1).jpg
+      Leaked: NEG_teeth-63 (1).jpg
+      Leaked: NEG_teeth-50 (1).jpg
+      Leaked: NEG_teeth-78 (1).jpg
+      Leaked: NEG_teeth-81 (1).jpg
+      Leaked: NEG_teeth-68 (1).jpg
+      Leaked: NEG_teeth-52 (01).jpg
+      Leaked: NEG_teeth-51 (1).jpg
+      Leaked: NEG_teeth-86 (1).jpg
+      Leaked: NEG_teeth-103 (1).jpg
+      Leaked: NEG_teeth-49 (1).jpg
+      Leaked: NEG_teeth-33 (1).jpg
+      Leaked: NEG_teeth-35 (1).jpg
+      Leaked: NEG_teeth-80 (1).jpg
+      Leaked: NEG_teeth-36 (1).jpg
+      Leaked: NEG_teeth-53 (01).jpg
+      Leaked: NEG_teeth-104 (1).jpg
+      Leaked: NEG_teeth-73 (1).jpg
+      Leaked: NEG_teeth-48 (1).jpg
+      Leaked: NEG_teeth-39 (1).jpg
+      Leaked: NEG_teeth-85 (1).jpg
+      Leaked: NEG_teeth-101 (1).jpg
+      Leaked: NEG_teeth-96 (1).jpg
+      Leaked: NEG_teeth-87 (1).jpg
+      Leaked: NEG_teeth-77 (1).jpg
+      Leaked: NEG_teeth-106 (1).jpg
+      Leaked: NEG_teeth-98 (1).jpg
+      Leaked: NEG_teeth-91 (1).jpg
+      Leaked: NEG_teeth-79 (1).jpg
+      Leaked: NEG_teeth-90 (1).jpg
+      Leaked: NEG_teeth-88 (1).jpg
+      Leaked: NEG_teeth-75 (1).jpg
+      Leaked: NEG_teeth-89 (1).jpg
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.9322
+    μ_FP  mean score of FP  : 0.7893
+    μ_REJ mean score of rej : 0.4442
+    Decision margin (Δ)     : -0.2490
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=2,000):
+    Precision :   44.01%   [40.29%, 47.75%]
+    Recall    :   88.14%   [84.68%, 91.28%]
+    F1        :   58.70%   [55.03%, 62.07%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 0.979410
+    pₑ (expected agreement) : 0.951247
+    κ                       : 0.5777   (Moderate)
+    95% CI                  : [0.5386, 0.6168]
+    SE(κ)                   : 0.019948
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  DWT level / size       : 3-level Haar  on 128-bin feature
+  CNN backbone           : ResNet-18 pretrained (surrogate for the 5-block Cn CNN of Singh et al. Table 1)
+  Concatenated feature   : 640 → PCA(640)
+  KNN neighbours         : k=7
+  Mutual-frac threshold  : 0.35
+  Cos-sim confirm rule   : > 0.85
+  scikit-learn           : no (numpy fallback)
+  Device                 : cpu
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — DWT + CNN + KNN (r4)
+════════════════════════════════════════════════════════════════════════

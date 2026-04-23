@@ -1,0 +1,108 @@
+════════════════════════════════════════════════════════════════════════
+  CROSS-METHOD COMPARISON REPORT
+════════════════════════════════════════════════════════════════════════
+  Image folder : E:\SAMIDDHA\My Research\img_duplicate\dataset\teeth
+  Images       : 207
+  Baselines    : r1, r2, r3, r4, r5
+  Proposed JSON: yes
+════════════════════════════════════════════════════════════════════════
+
+SUMMARY OF DETECTION METRICS
+------------------------------------------------------------------------
+  Method                             TP     FP     FN     P%     R%    F1%      κ
+  ------------------------------ ------ ------ ------ ------ ------ ------ ------
+  Proposed (ours)                   343     11     11  96.89  96.89  96.89  0.968
+  pHash + ViT + Siamese              63   1053    291   5.65  17.80   8.57  0.062
+  Stochastic ARG Matching            82     33    272  71.30  23.16  34.97  0.344
+  CEDetector (ViT DINO)             354   6143      0   5.45 100.00  10.33  0.074
+  DWT + CNN + KNN                   312    397     42  44.01  88.14  58.70  0.578
+  PCET + GDP                        322   3967     32   7.51  90.96  13.87  0.111
+
+GROUP-LEVEL METRICS
+------------------------------------------------------------------------
+  Method                            #G  Pure Contam  Purity   Comp.  NEGlk
+  ------------------------------ ----- ----- ------ ------- ------- ------
+  Proposed (ours)                   31    29      2  0.9899  1.0000      1
+  pHash + ViT + Siamese              1     0      1  0.0488  0.9896     71
+  Stochastic ARG Matching           18    13      5  0.8849  0.4046     14
+  CEDetector (ViT DINO)              1     0      1  0.0485  1.0000     71
+  DWT + CNN + KNN                    5     2      3  0.6069  0.9688     48
+  PCET + GDP                         2     1      1  0.5250  1.0000     68
+
+BOOTSTRAP 95% CI  (computed by each baseline on full dataset)
+------------------------------------------------------------------------
+  Method                                    Precision CI               Recall CI                   F1 CI
+  ------------------------------  ----------------------  ----------------------  ----------------------
+  Proposed (ours)                 [94.99, 98.57]  [94.99, 98.57]          [95.53, 98.11]
+  pHash + ViT + Siamese           [4.36, 6.99]  [13.86, 21.89]          [6.64, 10.58]
+  Stochastic ARG Matching         [62.61, 79.49]  [18.80, 27.50]          [29.26, 40.24]
+  CEDetector (ViT DINO)           [4.92, 6.04]  [100.00, 100.00]        [9.38, 11.40]
+  DWT + CNN + KNN                 [40.29, 47.75]  [84.68, 91.28]          [55.03, 62.07]
+  PCET + GDP                      [6.74, 8.36]  [87.93, 93.69]          [12.54, 15.31]
+
+════════════════════════════════════════════════════════════════════════
+  4.3.1  McNEMAR TEST  —  Proposed vs. each baseline
+════════════════════════════════════════════════════════════════════════
+  Baseline                                n01    n10         χ²    p-value  Sig?
+  -----------------------------------  ------ ------ ---------- ---------- -----
+  pHash + ViT + Siamese                  1333     11    1298.39     <0.001   Yes
+  Stochastic ARG Matching                 294     11     260.73     <0.001   Yes
+  CEDetector (ViT DINO)                  6132     11    6097.09     <0.001   Yes
+  DWT + CNN + KNN                         426      9     397.83     <0.001   Yes
+  PCET + GDP                             3986      9    3957.09     <0.001   Yes
+
+════════════════════════════════════════════════════════════════════════
+  4.3.2  WILCOXON SIGNED-RANK  —  Proposed vs. each baseline
+════════════════════════════════════════════════════════════════════════
+  (applied to scores on pairs scored by BOTH methods)
+  Baseline                                  n    median Δ        z     p-value   Sig?
+  -----------------------------------  ------  ---------- --------  ----------  -----
+  pHash + ViT + Siamese                 21321     +0.2939 -108.519      <0.001    Yes
+  Stochastic ARG Matching               21320     +0.1029  -67.801      <0.001    Yes
+  CEDetector (ViT DINO)                 21321     -0.2376 -119.354      <0.001    Yes
+  DWT + CNN + KNN                       21321     -0.1407 -121.599      <0.001    Yes
+  PCET + GDP                            21321     -0.0373  -36.285      <0.001    Yes
+
+════════════════════════════════════════════════════════════════════════
+  4.3.3  FRIEDMAN TEST + NEMENYI POST-HOC
+════════════════════════════════════════════════════════════════════════
+  Stratifying the folder into sub-datasets (by GT-class hash)
+    subset_1: 68 images
+    subset_2: 74 images
+    subset_3: 65 images
+
+    Subset       CEDetector (ViT DI    DWT + CNN + KNN         PCET + GDP           Proposed Stochastic ARG Mat pHash + ViT + Siam
+    ----------------------------------------------------------------------------------------------------------------------------------
+    subset_1                 32.38%             82.87%             45.75%            100.00%             45.45%             15.97%
+    subset_2                 21.52%             75.82%             31.54%             96.58%             31.06%             14.38%
+    subset_3                 28.26%             80.35%             29.42%             99.04%             34.65%             21.50%
+
+  Friedman χ²_F = 14.6190, df=5, p=0.0121
+  → H0 REJECTED (methods differ significantly)
+  Nemenyi CD = 4.3534 (q_α=2.85, k=6, N=3)
+
+    Method A                   Method B                     |ΔR|   Sig?
+    -------------------------  -------------------------  ------  -----
+    CEDetector (ViT DINO)      DWT + CNN + KNN              3.00     No
+    CEDetector (ViT DINO)      PCET + GDP                   1.67     No
+    CEDetector (ViT DINO)      Proposed                     4.00     No
+    CEDetector (ViT DINO)      Stochastic ARG Matching      1.33     No
+    CEDetector (ViT DINO)      pHash + ViT + Siamese        1.00     No
+    DWT + CNN + KNN            PCET + GDP                   1.33     No
+    DWT + CNN + KNN            Proposed                     1.00     No
+    DWT + CNN + KNN            Stochastic ARG Matching      1.67     No
+    DWT + CNN + KNN            pHash + ViT + Siamese        4.00     No
+    PCET + GDP                 Proposed                     2.33     No
+    PCET + GDP                 Stochastic ARG Matching      0.33     No
+    PCET + GDP                 pHash + ViT + Siamese        2.67     No
+    Proposed                   Stochastic ARG Matching      2.67     No
+    Proposed                   pHash + ViT + Siamese        5.00    Yes
+    Stochastic ARG Matching    pHash + ViT + Siamese        2.33     No
+
+  Mean ranks (1 = best):
+    Proposed                        1.000
+    DWT + CNN + KNN                 2.000
+    PCET + GDP                      3.333
+    Stochastic ARG Matching         3.667
+    CEDetector (ViT DINO)           5.000
+    pHash + ViT + Siamese           6.000

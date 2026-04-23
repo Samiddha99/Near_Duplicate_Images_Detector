@@ -1,0 +1,235 @@
+{
+  "folder": "E:\\SAMIDDHA\\My Research\\img_duplicate\\dataset\\melanoma",
+  "baselines": {
+    "r1": {
+      "method": "pHash + ViT + Siamese (r1)",
+      "paper": "Jakhar & Borah, IPM 62 (2025) 104086",
+      "runtime_sec": 4.481683254241943,
+      "n_images": 20,
+      "total_pairs": 190,
+      "tp": 0,
+      "fp": 17,
+      "fn": 0,
+      "tn": 173,
+      "precision": 0.0,
+      "recall": 100.0,
+      "f1": 0.0,
+      "kappa": 0.0,
+      "P_ci": [
+        0.0,
+        0.0
+      ],
+      "R_ci": [
+        100.0,
+        100.0
+      ],
+      "F_ci": [
+        0.0,
+        0.0
+      ],
+      "n_groups": 2,
+      "purity": 0.16666666666666666,
+      "completeness": 1.0,
+      "pure_groups": 0,
+      "contaminated_groups": 2,
+      "neg_leaked": 16,
+      "neg_total": 20
+    },
+    "r2": {
+      "method": "Stochastic ARG Matching (r2)",
+      "paper": "Zhang & Chang, ACM MM'04, pp.877-884",
+      "runtime_sec": 1.8490586280822754,
+      "n_images": 20,
+      "total_pairs": 190,
+      "tp": 0,
+      "fp": 7,
+      "fn": 0,
+      "tn": 183,
+      "precision": 0.0,
+      "recall": 100.0,
+      "f1": 0.0,
+      "kappa": 0.0,
+      "P_ci": [
+        0.0,
+        0.0
+      ],
+      "R_ci": [
+        100.0,
+        100.0
+      ],
+      "F_ci": [
+        0.0,
+        0.0
+      ],
+      "n_groups": 2,
+      "purity": 0.3333333333333333,
+      "completeness": 1.0,
+      "pure_groups": 0,
+      "contaminated_groups": 2,
+      "neg_leaked": 8,
+      "neg_total": 20
+    },
+    "r3": {
+      "method": "CEDetector \u2014 ViT Copy-Edit Detection (r3)",
+      "paper": "Lee, Hsu & Lee, CVPRW 2024, pp.6997-7005",
+      "runtime_sec": 8.977160453796387,
+      "n_images": 20,
+      "total_pairs": 190,
+      "tp": 0,
+      "fp": 110,
+      "fn": 0,
+      "tn": 80,
+      "precision": 0.0,
+      "recall": 100.0,
+      "f1": 0.0,
+      "kappa": 0.0,
+      "P_ci": [
+        0.0,
+        0.0
+      ],
+      "R_ci": [
+        100.0,
+        100.0
+      ],
+      "F_ci": [
+        0.0,
+        0.0
+      ],
+      "n_groups": 1,
+      "purity": 0.05,
+      "completeness": 1.0,
+      "pure_groups": 0,
+      "contaminated_groups": 1,
+      "neg_leaked": 20,
+      "neg_total": 20
+    },
+    "r4": {
+      "method": "DWT + CNN + KNN (r4)",
+      "paper": "Singh, Kumar, Ranjan, Nandan; Soft Computing 28:7659-7670, 2024",
+      "runtime_sec": 0.7154769897460938,
+      "n_images": 20,
+      "total_pairs": 190,
+      "tp": 0,
+      "fp": 19,
+      "fn": 0,
+      "tn": 171,
+      "precision": 0.0,
+      "recall": 100.0,
+      "f1": 0.0,
+      "kappa": 0.0,
+      "P_ci": [
+        0.0,
+        0.0
+      ],
+      "R_ci": [
+        100.0,
+        100.0
+      ],
+      "F_ci": [
+        0.0,
+        0.0
+      ],
+      "n_groups": 2,
+      "purity": 0.11805555555555555,
+      "completeness": 1.0,
+      "pure_groups": 0,
+      "contaminated_groups": 2,
+      "neg_leaked": 17,
+      "neg_total": 20
+    },
+    "r5": {
+      "method": "PCET + GDP (r5)",
+      "paper": "Babu & Rao, MTAP 2022, doi:10.1007/s11042-022-12311-6",
+      "runtime_sec": 1.4581377506256104,
+      "n_images": 20,
+      "total_pairs": 190,
+      "tp": 0,
+      "fp": 46,
+      "fn": 0,
+      "tn": 144,
+      "precision": 0.0,
+      "recall": 100.0,
+      "f1": 0.0,
+      "kappa": 0.0,
+      "P_ci": [
+        0.0,
+        0.0
+      ],
+      "R_ci": [
+        100.0,
+        100.0
+      ],
+      "F_ci": [
+        0.0,
+        0.0
+      ],
+      "n_groups": 3,
+      "purity": 0.2738095238095238,
+      "completeness": 1.0,
+      "pure_groups": 0,
+      "contaminated_groups": 3,
+      "neg_leaked": 20,
+      "neg_total": 20
+    }
+  },
+  "proposed": {
+    "method": "Proposed (ours) \u2014 duplicate_detector_final.py",
+    "paper": "Our research method",
+    "runtime_sec": 2.982076644897461,
+    "n_images": 20,
+    "total_pairs": 190,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 190,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "kappa": 1.0,
+    "P_ci": [
+      100.0,
+      100.0
+    ],
+    "R_ci": [
+      100.0,
+      100.0
+    ],
+    "F_ci": [
+      100.0,
+      100.0
+    ],
+    "n_groups": 0,
+    "purity": 1.0,
+    "completeness": 1.0,
+    "pure_groups": 0,
+    "contaminated_groups": 0,
+    "neg_leaked": 0,
+    "neg_total": 20
+  },
+  "friedman_f1_matrix": {
+    "subset_1": {
+      "Proposed": 100.0,
+      "pHash + ViT + Siamese": 100.0,
+      "Stochastic ARG Matching": 0.0,
+      "CEDetector (ViT DINO)": 0.0,
+      "DWT + CNN + KNN": 0.0,
+      "PCET + GDP": 0.0
+    },
+    "subset_2": {
+      "Proposed": 100.0,
+      "pHash + ViT + Siamese": 0.0,
+      "Stochastic ARG Matching": 100.0,
+      "CEDetector (ViT DINO)": 0.0,
+      "DWT + CNN + KNN": 0.0,
+      "PCET + GDP": 0.0
+    },
+    "subset_3": {
+      "Proposed": 100.0,
+      "pHash + ViT + Siamese": 0.0,
+      "Stochastic ARG Matching": 0.0,
+      "CEDetector (ViT DINO)": 0.0,
+      "DWT + CNN + KNN": 0.0,
+      "PCET + GDP": 0.0
+    }
+  }
+}

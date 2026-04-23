@@ -1,0 +1,235 @@
+{
+  "folder": "E:\\SAMIDDHA\\My Research\\img_duplicate\\dataset\\coco_augmented",
+  "baselines": {
+    "r1": {
+      "method": "pHash + ViT + Siamese (r1)",
+      "paper": "Jakhar & Borah, IPM 62 (2025) 104086",
+      "runtime_sec": 128.4033796787262,
+      "n_images": 1020,
+      "total_pairs": 519690,
+      "tp": 5063,
+      "fp": 323,
+      "fn": 4627,
+      "tn": 509677,
+      "precision": 94.00297066468623,
+      "recall": 52.24974200206398,
+      "f1": 67.16635712390556,
+      "kappa": 0.6672302058032776,
+      "P_ci": [
+        93.35180055401662,
+        94.64418087472201
+      ],
+      "R_ci": [
+        51.231779921987275,
+        53.28549461814455
+      ],
+      "F_ci": [
+        66.2732211119308,
+        68.04013377926421
+      ],
+      "n_groups": 76,
+      "purity": 0.9297066080500606,
+      "completeness": 0.8,
+      "pure_groups": 64,
+      "contaminated_groups": 12,
+      "neg_leaked": 0,
+      "neg_total": 0
+    },
+    "r2": {
+      "method": "Stochastic ARG Matching (r2)",
+      "paper": "Zhang & Chang, ACM MM'04, pp.877-884",
+      "runtime_sec": 2384.1864137649536,
+      "n_images": 1020,
+      "total_pairs": 519690,
+      "tp": 1325,
+      "fp": 0,
+      "fn": 8365,
+      "tn": 510000,
+      "precision": 100.0,
+      "recall": 13.673890608875128,
+      "f1": 24.058102587380844,
+      "kappa": 0.23715906706097478,
+      "P_ci": [
+        100.0,
+        100.0
+      ],
+      "R_ci": [
+        13.010309278350515,
+        14.363617656137462
+      ],
+      "F_ci": [
+        23.02499543878854,
+        25.119208277103013
+      ],
+      "n_groups": 177,
+      "purity": 1.0,
+      "completeness": 0.4039215686274511,
+      "pure_groups": 177,
+      "contaminated_groups": 0,
+      "neg_leaked": 0,
+      "neg_total": 0
+    },
+    "r3": {
+      "method": "CEDetector \u2014 ViT Copy-Edit Detection (r3)",
+      "paper": "Lee, Hsu & Lee, CVPRW 2024, pp.6997-7005",
+      "runtime_sec": 322.9668686389923,
+      "n_images": 1020,
+      "total_pairs": 519690,
+      "tp": 8874,
+      "fp": 2557,
+      "fn": 816,
+      "tn": 507443,
+      "precision": 77.631003411775,
+      "recall": 91.57894736842105,
+      "f1": 84.0301122105961,
+      "kappa": 0.8370115764375247,
+      "P_ci": [
+        76.91715824570403,
+        78.36056931997891
+      ],
+      "R_ci": [
+        91.06663915824221,
+        92.1238847297713
+      ],
+      "F_ci": [
+        83.5388791009952,
+        84.54115421002838
+      ],
+      "n_groups": 40,
+      "purity": 0.8778801169590643,
+      "completeness": 0.9813725490196078,
+      "pure_groups": 32,
+      "contaminated_groups": 8,
+      "neg_leaked": 0,
+      "neg_total": 0
+    },
+    "r4": {
+      "method": "DWT + CNN + KNN (r4)",
+      "paper": "Singh, Kumar, Ranjan, Nandan; Soft Computing 28:7659-7670, 2024",
+      "runtime_sec": 22.610400676727295,
+      "n_images": 1020,
+      "total_pairs": 519690,
+      "tp": 4397,
+      "fp": 6,
+      "fn": 5293,
+      "tn": 509994,
+      "precision": 99.86372927549398,
+      "recall": 45.37667698658411,
+      "f1": 62.39977293691903,
+      "kappa": 0.6195653728518362,
+      "P_ci": [
+        99.74903034451289,
+        99.95521719659651
+      ],
+      "R_ci": [
+        44.41411171776564,
+        46.38994747141827
+      ],
+      "F_ci": [
+        61.48255813953488,
+        63.35630890420593
+      ],
+      "n_groups": 69,
+      "purity": 0.9855072463768116,
+      "completeness": 0.9284313725490198,
+      "pure_groups": 67,
+      "contaminated_groups": 2,
+      "neg_leaked": 0,
+      "neg_total": 0
+    },
+    "r5": {
+      "method": "PCET + GDP (r5)",
+      "paper": "Babu & Rao, MTAP 2022, doi:10.1007/s11042-022-12311-6",
+      "runtime_sec": 258.2662055492401,
+      "n_images": 1020,
+      "total_pairs": 519690,
+      "tp": 3881,
+      "fp": 15532,
+      "fn": 5809,
+      "tn": 494468,
+      "precision": 19.991758100242105,
+      "recall": 40.0515995872033,
+      "f1": 26.670789952925812,
+      "kappa": 0.24800189416632692,
+      "P_ci": [
+        19.42490372272144,
+        20.538457532677185
+      ],
+      "R_ci": [
+        39.05836892414074,
+        40.99168463196797
+      ],
+      "F_ci": [
+        25.986931663490335,
+        27.337630831080613
+      ],
+      "n_groups": 50,
+      "purity": 0.9656372941348874,
+      "completeness": 0.7264705882352939,
+      "pure_groups": 47,
+      "contaminated_groups": 3,
+      "neg_leaked": 0,
+      "neg_total": 0
+    }
+  },
+  "proposed": {
+    "method": "Proposed (ours) \u2014 duplicate_detector_final.py",
+    "paper": "Our research method",
+    "runtime_sec": 21930.982124328613,
+    "n_images": 1020,
+    "total_pairs": 519690,
+    "tp": 9324,
+    "fp": 0,
+    "fn": 366,
+    "tn": 510000,
+    "precision": 100.0,
+    "recall": 96.22291021671828,
+    "f1": 98.07510255601137,
+    "kappa": 0.9803924661192067,
+    "P_ci": [
+      100.0,
+      100.0
+    ],
+    "R_ci": [
+      95.83678541839271,
+      96.60606060606061
+    ],
+    "F_ci": [
+      97.8741406663141,
+      98.27373612823673
+    ],
+    "n_groups": 51,
+    "purity": 1.0,
+    "completeness": 1.0,
+    "pure_groups": 51,
+    "contaminated_groups": 0,
+    "neg_leaked": 0,
+    "neg_total": 0
+  },
+  "friedman_f1_matrix": {
+    "subset_1": {
+      "Proposed": 99.04672605094545,
+      "pHash + ViT + Siamese": 69.95408265122778,
+      "Stochastic ARG Matching": 27.180310326377743,
+      "CEDetector (ViT DINO)": 91.28567045105862,
+      "DWT + CNN + KNN": 62.84744324209632,
+      "PCET + GDP": 52.7488067880502
+    },
+    "subset_2": {
+      "Proposed": 97.8333069745374,
+      "pHash + ViT + Siamese": 68.04962375432176,
+      "Stochastic ARG Matching": 24.026150912557885,
+      "CEDetector (ViT DINO)": 96.99081406398481,
+      "DWT + CNN + KNN": 64.76868327402134,
+      "PCET + GDP": 36.231884057971016
+    },
+    "subset_3": {
+      "Proposed": 97.32994278448825,
+      "pHash + ViT + Siamese": 66.58536585365854,
+      "Stochastic ARG Matching": 20.854132002218527,
+      "CEDetector (ViT DINO)": 89.58004420587305,
+      "DWT + CNN + KNN": 59.53468145248968,
+      "PCET + GDP": 41.81350954478708
+    }
+  }
+}

@@ -1,0 +1,106 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  Stochastic ARG Matching (r2)
+  Reference: Zhang & Chang, ACM MM'04, pp.877-884
+════════════════════════════════════════════════════════════════════════
+  Images              : 20
+  Total pairs         : 190
+  Pair predictions    : 190
+  Runtime             : 1.8 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 2
+  Group 1 (6 images):
+    • NEG_Melanoma (12).jpg
+    • NEG_Melanoma (2).jpg
+    • NEG_Melanoma (20).jpeg
+    • NEG_Melanoma (4).jpg
+    • NEG_Melanoma (7).jpeg
+    • NEG_Melanoma (8).jpg
+
+  Group 2 (2 images):
+    • NEG_Melanoma (16).jpg
+    • NEG_Melanoma (18).jpg
+
+CONFIRMED PAIRS : 7   REJECTED : 183
+
+  Top 7 highest-scoring confirmed pairs:
+    score=0.6032 [FP]  NEG_Melanoma (2).jpg  ↔  NEG_Melanoma (8).jpg
+    score=0.5949 [FP]  NEG_Melanoma (4).jpg  ↔  NEG_Melanoma (7).jpeg
+    score=0.5876 [FP]  NEG_Melanoma (2).jpg  ↔  NEG_Melanoma (20).jpeg
+    score=0.5805 [FP]  NEG_Melanoma (12).jpg  ↔  NEG_Melanoma (20).jpeg
+    score=0.5768 [FP]  NEG_Melanoma (20).jpeg  ↔  NEG_Melanoma (4).jpg
+    score=0.5755 [FP]  NEG_Melanoma (16).jpg  ↔  NEG_Melanoma (18).jpg
+    score=0.5583 [FP]  NEG_Melanoma (12).jpg  ↔  NEG_Melanoma (2).jpg
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 0
+    False Positives (FP) : 7
+    False Negatives (FN) : 0
+    True Negatives  (TN) : 183
+    Precision            : 0.00%
+    Recall               : 100.00%
+    F1-Score             : 0.00%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 2
+    GT classes (≥2 imgs) : 0
+    Pure groups          : 0/2
+    Contaminated groups  : 2
+    Avg group purity     : 0.3333
+    Avg group completeness: 1.0000
+    Grouped / ungrouped  : 8 / 12
+    Contaminated group breakdown:
+      [6 members] NEG__NEG_Melanoma (7).jpeg: 1, NEG__NEG_Melanoma (8).jpg: 1, NEG__NEG_Melanoma (4).jpg: 1, NEG__NEG_Melanoma (20).jpeg: 1, NEG__NEG_Melanoma (12).jpg: 1, NEG__NEG_Melanoma (2).jpg: 1
+      [2 members] NEG__NEG_Melanoma (18).jpg: 1, NEG__NEG_Melanoma (16).jpg: 1
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 20
+    NEG leaked into groups: 8/20
+      Leaked: NEG_Melanoma (7).jpeg
+      Leaked: NEG_Melanoma (8).jpg
+      Leaked: NEG_Melanoma (4).jpg
+      Leaked: NEG_Melanoma (20).jpeg
+      Leaked: NEG_Melanoma (12).jpg
+      Leaked: NEG_Melanoma (2).jpg
+      Leaked: NEG_Melanoma (18).jpg
+      Leaked: NEG_Melanoma (16).jpg
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.0000
+    μ_FP  mean score of FP  : 0.5824
+    μ_REJ mean score of rej : 0.3129
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=2,000):
+    Precision :    0.00%   [0.00%, 0.00%]
+    Recall    :  100.00%   [100.00%, 100.00%]
+    F1        :    0.00%   [0.00%, 0.00%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 0.963158
+    pₑ (expected agreement) : 0.963158
+    κ                       : 0.0000   (Slight)
+    95% CI                  : [-0.7270, 0.7270]
+    SE(κ)                   : 0.370937
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  Interest-point detector      : FAST (SUSAN-substitute), K=40
+  Gabor bank                   : 2 scales × 3 orientations = 6 kernels
+  Vertex attribute dim         : 11 (x, y, R, G, B, 6 Gabor mags)
+  Vertex kernel α              : 3.0
+  Edge kernel β                : 0.0001
+  IND decision threshold λ     : 0.55
+  Matching surrogate           : Hungarian (linear_sum_assignment)
+                                 + pairwise-distance correlation
+  Note: exact MRF/LBP computation is intractable at this graph size (|V|=40); the Hungarian lower-bound is the standard tractable surrogate (Leordeanu & Hebert 2005).
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — Stochastic ARG Matching (r2)
+════════════════════════════════════════════════════════════════════════

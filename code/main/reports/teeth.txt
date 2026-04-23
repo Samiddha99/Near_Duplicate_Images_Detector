@@ -1,0 +1,971 @@
+══════════════════════════════════════════════════════════════════════
+  RESULTS
+══════════════════════════════════════════════════════════════════════
+  Images    : 207
+  Screened  : 21,321 pairs
+  Candidates: 15,525
+  Confirmed : 354
+  Groups    : 31
+  Threshold : 0.5
+  Workers   : 16 threads
+  GPU       : CPU
+══════════════════════════════════════════════════════════════════════
+
+  DUPLICATE GROUPS: 31
+
+  Group 1 (11 images):
+    • NEG_teeth-51 (1).jpg
+    • teeth-16 (1).jpg
+    • teeth-16 (10).jpg
+    • teeth-16 (2).jpg
+    • teeth-16 (3).jpg
+    • teeth-16 (4).jpg
+    • teeth-16 (5).jpg
+    • teeth-16 (6).jpg
+    • teeth-16 (7).jpg
+    • teeth-16 (8).jpg
+    • teeth-16 (9).jpg
+
+  Group 2 (10 images):
+    • teeth-17 (1).jpg
+    • teeth-17 (10).jpg
+    • teeth-17 (2).jpg
+    • teeth-17 (3).jpg
+    • teeth-17 (4).jpg
+    • teeth-17 (5).jpg
+    • teeth-17 (6).jpg
+    • teeth-17 (7).jpg
+    • teeth-17 (8).jpg
+    • teeth-17 (9).jpg
+
+  Group 3 (10 images):
+    • teeth-18 (1).jpg
+    • teeth-18 (10).jpg
+    • teeth-18 (2).jpg
+    • teeth-18 (3).jpg
+    • teeth-18 (4).jpg
+    • teeth-18 (5).jpg
+    • teeth-18 (6).jpg
+    • teeth-18 (7).jpg
+    • teeth-18 (8).jpg
+    • teeth-18 (9).jpg
+
+  Group 4 (9 images):
+    • teeth-11 (1).jpg
+    • teeth-11 (2).jpg
+    • teeth-11 (3).jpg
+    • teeth-11 (4).jpg
+    • teeth-11 (5).jpg
+    • teeth-11 (6).jpg
+    • teeth-11 (7).jpg
+    • teeth-11 (8).jpg
+    • teeth-11 (9).jpg
+
+  Group 5 (9 images):
+    • teeth-19 (1).jpg
+    • teeth-19 (2).jpg
+    • teeth-20 (1).jpg
+    • teeth-20 (2).jpg
+    • teeth-20 (3).jpg
+    • teeth-20 (4).jpg
+    • teeth-20 (5).jpg
+    • teeth-20 (6).jpg
+    • teeth-20 (7).jpg
+
+  Group 6 (8 images):
+    • teeth-10 (1).jpg
+    • teeth-10 (2).jpg
+    • teeth-10 (3).jpg
+    • teeth-10 (4).jpg
+    • teeth-10 (5).jpg
+    • teeth-10 (6).jpg
+    • teeth-10 (7).jpg
+    • teeth-10 (8).jpg
+
+  Group 7 (8 images):
+    • teeth-12 (1).jpg
+    • teeth-12 (2).jpg
+    • teeth-12 (3).jpg
+    • teeth-12 (4).jpg
+    • teeth-12 (5).jpg
+    • teeth-12 (6).jpg
+    • teeth-12 (7).jpg
+    • teeth-12 (8).jpg
+
+  Group 8 (8 images):
+    • teeth-13 (1).jpg
+    • teeth-13 (2).jpg
+    • teeth-13 (3).jpg
+    • teeth-13 (4).jpg
+    • teeth-13 (5).jpg
+    • teeth-13 (6).jpg
+    • teeth-13 (7).jpg
+    • teeth-13 (8).jpg
+
+  Group 9 (7 images):
+    • teeth-14 (1).jpg
+    • teeth-14 (2).jpg
+    • teeth-14 (3).jpg
+    • teeth-14 (4).jpg
+    • teeth-14 (5).jpg
+    • teeth-14 (6).jpg
+    • teeth-14 (7).jpg
+
+  Group 10 (7 images):
+    • teeth-15 (1).jpg
+    • teeth-15 (2).jpg
+    • teeth-15 (3).jpg
+    • teeth-15 (4).jpg
+    • teeth-15 (5).jpg
+    • teeth-15 (6).jpg
+    • teeth-15 (7).jpg
+
+  Group 11 (3 images):
+    • teeth-01 (1).jpg
+    • teeth-01 (2).jpg
+    • teeth-01 (3).jpg
+
+  Group 12 (3 images):
+    • teeth-02 (1).jpg
+    • teeth-02 (2).jpg
+    • teeth-02 (3).jpg
+
+  Group 13 (3 images):
+    • teeth-03 (1).jpg
+    • teeth-03 (2).jpg
+    • teeth-03 (3).jpg
+
+  Group 14 (3 images):
+    • teeth-08 (1).jpg
+    • teeth-08 (2).jpg
+    • teeth-08 (3).jpg
+
+  Group 15 (3 images):
+    • teeth-09 (1).jpg
+    • teeth-09 (2).jpg
+    • teeth-09 (3).jpg
+
+  Group 16 (3 images):
+    • teeth-22 (1).jpg
+    • teeth-22 (2).jpg
+    • teeth-22 (3).jpg
+
+  Group 17 (3 images):
+    • teeth-23 (1).jpg
+    • teeth-23 (2).jpg
+    • teeth-23 (3).jpg
+
+  Group 18 (2 images):
+    • teeth-04 (1).jpg
+    • teeth-04 (2).jpg
+
+  Group 19 (2 images):
+    • teeth-05 (1).jpg
+    • teeth-05 (2).jpg
+
+  Group 20 (2 images):
+    • teeth-06 (1).jpg
+    • teeth-06 (2).jpg
+
+  Group 21 (2 images):
+    • teeth-07 (1).jpg
+    • teeth-07 (2).jpg
+
+  Group 22 (2 images):
+    • teeth-21 (1).jpg
+    • teeth-21 (2).jpg
+
+  Group 23 (2 images):
+    • teeth-24 (1).jpg
+    • teeth-24 (2).jpg
+
+  Group 24 (2 images):
+    • teeth-25 (1).jpg
+    • teeth-25 (2).jpg
+
+  Group 25 (2 images):
+    • teeth-26 (1).jpg
+    • teeth-26 (2).jpg
+
+  Group 26 (2 images):
+    • teeth-27 (1).jpg
+    • teeth-27 (2).jpg
+
+  Group 27 (2 images):
+    • teeth-28 (1).jpg
+    • teeth-28 (2).jpg
+
+  Group 28 (2 images):
+    • teeth-29 (1).jpg
+    • teeth-29 (2).jpg
+
+  Group 29 (2 images):
+    • teeth-30 (1).jpg
+    • teeth-30 (2).jpg
+
+  Group 30 (2 images):
+    • teeth-31 (1).jpg
+    • teeth-31 (2).jpg
+
+  Group 31 (2 images):
+    • teeth-32 (1).jpg
+    • teeth-32 (2).jpg
+
+  Top 60 of 354 pairs:
+
+  ┌─ teeth-01 (2).jpg
+  └─ teeth-01 (3).jpg  conf=1.0000  inliers=433  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ████████████████████  1.0000
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-02 (2).jpg
+  └─ teeth-02 (3).jpg  conf=0.9997  inliers=1062  [global]
+                warp_ssim  ████████████████████  1.0000
+           warp_pixel_sim  ████████████████████  1.0000
+         orb_inlier_ratio  ████████████████████  1.0000
+                   hu_sim  ████████████████████  1.0000
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9971
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (3).jpg
+  └─ teeth-16 (4).jpg  conf=0.9996  inliers=970  [global]
+                 hist_sim  ████████████████████  1.0000
+            overlap_ratio  ███████████████████░  0.9999
+         orb_inlier_ratio  ███████████████████░  0.9990
+                   hu_sim  ███████████████████░  0.9959
+           warp_pixel_sim  ███████████████████░  0.9832
+                warp_ssim  ███████████████████░  0.9676
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-12 (3).jpg
+  └─ teeth-12 (5).jpg  conf=0.9985  inliers=534  [global]
+            overlap_ratio  ████████████████████  1.0000
+         orb_inlier_ratio  ███████████████████░  0.9963
+                 hist_sim  ███████████████████░  0.9775
+           warp_pixel_sim  ██████████████████░░  0.9435
+                   hu_sim  ██████████████████░░  0.9078
+                warp_ssim  ████████████████░░░░  0.8127
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-02 (1).jpg
+  └─ teeth-02 (3).jpg  conf=0.9983  inliers=935  [global]
+                 hist_sim  ███████████████████░  0.9997
+         orb_inlier_ratio  ███████████████████░  0.9979
+            overlap_ratio  ███████████████████░  0.9971
+                   hu_sim  ███████████████████░  0.9887
+           warp_pixel_sim  ███████████████████░  0.9702
+                warp_ssim  ██████████████████░░  0.9272
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-02 (1).jpg
+  └─ teeth-02 (2).jpg  conf=0.9983  inliers=935  [global]
+                 hist_sim  ███████████████████░  0.9997
+         orb_inlier_ratio  ███████████████████░  0.9979
+            overlap_ratio  ███████████████████░  0.9971
+                   hu_sim  ███████████████████░  0.9887
+           warp_pixel_sim  ███████████████████░  0.9702
+                warp_ssim  ██████████████████░░  0.9272
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-01 (1).jpg
+  └─ teeth-01 (3).jpg  conf=0.9980  inliers=311  [global]
+                 hist_sim  ███████████████████░  0.9999
+            overlap_ratio  ███████████████████░  0.9976
+         orb_inlier_ratio  ███████████████████░  0.9968
+                   hu_sim  ███████████████████░  0.9942
+           warp_pixel_sim  ███████████████████░  0.9616
+                warp_ssim  █████████████████░░░  0.8789
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-01 (1).jpg
+  └─ teeth-01 (2).jpg  conf=0.9980  inliers=311  [global]
+                 hist_sim  ███████████████████░  0.9999
+            overlap_ratio  ███████████████████░  0.9976
+         orb_inlier_ratio  ███████████████████░  0.9968
+                   hu_sim  ███████████████████░  0.9942
+           warp_pixel_sim  ███████████████████░  0.9616
+                warp_ssim  █████████████████░░░  0.8789
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-05 (1).jpg
+  └─ teeth-05 (2).jpg  conf=0.9980  inliers=1971  [global]
+            overlap_ratio  ████████████████████  1.0000
+         orb_inlier_ratio  ███████████████████░  0.9950
+           warp_pixel_sim  ███████████████████░  0.9617
+                 hist_sim  ███████████████████░  0.9573
+                warp_ssim  ██████████████████░░  0.9223
+                   hu_sim  █████████████████░░░  0.8553
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-17 (1).jpg
+  └─ teeth-17 (2).jpg  conf=0.9958  inliers=378  [global]
+            overlap_ratio  ████████████████████  1.0000
+                 hist_sim  ███████████████████░  0.9949
+         orb_inlier_ratio  ███████████████████░  0.9895
+           warp_pixel_sim  ██████████████████░░  0.9480
+                warp_ssim  ██████████████░░░░░░  0.7475
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0559
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-18 (10).jpg
+  └─ teeth-18 (2).jpg  conf=0.9938  inliers=890  [global]
+            overlap_ratio  ████████████████████  1.0000
+         orb_inlier_ratio  ███████████████████░  0.9845
+           warp_pixel_sim  ███████████████████░  0.9556
+                warp_ssim  ██████████████████░░  0.9061
+                 hist_sim  ████████████████░░░░  0.8475
+                   hu_sim  ███████████████░░░░░  0.7648
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-17 (10).jpg
+  └─ teeth-17 (2).jpg  conf=0.9924  inliers=205  [global]
+            overlap_ratio  ████████████████████  1.0000
+         orb_inlier_ratio  ███████████████████░  0.9809
+                 hist_sim  ███████████████████░  0.9788
+           warp_pixel_sim  ██████████████████░░  0.9486
+                warp_ssim  ██████████████░░░░░░  0.7293
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0552
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-17 (5).jpg
+  └─ teeth-17 (8).jpg  conf=0.9918  inliers=224 [FLIP]  [global]
+         orb_inlier_ratio  ███████████████████░  0.9912
+            overlap_ratio  ███████████████████░  0.9844
+                 hist_sim  ███████████████████░  0.9829
+           warp_pixel_sim  ███████████████████░  0.9510
+                   hu_sim  █████████████████░░░  0.8549
+                warp_ssim  ███████████████░░░░░  0.7595
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-12 (4).jpg
+  └─ teeth-12 (5).jpg  conf=0.9896  inliers=301  [global]
+            overlap_ratio  ███████████████████░  0.9998
+                 hist_sim  ███████████████████░  0.9751
+         orb_inlier_ratio  ███████████████████░  0.9741
+                   hu_sim  ██████████████████░░  0.9405
+           warp_pixel_sim  ██████████████████░░  0.9265
+                warp_ssim  ████████████░░░░░░░░  0.6445
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-12 (3).jpg
+  └─ teeth-12 (4).jpg  conf=0.9881  inliers=306  [global]
+                 hist_sim  ███████████████████░  0.9996
+            overlap_ratio  ███████████████████░  0.9985
+         orb_inlier_ratio  ███████████████████░  0.9714
+           warp_pixel_sim  ██████████████████░░  0.9251
+                   hu_sim  ██████████████████░░  0.9225
+                warp_ssim  ████████████░░░░░░░░  0.6300
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (5).jpg
+  └─ teeth-13 (7).jpg  conf=0.9871  inliers=300  [global]
+            overlap_ratio  ████████████████████  1.0000
+                 hist_sim  ███████████████████░  0.9917
+         orb_inlier_ratio  ███████████████████░  0.9677
+           warp_pixel_sim  ██████████████████░░  0.9276
+                warp_ssim  ██████████████░░░░░░  0.7260
+                   hu_sim  ░░░░░░░░░░░░░░░░░░░░  0.0482
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-09 (1).jpg
+  └─ teeth-09 (3).jpg  conf=0.9842  inliers=232  [global]
+            overlap_ratio  ███████████████████░  0.9919
+         orb_inlier_ratio  ███████████████████░  0.9667
+           warp_pixel_sim  ██████████████████░░  0.9262
+                   hu_sim  █████████████████░░░  0.8597
+                warp_ssim  ████████████████░░░░  0.8093
+                 hist_sim  ███████████████░░░░░  0.7746
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-08 (1).jpg
+  └─ teeth-08 (2).jpg  conf=0.9832  inliers=251  [global]
+            overlap_ratio  ████████████████████  1.0000
+         orb_inlier_ratio  ███████████████████░  0.9580
+           warp_pixel_sim  ██████████████████░░  0.9471
+                warp_ssim  █████████████████░░░  0.8678
+                 hist_sim  █████████████░░░░░░░  0.6635
+                   hu_sim  ███████████░░░░░░░░░  0.5770
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-14 (1).jpg
+  └─ teeth-14 (6).jpg  conf=0.9822  inliers=596  [global]
+            overlap_ratio  ███████████████████░  0.9882
+                 hist_sim  ███████████████████░  0.9768
+         orb_inlier_ratio  ███████████████████░  0.9644
+           warp_pixel_sim  ██████████████████░░  0.9396
+                   hu_sim  ████████████████░░░░  0.8379
+                warp_ssim  ███████████████░░░░░  0.7586
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-14 (2).jpg
+  └─ teeth-14 (7).jpg  conf=0.9820  inliers=547  [global]
+            overlap_ratio  ███████████████████░  0.9849
+         orb_inlier_ratio  ███████████████████░  0.9664
+                 hist_sim  ███████████████████░  0.9661
+           warp_pixel_sim  ██████████████████░░  0.9293
+                warp_ssim  ██████████████░░░░░░  0.7084
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0705
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-03 (2).jpg
+  └─ teeth-03 (3).jpg  conf=0.9813  inliers=376 [FLIP]  [global]
+         orb_inlier_ratio  ███████████████████░  0.9921
+            overlap_ratio  ██████████████████░░  0.9482
+           warp_pixel_sim  ██████████████████░░  0.9358
+                 hist_sim  ████████████████░░░░  0.8362
+                warp_ssim  ███████████████░░░░░  0.7652
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0691
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-14 (2).jpg
+  └─ teeth-14 (6).jpg  conf=0.9800  inliers=629 [FLIP]  [global]
+            overlap_ratio  ███████████████████░  0.9724
+         orb_inlier_ratio  ███████████████████░  0.9707
+                 hist_sim  ███████████████████░  0.9705
+           warp_pixel_sim  ██████████████████░░  0.9461
+                warp_ssim  ███████████████░░░░░  0.7769
+                   hu_sim  ███████████░░░░░░░░░  0.5989
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-07 (1).jpg
+  └─ teeth-07 (2).jpg  conf=0.9760  inliers=376  [global]
+            overlap_ratio  ████████████████████  1.0000
+         orb_inlier_ratio  ██████████████████░░  0.9400
+           warp_pixel_sim  ██████████████████░░  0.9122
+                warp_ssim  ████████████████░░░░  0.8082
+                   hu_sim  ███████████████░░░░░  0.7773
+                 hist_sim  █████████████░░░░░░░  0.6886
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-14 (1).jpg
+  └─ teeth-14 (7).jpg  conf=0.9744  inliers=650 [FLIP]  [global]
+            overlap_ratio  ███████████████████░  0.9736
+                 hist_sim  ███████████████████░  0.9684
+         orb_inlier_ratio  ███████████████████░  0.9559
+           warp_pixel_sim  ██████████████████░░  0.9386
+                warp_ssim  ███████████████░░░░░  0.7574
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0710
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (1).jpg
+  └─ teeth-16 (2).jpg  conf=0.9725  inliers=478 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9929
+         orb_inlier_ratio  ███████████████████░  0.9696
+            overlap_ratio  ██████████████████░░  0.9490
+           warp_pixel_sim  ██████████████████░░  0.9435
+                warp_ssim  ███████████████░░░░░  0.7709
+                   hu_sim  █████████████░░░░░░░  0.6588
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-14 (6).jpg
+  └─ teeth-14 (7).jpg  conf=0.9724  inliers=659 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9986
+         orb_inlier_ratio  ███████████████████░  0.9763
+            overlap_ratio  ██████████████████░░  0.9395
+           warp_pixel_sim  ██████████████████░░  0.9357
+                warp_ssim  ███████████████░░░░░  0.7527
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0722
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (1).jpg
+  └─ teeth-16 (10).jpg  conf=0.9716  inliers=449 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9934
+            overlap_ratio  ███████████████████░  0.9756
+         orb_inlier_ratio  ██████████████████░░  0.9473
+           warp_pixel_sim  ██████████████████░░  0.9453
+                warp_ssim  ███████████████░░░░░  0.7635
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0732
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-18 (1).jpg
+  └─ teeth-18 (6).jpg  conf=0.9716  inliers=365  [global]
+                 hist_sim  ███████████████████░  0.9954
+         orb_inlier_ratio  ███████████████████░  0.9656
+            overlap_ratio  ███████████████████░  0.9511
+           warp_pixel_sim  ██████████████████░░  0.9321
+                warp_ssim  ██████████████░░░░░░  0.7194
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0633
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-22 (1).jpg
+  └─ teeth-22 (3).jpg  conf=0.9692  inliers=202  [global]
+            overlap_ratio  ███████████████████░  0.9951
+                 hist_sim  ██████████████████░░  0.9431
+         orb_inlier_ratio  ██████████████████░░  0.9266
+           warp_pixel_sim  ██████████████████░░  0.9244
+                warp_ssim  ████████████░░░░░░░░  0.6400
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0549
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-08 (2).jpg
+  └─ teeth-08 (3).jpg  conf=0.9672  inliers=251  [global]
+                 hist_sim  ███████████████████░  0.9895
+         orb_inlier_ratio  ███████████████████░  0.9767
+           warp_pixel_sim  ██████████████████░░  0.9416
+            overlap_ratio  ██████████████████░░  0.9219
+                warp_ssim  ███████████████░░░░░  0.7836
+                   hu_sim  ████████████░░░░░░░░  0.6141
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (2).jpg
+  └─ teeth-13 (6).jpg  conf=0.9642  inliers=280 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9955
+         orb_inlier_ratio  ███████████████████░  0.9790
+           warp_pixel_sim  ██████████████████░░  0.9284
+            overlap_ratio  ██████████████████░░  0.9086
+                warp_ssim  █████████████░░░░░░░  0.6848
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0579
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (3).jpg
+  └─ teeth-13 (7).jpg  conf=0.9634  inliers=353  [global]
+                 hist_sim  ███████████████████░  0.9973
+         orb_inlier_ratio  ███████████████████░  0.9515
+            overlap_ratio  ██████████████████░░  0.9426
+           warp_pixel_sim  ██████████████████░░  0.9066
+                warp_ssim  ████████████░░░░░░░░  0.6067
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0668
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (3).jpg
+  └─ teeth-16 (5).jpg  conf=0.9619  inliers=411 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9936
+         orb_inlier_ratio  ███████████████████░  0.9762
+           warp_pixel_sim  ██████████████████░░  0.9452
+            overlap_ratio  ██████████████████░░  0.9048
+                warp_ssim  ██████████████░░░░░░  0.7161
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0699
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (4).jpg
+  └─ teeth-16 (5).jpg  conf=0.9617  inliers=389 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9935
+         orb_inlier_ratio  ███████████████████░  0.9749
+           warp_pixel_sim  ██████████████████░░  0.9412
+            overlap_ratio  ██████████████████░░  0.9058
+                warp_ssim  █████████████░░░░░░░  0.6984
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0699
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-17 (1).jpg
+  └─ teeth-17 (7).jpg  conf=0.9574  inliers=202 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9928
+         orb_inlier_ratio  ███████████████████░  0.9528
+           warp_pixel_sim  ██████████████████░░  0.9322
+            overlap_ratio  ██████████████████░░  0.9209
+                warp_ssim  ████████████░░░░░░░░  0.6193
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0976
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-18 (4).jpg
+  └─ teeth-18 (6).jpg  conf=0.9568  inliers=357 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9826
+         orb_inlier_ratio  ███████████████████░  0.9728
+           warp_pixel_sim  ██████████████████░░  0.9265
+            overlap_ratio  █████████████████░░░  0.8924
+                warp_ssim  ████████████░░░░░░░░  0.6367
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0888
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (1).jpg
+  └─ teeth-16 (3).jpg  conf=0.9565  inliers=364 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9958
+           warp_pixel_sim  ██████████████████░░  0.9443
+         orb_inlier_ratio  ██████████████████░░  0.9406
+            overlap_ratio  ██████████████████░░  0.9343
+                warp_ssim  ███████████████░░░░░  0.7594
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0692
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-08 (1).jpg
+  └─ teeth-08 (3).jpg  conf=0.9561  inliers=221  [global]
+         orb_inlier_ratio  ███████████████████░  0.9526
+            overlap_ratio  ██████████████████░░  0.9168
+           warp_pixel_sim  ██████████████████░░  0.9141
+                 hist_sim  █████████████░░░░░░░  0.6683
+                warp_ssim  █████████████░░░░░░░  0.6547
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0889
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (8).jpg
+  └─ teeth-16 (9).jpg  conf=0.9555  inliers=229  [global]
+                 hist_sim  ███████████████████░  0.9810
+         orb_inlier_ratio  ███████████████████░  0.9542
+           warp_pixel_sim  ██████████████████░░  0.9447
+            overlap_ratio  ██████████████████░░  0.9127
+                warp_ssim  ██████████████░░░░░░  0.7334
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0684
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (2).jpg
+  └─ teeth-13 (7).jpg  conf=0.9540  inliers=239  [global]
+         orb_inlier_ratio  ███████████████████░  0.9715
+                 hist_sim  ███████████████████░  0.9613
+           warp_pixel_sim  ██████████████████░░  0.9326
+            overlap_ratio  █████████████████░░░  0.8848
+                warp_ssim  ██████████████░░░░░░  0.7065
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0676
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (1).jpg
+  └─ teeth-16 (5).jpg  conf=0.9537  inliers=393  [global]
+                 hist_sim  ███████████████████░  0.9906
+           warp_pixel_sim  ██████████████████░░  0.9452
+         orb_inlier_ratio  ██████████████████░░  0.9447
+            overlap_ratio  ██████████████████░░  0.9194
+                warp_ssim  ██████████████░░░░░░  0.7293
+                   hu_sim  █████████████░░░░░░░  0.6969
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (1).jpg
+  └─ teeth-16 (4).jpg  conf=0.9537  inliers=367 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9957
+           warp_pixel_sim  ██████████████████░░  0.9425
+            overlap_ratio  ██████████████████░░  0.9340
+         orb_inlier_ratio  ██████████████████░░  0.9338
+                warp_ssim  ███████████████░░░░░  0.7504
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0692
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-17 (3).jpg
+  └─ teeth-17 (6).jpg  conf=0.9523  inliers=218 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9843
+         orb_inlier_ratio  ███████████████████░  0.9520
+           warp_pixel_sim  ██████████████████░░  0.9471
+            overlap_ratio  ██████████████████░░  0.9050
+                warp_ssim  ███████████████░░░░░  0.7706
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0640
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-15 (3).jpg
+  └─ teeth-15 (6).jpg  conf=0.9518  inliers=497  [global]
+                 hist_sim  ███████████████████░  0.9952
+         orb_inlier_ratio  ███████████████████░  0.9783
+           warp_pixel_sim  ██████████████████░░  0.9393
+            overlap_ratio  █████████████████░░░  0.8682
+                   hu_sim  ██████████████░░░░░░  0.7465
+                warp_ssim  ██████████████░░░░░░  0.7189
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (6).jpg
+  └─ teeth-13 (8).jpg  conf=0.9491  inliers=265 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9975
+         orb_inlier_ratio  ███████████████████░  0.9636
+           warp_pixel_sim  ██████████████████░░  0.9349
+            overlap_ratio  █████████████████░░░  0.8789
+                warp_ssim  █████████████░░░░░░░  0.6951
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0565
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-03 (1).jpg
+  └─ teeth-03 (3).jpg  conf=0.9478  inliers=322 [FLIP]  [global]
+         orb_inlier_ratio  ███████████████████░  0.9583
+           warp_pixel_sim  ██████████████████░░  0.9420
+            overlap_ratio  █████████████████░░░  0.8816
+                 hist_sim  ████████████████░░░░  0.8307
+                warp_ssim  ███████████████░░░░░  0.7759
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0690
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-16 (7).jpg
+  └─ teeth-16 (8).jpg  conf=0.9472  inliers=407 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9896
+         orb_inlier_ratio  ███████████████████░  0.9807
+           warp_pixel_sim  ██████████████████░░  0.9496
+            overlap_ratio  ████████████████░░░░  0.8498
+                warp_ssim  ██████████████░░░░░░  0.7002
+                   hu_sim  ███████████░░░░░░░░░  0.5730
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (5).jpg
+  └─ teeth-13 (6).jpg  conf=0.9470  inliers=370 [FLIP]  [global]
+         orb_inlier_ratio  ███████████████████░  0.9610
+                 hist_sim  ███████████████████░  0.9557
+           warp_pixel_sim  ██████████████████░░  0.9307
+            overlap_ratio  █████████████████░░░  0.8754
+                warp_ssim  ██████████████░░░░░░  0.7007
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0974
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-15 (2).jpg
+  └─ teeth-15 (7).jpg  conf=0.9469  inliers=268  [global]
+                 hist_sim  ███████████████████░  0.9879
+         orb_inlier_ratio  ███████████████████░  0.9853
+           warp_pixel_sim  ██████████████████░░  0.9433
+            overlap_ratio  ████████████████░░░░  0.8427
+                   hu_sim  ██████████████░░░░░░  0.7246
+                warp_ssim  █████████████░░░░░░░  0.6621
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (1).jpg
+  └─ teeth-13 (7).jpg  conf=0.9468  inliers=308 [FLIP]  [global]
+         orb_inlier_ratio  ███████████████████░  0.9904
+                 hist_sim  ███████████████████░  0.9885
+           warp_pixel_sim  ██████████████████░░  0.9290
+            overlap_ratio  ████████████████░░░░  0.8353
+                warp_ssim  ████████████░░░░░░░░  0.6311
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0705
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (6).jpg
+  └─ teeth-13 (7).jpg  conf=0.9444  inliers=347 [FLIP]  [global]
+         orb_inlier_ratio  ███████████████████░  0.9775
+                 hist_sim  ███████████████████░  0.9664
+           warp_pixel_sim  ██████████████████░░  0.9352
+            overlap_ratio  ████████████████░░░░  0.8445
+                warp_ssim  ███████████████░░░░░  0.7829
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0553
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (1).jpg
+  └─ teeth-13 (4).jpg  conf=0.9438  inliers=319  [global]
+                 hist_sim  ███████████████████░  0.9913
+         orb_inlier_ratio  ███████████████████░  0.9907
+           warp_pixel_sim  ██████████████████░░  0.9181
+            overlap_ratio  ████████████████░░░░  0.8249
+                warp_ssim  █████████████░░░░░░░  0.6899
+                   hu_sim  ░░░░░░░░░░░░░░░░░░░░  0.0466
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-17 (2).jpg
+  └─ teeth-17 (8).jpg  conf=0.9437  inliers=202  [global]
+                 hist_sim  ███████████████████░  0.9609
+           warp_pixel_sim  ██████████████████░░  0.9450
+         orb_inlier_ratio  ██████████████████░░  0.9439
+            overlap_ratio  █████████████████░░░  0.8870
+                warp_ssim  █████████████░░░░░░░  0.6532
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0688
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-18 (1).jpg
+  └─ teeth-18 (4).jpg  conf=0.9437  inliers=580 [FLIP]  [global]
+         orb_inlier_ratio  ███████████████████░  0.9847
+                 hist_sim  ███████████████████░  0.9806
+           warp_pixel_sim  ██████████████████░░  0.9275
+            overlap_ratio  ████████████████░░░░  0.8327
+                warp_ssim  ███████████░░░░░░░░░  0.5900
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0613
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-18 (4).jpg
+  └─ teeth-18 (7).jpg  conf=0.9434  inliers=371  [global]
+                 hist_sim  ███████████████████░  0.9765
+         orb_inlier_ratio  ███████████████████░  0.9712
+           warp_pixel_sim  ██████████████████░░  0.9243
+            overlap_ratio  ████████████████░░░░  0.8496
+                warp_ssim  ████████████░░░░░░░░  0.6065
+                   hu_sim  █░░░░░░░░░░░░░░░░░░░  0.0520
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-13 (5).jpg
+  └─ teeth-13 (8).jpg  conf=0.9432  inliers=239  [global]
+                 hist_sim  ███████████████████░  0.9670
+         orb_inlier_ratio  ███████████████████░  0.9522
+           warp_pixel_sim  ██████████████████░░  0.9303
+            overlap_ratio  █████████████████░░░  0.8745
+                warp_ssim  █████████████░░░░░░░  0.6633
+                   hu_sim  ░░░░░░░░░░░░░░░░░░░░  0.0472
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-12 (5).jpg
+  └─ teeth-12 (6).jpg  conf=0.9418  inliers=230 [FLIP]  [global]
+                 hist_sim  ███████████████████░  0.9978
+         orb_inlier_ratio  ███████████████████░  0.9829
+           warp_pixel_sim  ██████████████████░░  0.9294
+            overlap_ratio  ████████████████░░░░  0.8287
+                   hu_sim  ████████████░░░░░░░░  0.6161
+                warp_ssim  ███████████░░░░░░░░░  0.5625
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-18 (1).jpg
+  └─ teeth-18 (10).jpg  conf=0.9410  inliers=308  [global]
+         orb_inlier_ratio  ███████████████████░  0.9686
+           warp_pixel_sim  ██████████████████░░  0.9195
+            overlap_ratio  ████████████████░░░░  0.8452
+                 hist_sim  ████████████████░░░░  0.8017
+                warp_ssim  █████████████░░░░░░░  0.6925
+                   hu_sim  ░░░░░░░░░░░░░░░░░░░░  0.0468
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-18 (1).jpg
+  └─ teeth-18 (2).jpg  conf=0.9406  inliers=319  [global]
+                 hist_sim  ███████████████████░  0.9726
+         orb_inlier_ratio  ███████████████████░  0.9637
+           warp_pixel_sim  ██████████████████░░  0.9291
+            overlap_ratio  █████████████████░░░  0.8503
+                warp_ssim  ██████████████░░░░░░  0.7102
+                   hu_sim  ░░░░░░░░░░░░░░░░░░░░  0.0462
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+  ┌─ teeth-18 (1).jpg
+  └─ teeth-18 (7).jpg  conf=0.9402  inliers=440 [FLIP]  [global]
+         orb_inlier_ratio  ███████████████████░  0.9888
+                 hist_sim  ███████████████████░  0.9693
+           warp_pixel_sim  ██████████████████░░  0.9327
+            overlap_ratio  ████████████████░░░░  0.8155
+                warp_ssim  ██████████████░░░░░░  0.7184
+                   hu_sim  ░░░░░░░░░░░░░░░░░░░░  0.0463
+            fallback_ssim  ░░░░░░░░░░░░░░░░░░░░  0.0000
+
+══════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS (Section 4.2)
+══════════════════════════════════════════════════════════════════════
+
+  ── 4.2.1 Pair-Level Metrics ──
+    True Positives  (TP)  : 343
+    False Positives (FP)  : 11
+    False Negatives (FN)  : 11
+    True Negatives  (TN)  : 20,956
+    Pair Precision        : 96.89%
+    Pair Recall           : 96.89%
+    Pair F1-Score         : 96.89%
+
+    False-Positive Pairs (11):
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (1).jpg  [teeth-16]  conf=0.8029
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (10).jpg  [teeth-16]  conf=0.6790
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (2).jpg  [teeth-16]  conf=0.7271
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (5).jpg  [teeth-16]  conf=0.7654
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (8).jpg  [teeth-16]  conf=0.7048
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (3).jpg  [teeth-16]  conf=0.6821
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (4).jpg  [teeth-16]  conf=0.7257
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (6).jpg  [teeth-16]  conf=0.7359
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (7).jpg  [teeth-16]  conf=0.6610
+
+      NEG_teeth-51 (1).jpg  [NEG__NEG_teeth-51 (1).jpg]
+      teeth-16 (9).jpg  [teeth-16]  conf=0.6871
+
+      teeth-19 (2).jpg  [teeth-19]
+      teeth-20 (1).jpg  [teeth-20]  conf=0.6156
+
+
+  ── 4.2.2 Group-Level Metrics ──
+    Groups detected       : 31
+    GT classes (≥2 imgs)  : 32
+    Pure groups           : 29/31
+    Contaminated groups   : 2
+    Avg group purity      : 0.9899
+    Avg group completeness: 1.0000
+    Grouped images        : 136/207
+    Ungrouped images      : 71
+
+    Contaminated Group Details:
+      [11 members] teeth-16: 10, NEG__NEG_teeth-51 (1).jpg: 1
+      [9 members] teeth-20: 7, teeth-19: 2
+
+  ── 4.2.3 NEG Leakage ──
+    NEG images in dataset : 72
+    NEG leaked into groups: 1/72
+      Leaked: NEG_teeth-51 (1).jpg
+
+  ── 4.2.4 Screening Efficiency ──
+    Total pairs           : 21,321
+    Candidates (passed)   : 15,525
+    Screening pass rate   : 72.8%
+    GT duplicate pairs    : 354
+    GT pairs in candidates: 354
+    Screening recall      : 100.00%
+    Verification confirm  : 2.3%  (354/15525)
+
+  ── 4.2.5 Confidence Distribution ──
+    Confirmed pairs (TP+FP): 354
+    Rejected candidates    : 15,171
+    μ_TP  (mean TP conf)   : 0.8537
+    min TP confidence       : 0.5922
+    μ_REJ (mean REJ conf)  : 0.2940
+    max REJ confidence      : 0.6395
+    Decision margin (Δ)    : -0.0473  (min_TP=0.5922 − max_REJ=0.6395)
+
+  ── Group Completeness per GT Class ──
+══════════════════════════════════════════════════════════════════════
+
+
+══════════════════════════════════════════════════════════════════════
+  BASELINE COMPARISON — F1 Scores (Section 4.6.3)
+══════════════════════════════════════════════════════════════════════
+
+  Method                         TP      FP      FN    Prec%     Rec%      F1%
+  ───────────────────────── ─────── ─────── ─────── ──────── ──────── ────────
+  Proposed (full system)        343      11      11   96.89%   96.89%   96.89%
+  pHash (Ham<=10)                13       0     341  100.00%    3.67%    7.08%
+  dHash (Ham<=10)                14       3     340   82.35%    3.95%    7.55%
+  Hist-only (>0.70)             345   4,059       9    7.83%   97.46%   14.50%
+  ORB-ratio (>0.50)             352   4,113       2    7.88%   99.44%   14.61%
+  SSIM-only (>0.50)             324      10      30   97.01%   91.53%   94.19%
+  Pixel-sim (>0.85)             340      13      14   96.32%   96.05%   96.18%
+══════════════════════════════════════════════════════════════════════
+
+
+══════════════════════════════════════════════════════════════════════
+  STATISTICAL SIGNIFICANCE TESTS (Section 4.3)
+══════════════════════════════════════════════════════════════════════
+
+  ── 4.3.1 McNemar's Test (α=0.05) ──
+    Comparison of our method vs single-metric baselines
+    on 15,525 verified candidate pairs.
+
+    Baseline                               n01    n10         χ²    p-value  Sig?
+    ─────────────────────────────────── ────── ────── ────────── ────────── ─────
+    pHash (Hamming≤10)                     330     11     296.55     <0.001   Yes
+    dHash (Hamming≤10)                     332     11     298.54     <0.001   Yes
+    Histogram-only (hist>0.70)            4054      8    4028.07     <0.001   Yes
+    ORB-ratio-only (ratio>0.50)           4102      9    4073.09     <0.001   Yes
+    SSIM-only (ssim>0.50)                   19      1      exact     <0.001   Yes
+    Pixel-sim-only (pix>0.85)                7      2      exact     0.1797    No
+
+  ── 4.3.2 Wilcoxon Signed-Rank Test ──
+    Comparing confidence distributions: our method vs SSIM-only.
+
+    True Positives (n=343):
+      Median Δ (ours−warp_ssim) : +0.1896
+      W+ = 58592,  W- = 61
+      z = -15.9940,  p-value = <0.001  → Significant
+    Rejected pairs (n=15,171):
+      Median Δ (ours−warp_ssim) : +0.3350
+      W+ = 115087206,  W- = 0
+      z = -106.6706,  p-value = <0.001  → Significant
+
+  ── 4.3.3 Friedman Test with Nemenyi Post-Hoc ──
+    NOTE: Friedman test requires results from multiple datasets.
+    Use compute_friedman_test() with F1 scores from all datasets.
+    See Section 4.6.3 in the paper for the aggregated analysis.
+
+  ── 4.3.4 Bootstrap 95% Confidence Intervals (B=10,000) ──
+    Metric           Value                     95% CI
+    ────────────  ────────   ────────────────────────
+    Precision       96.89%   [94.96%, 98.56%]
+    Recall          96.89%   [94.99%, 98.55%]
+    F1-Score        96.89%   [95.56%, 98.10%]
+
+  ── 4.3.5 Cohen's Kappa (κ) ──
+    Total pairs (n)       : 21,321
+    Observed agreement p₀ : 0.998968
+    Expected agreement pₑ : 0.967345
+    Cohen's Kappa (κ)     : 0.9684
+    95% CI                : [0.9552, 0.9816]
+    SE(κ)                 : 0.006733
+    Interpretation        : Near-perfect agreement
+      (Landis & Koch, 1977: 0.81–1.00 = near-perfect)
+══════════════════════════════════════════════════════════════════════

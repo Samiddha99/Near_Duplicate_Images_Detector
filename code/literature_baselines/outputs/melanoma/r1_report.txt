@@ -1,0 +1,128 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  pHash + ViT + Siamese (r1)
+  Reference: Jakhar & Borah, IPM 62 (2025) 104086
+════════════════════════════════════════════════════════════════════════
+  Images              : 20
+  Total pairs         : 190
+  Pair predictions    : 190
+  Runtime             : 4.5 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 2
+  Group 1 (12 images):
+    • NEG_Melanoma (1).jpeg
+    • NEG_Melanoma (10).jpg
+    • NEG_Melanoma (11).jpeg
+    • NEG_Melanoma (12).jpg
+    • NEG_Melanoma (13).jpeg
+    • NEG_Melanoma (19).jpeg
+    • NEG_Melanoma (2).jpg
+    • NEG_Melanoma (20).jpeg
+    • NEG_Melanoma (4).jpg
+    • NEG_Melanoma (5).jpeg
+    • NEG_Melanoma (6).jpg
+    • NEG_Melanoma (7).jpeg
+
+  Group 2 (4 images):
+    • NEG_Melanoma (17).jpeg
+    • NEG_Melanoma (18).jpg
+    • NEG_Melanoma (3).jpeg
+    • NEG_Melanoma (9).jpeg
+
+CONFIRMED PAIRS : 17   REJECTED : 173
+
+  Top 17 highest-scoring confirmed pairs:
+    score=0.7693 [FP]  NEG_Melanoma (17).jpeg  ↔  NEG_Melanoma (18).jpg
+    score=0.7219 [FP]  NEG_Melanoma (10).jpg  ↔  NEG_Melanoma (6).jpg
+    score=0.7072 [FP]  NEG_Melanoma (18).jpg  ↔  NEG_Melanoma (9).jpeg
+    score=0.6976 [FP]  NEG_Melanoma (1).jpeg  ↔  NEG_Melanoma (19).jpeg
+    score=0.6895 [FP]  NEG_Melanoma (19).jpeg  ↔  NEG_Melanoma (6).jpg
+    score=0.6839 [FP]  NEG_Melanoma (20).jpeg  ↔  NEG_Melanoma (6).jpg
+    score=0.6823 [FP]  NEG_Melanoma (18).jpg  ↔  NEG_Melanoma (3).jpeg
+    score=0.6609 [FP]  NEG_Melanoma (11).jpeg  ↔  NEG_Melanoma (13).jpeg
+    score=0.6552 [FP]  NEG_Melanoma (4).jpg  ↔  NEG_Melanoma (7).jpeg
+    score=0.6489 [FP]  NEG_Melanoma (19).jpeg  ↔  NEG_Melanoma (2).jpg
+    score=0.6470 [FP]  NEG_Melanoma (11).jpeg  ↔  NEG_Melanoma (19).jpeg
+    score=0.6461 [FP]  NEG_Melanoma (1).jpeg  ↔  NEG_Melanoma (13).jpeg
+    score=0.6366 [FP]  NEG_Melanoma (10).jpg  ↔  NEG_Melanoma (5).jpeg
+    score=0.6286 [FP]  NEG_Melanoma (10).jpg  ↔  NEG_Melanoma (19).jpeg
+    score=0.5963 [FP]  NEG_Melanoma (12).jpg  ↔  NEG_Melanoma (2).jpg
+    score=0.5907 [FP]  NEG_Melanoma (13).jpeg  ↔  NEG_Melanoma (19).jpeg
+    score=0.5641 [FP]  NEG_Melanoma (13).jpeg  ↔  NEG_Melanoma (7).jpeg
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 0
+    False Positives (FP) : 17
+    False Negatives (FN) : 0
+    True Negatives  (TN) : 173
+    Precision            : 0.00%
+    Recall               : 100.00%
+    F1-Score             : 0.00%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 2
+    GT classes (≥2 imgs) : 0
+    Pure groups          : 0/2
+    Contaminated groups  : 2
+    Avg group purity     : 0.1667
+    Avg group completeness: 1.0000
+    Grouped / ungrouped  : 16 / 4
+    Contaminated group breakdown:
+      [12 members] NEG__NEG_Melanoma (4).jpg: 1, NEG__NEG_Melanoma (20).jpeg: 1, NEG__NEG_Melanoma (2).jpg: 1, NEG__NEG_Melanoma (13).jpeg: 1, NEG__NEG_Melanoma (10).jpg: 1, NEG__NEG_Melanoma (11).jpeg: 1, NEG__NEG_Melanoma (6).jpg: 1, NEG__NEG_Melanoma (12).jpg: 1, NEG__NEG_Melanoma (7).jpeg: 1, NEG__NEG_Melanoma (19).jpeg: 1, NEG__NEG_Melanoma (5).jpeg: 1, NEG__NEG_Melanoma (1).jpeg: 1
+      [4 members] NEG__NEG_Melanoma (3).jpeg: 1, NEG__NEG_Melanoma (17).jpeg: 1, NEG__NEG_Melanoma (9).jpeg: 1, NEG__NEG_Melanoma (18).jpg: 1
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 20
+    NEG leaked into groups: 16/20
+      Leaked: NEG_Melanoma (4).jpg
+      Leaked: NEG_Melanoma (20).jpeg
+      Leaked: NEG_Melanoma (2).jpg
+      Leaked: NEG_Melanoma (13).jpeg
+      Leaked: NEG_Melanoma (10).jpg
+      Leaked: NEG_Melanoma (11).jpeg
+      Leaked: NEG_Melanoma (6).jpg
+      Leaked: NEG_Melanoma (12).jpg
+      Leaked: NEG_Melanoma (7).jpeg
+      Leaked: NEG_Melanoma (19).jpeg
+      Leaked: NEG_Melanoma (5).jpeg
+      Leaked: NEG_Melanoma (1).jpeg
+      Leaked: NEG_Melanoma (3).jpeg
+      Leaked: NEG_Melanoma (17).jpeg
+      Leaked: NEG_Melanoma (9).jpeg
+      Leaked: NEG_Melanoma (18).jpg
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.0000
+    μ_FP  mean score of FP  : 0.6604
+    μ_REJ mean score of rej : 0.0000
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=2,000):
+    Precision :    0.00%   [0.00%, 0.00%]
+    Recall    :  100.00%   [100.00%, 100.00%]
+    F1        :    0.00%   [0.00%, 0.00%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 0.910526
+    pₑ (expected agreement) : 0.910526
+    κ                       : 0.0000   (Slight)
+    95% CI                  : [-0.4536, 0.4536]
+    SE(κ)                   : 0.231431
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  Stage-1 pHash (64-bit DCT)  — Hamming≤24 filter
+  Stage-2 ViT-B/16 embedding   — CLS pooled, L2-normalised
+  Siamese surrogate: σ(1.5·pHashSim + 3.0·cosViT − 2.0) > 0.5
+  Device used: cpu
+  Total pairs scored: 190 (pruned by pHash filter: 173)
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — pHash + ViT + Siamese (r1)
+════════════════════════════════════════════════════════════════════════

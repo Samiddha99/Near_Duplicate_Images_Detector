@@ -1,0 +1,317 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  Proposed (ours) — duplicate_detector_final.py
+  Reference: Our research method
+════════════════════════════════════════════════════════════════════════
+  Images              : 207
+  Total pairs         : 21,321
+  Pair predictions    : 21,321
+  Runtime             : 721.1 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 31
+  Group 1 (11 images):
+    • NEG_teeth-51 (1).jpg
+    • teeth-16 (1).jpg
+    • teeth-16 (10).jpg
+    • teeth-16 (2).jpg
+    • teeth-16 (3).jpg
+    • teeth-16 (4).jpg
+    • teeth-16 (5).jpg
+    • teeth-16 (6).jpg
+    • teeth-16 (7).jpg
+    • teeth-16 (8).jpg
+    • teeth-16 (9).jpg
+
+  Group 2 (10 images):
+    • teeth-17 (1).jpg
+    • teeth-17 (10).jpg
+    • teeth-17 (2).jpg
+    • teeth-17 (3).jpg
+    • teeth-17 (4).jpg
+    • teeth-17 (5).jpg
+    • teeth-17 (6).jpg
+    • teeth-17 (7).jpg
+    • teeth-17 (8).jpg
+    • teeth-17 (9).jpg
+
+  Group 3 (10 images):
+    • teeth-18 (1).jpg
+    • teeth-18 (10).jpg
+    • teeth-18 (2).jpg
+    • teeth-18 (3).jpg
+    • teeth-18 (4).jpg
+    • teeth-18 (5).jpg
+    • teeth-18 (6).jpg
+    • teeth-18 (7).jpg
+    • teeth-18 (8).jpg
+    • teeth-18 (9).jpg
+
+  Group 4 (9 images):
+    • teeth-11 (1).jpg
+    • teeth-11 (2).jpg
+    • teeth-11 (3).jpg
+    • teeth-11 (4).jpg
+    • teeth-11 (5).jpg
+    • teeth-11 (6).jpg
+    • teeth-11 (7).jpg
+    • teeth-11 (8).jpg
+    • teeth-11 (9).jpg
+
+  Group 5 (9 images):
+    • teeth-19 (1).jpg
+    • teeth-19 (2).jpg
+    • teeth-20 (1).jpg
+    • teeth-20 (2).jpg
+    • teeth-20 (3).jpg
+    • teeth-20 (4).jpg
+    • teeth-20 (5).jpg
+    • teeth-20 (6).jpg
+    • teeth-20 (7).jpg
+
+  Group 6 (8 images):
+    • teeth-10 (1).jpg
+    • teeth-10 (2).jpg
+    • teeth-10 (3).jpg
+    • teeth-10 (4).jpg
+    • teeth-10 (5).jpg
+    • teeth-10 (6).jpg
+    • teeth-10 (7).jpg
+    • teeth-10 (8).jpg
+
+  Group 7 (8 images):
+    • teeth-12 (1).jpg
+    • teeth-12 (2).jpg
+    • teeth-12 (3).jpg
+    • teeth-12 (4).jpg
+    • teeth-12 (5).jpg
+    • teeth-12 (6).jpg
+    • teeth-12 (7).jpg
+    • teeth-12 (8).jpg
+
+  Group 8 (8 images):
+    • teeth-13 (1).jpg
+    • teeth-13 (2).jpg
+    • teeth-13 (3).jpg
+    • teeth-13 (4).jpg
+    • teeth-13 (5).jpg
+    • teeth-13 (6).jpg
+    • teeth-13 (7).jpg
+    • teeth-13 (8).jpg
+
+  Group 9 (7 images):
+    • teeth-14 (1).jpg
+    • teeth-14 (2).jpg
+    • teeth-14 (3).jpg
+    • teeth-14 (4).jpg
+    • teeth-14 (5).jpg
+    • teeth-14 (6).jpg
+    • teeth-14 (7).jpg
+
+  Group 10 (7 images):
+    • teeth-15 (1).jpg
+    • teeth-15 (2).jpg
+    • teeth-15 (3).jpg
+    • teeth-15 (4).jpg
+    • teeth-15 (5).jpg
+    • teeth-15 (6).jpg
+    • teeth-15 (7).jpg
+
+  Group 11 (3 images):
+    • teeth-01 (1).jpg
+    • teeth-01 (2).jpg
+    • teeth-01 (3).jpg
+
+  Group 12 (3 images):
+    • teeth-02 (1).jpg
+    • teeth-02 (2).jpg
+    • teeth-02 (3).jpg
+
+  Group 13 (3 images):
+    • teeth-03 (1).jpg
+    • teeth-03 (2).jpg
+    • teeth-03 (3).jpg
+
+  Group 14 (3 images):
+    • teeth-08 (1).jpg
+    • teeth-08 (2).jpg
+    • teeth-08 (3).jpg
+
+  Group 15 (3 images):
+    • teeth-09 (1).jpg
+    • teeth-09 (2).jpg
+    • teeth-09 (3).jpg
+
+  Group 16 (3 images):
+    • teeth-22 (1).jpg
+    • teeth-22 (2).jpg
+    • teeth-22 (3).jpg
+
+  Group 17 (3 images):
+    • teeth-23 (1).jpg
+    • teeth-23 (2).jpg
+    • teeth-23 (3).jpg
+
+  Group 18 (2 images):
+    • teeth-04 (1).jpg
+    • teeth-04 (2).jpg
+
+  Group 19 (2 images):
+    • teeth-05 (1).jpg
+    • teeth-05 (2).jpg
+
+  Group 20 (2 images):
+    • teeth-06 (1).jpg
+    • teeth-06 (2).jpg
+
+  Group 21 (2 images):
+    • teeth-07 (1).jpg
+    • teeth-07 (2).jpg
+
+  Group 22 (2 images):
+    • teeth-21 (1).jpg
+    • teeth-21 (2).jpg
+
+  Group 23 (2 images):
+    • teeth-24 (1).jpg
+    • teeth-24 (2).jpg
+
+  Group 24 (2 images):
+    • teeth-25 (1).jpg
+    • teeth-25 (2).jpg
+
+  Group 25 (2 images):
+    • teeth-26 (1).jpg
+    • teeth-26 (2).jpg
+
+  Group 26 (2 images):
+    • teeth-27 (1).jpg
+    • teeth-27 (2).jpg
+
+  Group 27 (2 images):
+    • teeth-28 (1).jpg
+    • teeth-28 (2).jpg
+
+  Group 28 (2 images):
+    • teeth-29 (1).jpg
+    • teeth-29 (2).jpg
+
+  Group 29 (2 images):
+    • teeth-30 (1).jpg
+    • teeth-30 (2).jpg
+
+  Group 30 (2 images):
+    • teeth-31 (1).jpg
+    • teeth-31 (2).jpg
+
+  Group 31 (2 images):
+    • teeth-32 (1).jpg
+    • teeth-32 (2).jpg
+
+CONFIRMED PAIRS : 354   REJECTED : 20,967
+
+  Top 40 highest-scoring confirmed pairs:
+    score=1.0000 [TP]  teeth-01 (2).jpg  ↔  teeth-01 (3).jpg
+    score=0.9997 [TP]  teeth-02 (2).jpg  ↔  teeth-02 (3).jpg
+    score=0.9996 [TP]  teeth-16 (3).jpg  ↔  teeth-16 (4).jpg
+    score=0.9985 [TP]  teeth-12 (3).jpg  ↔  teeth-12 (5).jpg
+    score=0.9983 [TP]  teeth-02 (1).jpg  ↔  teeth-02 (3).jpg
+    score=0.9983 [TP]  teeth-02 (1).jpg  ↔  teeth-02 (2).jpg
+    score=0.9980 [TP]  teeth-01 (1).jpg  ↔  teeth-01 (2).jpg
+    score=0.9980 [TP]  teeth-01 (1).jpg  ↔  teeth-01 (3).jpg
+    score=0.9980 [TP]  teeth-05 (1).jpg  ↔  teeth-05 (2).jpg
+    score=0.9958 [TP]  teeth-17 (1).jpg  ↔  teeth-17 (2).jpg
+    score=0.9938 [TP]  teeth-18 (10).jpg  ↔  teeth-18 (2).jpg
+    score=0.9924 [TP]  teeth-17 (10).jpg  ↔  teeth-17 (2).jpg
+    score=0.9918 [TP]  teeth-17 (5).jpg  ↔  teeth-17 (8).jpg
+    score=0.9896 [TP]  teeth-12 (4).jpg  ↔  teeth-12 (5).jpg
+    score=0.9881 [TP]  teeth-12 (3).jpg  ↔  teeth-12 (4).jpg
+    score=0.9871 [TP]  teeth-13 (5).jpg  ↔  teeth-13 (7).jpg
+    score=0.9842 [TP]  teeth-09 (1).jpg  ↔  teeth-09 (3).jpg
+    score=0.9832 [TP]  teeth-08 (1).jpg  ↔  teeth-08 (2).jpg
+    score=0.9822 [TP]  teeth-14 (1).jpg  ↔  teeth-14 (6).jpg
+    score=0.9820 [TP]  teeth-14 (2).jpg  ↔  teeth-14 (7).jpg
+    score=0.9813 [TP]  teeth-03 (2).jpg  ↔  teeth-03 (3).jpg
+    score=0.9800 [TP]  teeth-14 (2).jpg  ↔  teeth-14 (6).jpg
+    score=0.9760 [TP]  teeth-07 (1).jpg  ↔  teeth-07 (2).jpg
+    score=0.9744 [TP]  teeth-14 (1).jpg  ↔  teeth-14 (7).jpg
+    score=0.9725 [TP]  teeth-16 (1).jpg  ↔  teeth-16 (2).jpg
+    score=0.9724 [TP]  teeth-14 (6).jpg  ↔  teeth-14 (7).jpg
+    score=0.9716 [TP]  teeth-16 (1).jpg  ↔  teeth-16 (10).jpg
+    score=0.9716 [TP]  teeth-18 (1).jpg  ↔  teeth-18 (6).jpg
+    score=0.9692 [TP]  teeth-22 (1).jpg  ↔  teeth-22 (3).jpg
+    score=0.9672 [TP]  teeth-08 (2).jpg  ↔  teeth-08 (3).jpg
+    score=0.9642 [TP]  teeth-13 (2).jpg  ↔  teeth-13 (6).jpg
+    score=0.9634 [TP]  teeth-13 (3).jpg  ↔  teeth-13 (7).jpg
+    score=0.9619 [TP]  teeth-16 (3).jpg  ↔  teeth-16 (5).jpg
+    score=0.9617 [TP]  teeth-16 (4).jpg  ↔  teeth-16 (5).jpg
+    score=0.9574 [TP]  teeth-17 (1).jpg  ↔  teeth-17 (7).jpg
+    score=0.9568 [TP]  teeth-18 (4).jpg  ↔  teeth-18 (6).jpg
+    score=0.9565 [TP]  teeth-16 (1).jpg  ↔  teeth-16 (3).jpg
+    score=0.9561 [TP]  teeth-08 (1).jpg  ↔  teeth-08 (3).jpg
+    score=0.9555 [TP]  teeth-16 (8).jpg  ↔  teeth-16 (9).jpg
+    score=0.9540 [TP]  teeth-13 (2).jpg  ↔  teeth-13 (7).jpg
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 343
+    False Positives (FP) : 11
+    False Negatives (FN) : 11
+    True Negatives  (TN) : 20,956
+    Precision            : 96.89%
+    Recall               : 96.89%
+    F1-Score             : 96.89%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 31
+    GT classes (≥2 imgs) : 32
+    Pure groups          : 29/31
+    Contaminated groups  : 2
+    Avg group purity     : 0.9899
+    Avg group completeness: 1.0000
+    Grouped / ungrouped  : 136 / 71
+    Contaminated group breakdown:
+      [11 members] teeth-16: 10, NEG__NEG_teeth-51 (1).jpg: 1
+      [9 members] teeth-20: 7, teeth-19: 2
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 72
+    NEG leaked into groups: 1/72
+      Leaked: NEG_teeth-51 (1).jpg
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.8537
+    μ_FP  mean score of FP  : 0.7079
+    μ_REJ mean score of rej : 0.2826
+    Decision margin (Δ)     : -0.0473
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=10,000):
+    Precision :   96.89%   [94.99%, 98.57%]
+    Recall    :   96.89%   [94.99%, 98.57%]
+    F1        :   96.89%   [95.53%, 98.11%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 0.998968
+    pₑ (expected agreement) : 0.967345
+    κ                       : 0.9684   (Near-perfect)
+    95% CI                  : [0.9552, 0.9816]
+    SE(κ)                   : 0.006733
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  Threshold              : 0.5
+  Screen (base)          : 0.3
+  Max image dim          : 512
+  Candidates screened    : 15,525
+  Verifications confirmed: 354
+  Verifications rejected : 15,171
+  Fast mode              : False
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — Proposed (ours) — duplicate_detector_final.py
+════════════════════════════════════════════════════════════════════════

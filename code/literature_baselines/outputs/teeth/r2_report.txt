@@ -1,0 +1,272 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  Stochastic ARG Matching (r2)
+  Reference: Zhang & Chang, ACM MM'04, pp.877-884
+════════════════════════════════════════════════════════════════════════
+  Images              : 207
+  Total pairs         : 21,321
+  Pair predictions    : 21,321
+  Runtime             : 98.5 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 18
+  Group 1 (42 images):
+    • NEG_teeth-106 (1).jpg
+    • NEG_teeth-36 (1).jpg
+    • NEG_teeth-39 (1).jpg
+    • NEG_teeth-56 (1).jpg
+    • NEG_teeth-83 (1).jpg
+    • NEG_teeth-85 (1).jpg
+    • NEG_teeth-90 (1).jpg
+    • NEG_teeth-93 (1).jpg
+    • NEG_teeth-94 (1).jpg
+    • NEG_teeth-96 (1).jpg
+    • teeth-11 (1).jpg
+    • teeth-11 (2).jpg
+    • teeth-11 (3).jpg
+    • teeth-11 (4).jpg
+    • teeth-11 (5).jpg
+    • teeth-11 (6).jpg
+    • teeth-11 (8).jpg
+    • teeth-11 (9).jpg
+    • teeth-12 (1).jpg
+    • teeth-12 (2).jpg
+    • teeth-12 (3).jpg
+    • teeth-12 (4).jpg
+    • teeth-12 (5).jpg
+    • teeth-12 (6).jpg
+    • teeth-12 (7).jpg
+    • teeth-12 (8).jpg
+    • teeth-13 (1).jpg
+    • teeth-13 (2).jpg
+    • teeth-13 (3).jpg
+    • teeth-13 (4).jpg
+    • teeth-13 (5).jpg
+    • teeth-13 (6).jpg
+    • teeth-13 (7).jpg
+    • teeth-13 (8).jpg
+    • teeth-17 (4).jpg
+    • teeth-17 (5).jpg
+    • teeth-17 (6).jpg
+    • teeth-17 (7).jpg
+    • teeth-17 (8).jpg
+    • teeth-23 (3).jpg
+    • teeth-28 (2).jpg
+    • teeth-31 (2).jpg
+
+  Group 2 (8 images):
+    • teeth-10 (1).jpg
+    • teeth-10 (2).jpg
+    • teeth-10 (3).jpg
+    • teeth-10 (4).jpg
+    • teeth-10 (5).jpg
+    • teeth-10 (6).jpg
+    • teeth-10 (7).jpg
+    • teeth-10 (8).jpg
+
+  Group 3 (7 images):
+    • NEG_teeth-35 (1).jpg
+    • teeth-18 (1).jpg
+    • teeth-18 (10).jpg
+    • teeth-18 (2).jpg
+    • teeth-18 (3).jpg
+    • teeth-18 (4).jpg
+    • teeth-18 (6).jpg
+
+  Group 4 (7 images):
+    • teeth-17 (1).jpg
+    • teeth-17 (10).jpg
+    • teeth-17 (2).jpg
+    • teeth-17 (3).jpg
+    • teeth-17 (9).jpg
+    • teeth-21 (2).jpg
+    • teeth-28 (1).jpg
+
+  Group 5 (6 images):
+    • teeth-16 (10).jpg
+    • teeth-16 (2).jpg
+    • teeth-16 (3).jpg
+    • teeth-16 (4).jpg
+    • teeth-16 (6).jpg
+    • teeth-16 (7).jpg
+
+  Group 6 (3 images):
+    • NEG_teeth-34 (1).jpg
+    • teeth-32 (1).jpg
+    • teeth-32 (2).jpg
+
+  Group 7 (3 images):
+    • teeth-02 (1).jpg
+    • teeth-02 (2).jpg
+    • teeth-02 (3).jpg
+
+  Group 8 (3 images):
+    • teeth-18 (5).jpg
+    • teeth-18 (8).jpg
+    • teeth-18 (9).jpg
+
+  Group 9 (2 images):
+    • NEG_teeth-103 (1).jpg
+    • NEG_teeth-48 (1).jpg
+
+  Group 10 (2 images):
+    • teeth-01 (2).jpg
+    • teeth-01 (3).jpg
+
+  Group 11 (2 images):
+    • teeth-04 (1).jpg
+    • teeth-04 (2).jpg
+
+  Group 12 (2 images):
+    • teeth-05 (1).jpg
+    • teeth-05 (2).jpg
+
+  Group 13 (2 images):
+    • teeth-14 (3).jpg
+    • teeth-14 (7).jpg
+
+  Group 14 (2 images):
+    • teeth-14 (4).jpg
+    • teeth-14 (5).jpg
+
+  Group 15 (2 images):
+    • teeth-15 (2).jpg
+    • teeth-15 (4).jpg
+
+  Group 16 (2 images):
+    • teeth-15 (3).jpg
+    • teeth-15 (6).jpg
+
+  Group 17 (2 images):
+    • teeth-16 (8).jpg
+    • teeth-16 (9).jpg
+
+  Group 18 (2 images):
+    • teeth-20 (3).jpg
+    • teeth-20 (4).jpg
+
+CONFIRMED PAIRS : 115   REJECTED : 21,206
+
+  Top 40 highest-scoring confirmed pairs:
+    score=1.0000 [TP]  teeth-01 (2).jpg  ↔  teeth-01 (3).jpg
+    score=1.0000 [TP]  teeth-02 (2).jpg  ↔  teeth-02 (3).jpg
+    score=0.9398 [TP]  teeth-16 (3).jpg  ↔  teeth-16 (4).jpg
+    score=0.8825 [TP]  teeth-02 (1).jpg  ↔  teeth-02 (2).jpg
+    score=0.8825 [TP]  teeth-02 (1).jpg  ↔  teeth-02 (3).jpg
+    score=0.8485 [TP]  teeth-12 (3).jpg  ↔  teeth-12 (5).jpg
+    score=0.7746 [TP]  teeth-18 (2).jpg  ↔  teeth-18 (6).jpg
+    score=0.7662 [TP]  teeth-18 (1).jpg  ↔  teeth-18 (6).jpg
+    score=0.7414 [TP]  teeth-17 (1).jpg  ↔  teeth-17 (2).jpg
+    score=0.7248 [TP]  teeth-11 (5).jpg  ↔  teeth-11 (8).jpg
+    score=0.7227 [TP]  teeth-13 (2).jpg  ↔  teeth-13 (5).jpg
+    score=0.7198 [TP]  teeth-18 (1).jpg  ↔  teeth-18 (2).jpg
+    score=0.7176 [TP]  teeth-16 (8).jpg  ↔  teeth-16 (9).jpg
+    score=0.7142 [TP]  teeth-11 (1).jpg  ↔  teeth-11 (5).jpg
+    score=0.7123 [TP]  teeth-12 (1).jpg  ↔  teeth-12 (6).jpg
+    score=0.7121 [TP]  teeth-04 (1).jpg  ↔  teeth-04 (2).jpg
+    score=0.7120 [FP]  teeth-23 (3).jpg  ↔  teeth-28 (2).jpg
+    score=0.6981 [TP]  teeth-16 (10).jpg  ↔  teeth-16 (2).jpg
+    score=0.6930 [TP]  teeth-10 (4).jpg  ↔  teeth-10 (5).jpg
+    score=0.6907 [TP]  teeth-13 (2).jpg  ↔  teeth-13 (8).jpg
+    score=0.6892 [FP]  teeth-12 (3).jpg  ↔  teeth-28 (2).jpg
+    score=0.6892 [FP]  teeth-12 (5).jpg  ↔  teeth-28 (2).jpg
+    score=0.6856 [FP]  teeth-17 (5).jpg  ↔  teeth-28 (2).jpg
+    score=0.6829 [FP]  NEG_teeth-85 (1).jpg  ↔  teeth-28 (2).jpg
+    score=0.6818 [FP]  teeth-17 (8).jpg  ↔  teeth-28 (2).jpg
+    score=0.6812 [TP]  teeth-10 (1).jpg  ↔  teeth-10 (7).jpg
+    score=0.6790 [FP]  NEG_teeth-36 (1).jpg  ↔  teeth-28 (2).jpg
+    score=0.6782 [TP]  teeth-18 (4).jpg  ↔  teeth-18 (6).jpg
+    score=0.6758 [TP]  teeth-12 (2).jpg  ↔  teeth-12 (8).jpg
+    score=0.6735 [TP]  teeth-18 (2).jpg  ↔  teeth-18 (3).jpg
+    score=0.6681 [TP]  teeth-17 (4).jpg  ↔  teeth-17 (5).jpg
+    score=0.6661 [TP]  teeth-16 (10).jpg  ↔  teeth-16 (4).jpg
+    score=0.6656 [TP]  teeth-16 (10).jpg  ↔  teeth-16 (3).jpg
+    score=0.6595 [TP]  teeth-16 (2).jpg  ↔  teeth-16 (3).jpg
+    score=0.6577 [FP]  NEG_teeth-56 (1).jpg  ↔  teeth-28 (2).jpg
+    score=0.6550 [TP]  teeth-12 (2).jpg  ↔  teeth-12 (4).jpg
+    score=0.6533 [TP]  teeth-16 (2).jpg  ↔  teeth-16 (4).jpg
+    score=0.6533 [FP]  NEG_teeth-83 (1).jpg  ↔  teeth-28 (2).jpg
+    score=0.6526 [TP]  teeth-12 (4).jpg  ↔  teeth-12 (5).jpg
+    score=0.6460 [FP]  teeth-17 (4).jpg  ↔  teeth-28 (2).jpg
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 82
+    False Positives (FP) : 33
+    False Negatives (FN) : 272
+    True Negatives  (TN) : 20,934
+    Precision            : 71.30%
+    Recall               : 23.16%
+    F1-Score             : 34.97%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 18
+    GT classes (≥2 imgs) : 32
+    Pure groups          : 13/18
+    Contaminated groups  : 5
+    Avg group purity     : 0.8849
+    Avg group completeness: 0.4046
+    Grouped / ungrouped  : 99 / 108
+    Contaminated group breakdown:
+      [2 members] NEG__NEG_teeth-103 (1).jpg: 1, NEG__NEG_teeth-48 (1).jpg: 1
+      [42 members] teeth-13: 8, teeth-11: 8, teeth-12: 8, teeth-17: 5, NEG__NEG_teeth-93 (1).jpg: 1, teeth-23: 1, NEG__NEG_teeth-36 (1).jpg: 1, NEG__NEG_teeth-56 (1).jpg: 1, NEG__NEG_teeth-39 (1).jpg: 1, teeth-31: 1, NEG__NEG_teeth-94 (1).jpg: 1, NEG__NEG_teeth-96 (1).jpg: 1, NEG__NEG_teeth-83 (1).jpg: 1, NEG__NEG_teeth-85 (1).jpg: 1, NEG__NEG_teeth-106 (1).jpg: 1, teeth-28: 1, NEG__NEG_teeth-90 (1).jpg: 1
+      [3 members] teeth-32: 2, NEG__NEG_teeth-34 (1).jpg: 1
+      [7 members] teeth-18: 6, NEG__NEG_teeth-35 (1).jpg: 1
+      [7 members] teeth-17: 5, teeth-28: 1, teeth-21: 1
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 72
+    NEG leaked into groups: 14/72
+      Leaked: NEG_teeth-103 (1).jpg
+      Leaked: NEG_teeth-48 (1).jpg
+      Leaked: NEG_teeth-93 (1).jpg
+      Leaked: NEG_teeth-36 (1).jpg
+      Leaked: NEG_teeth-56 (1).jpg
+      Leaked: NEG_teeth-39 (1).jpg
+      Leaked: NEG_teeth-94 (1).jpg
+      Leaked: NEG_teeth-96 (1).jpg
+      Leaked: NEG_teeth-83 (1).jpg
+      Leaked: NEG_teeth-85 (1).jpg
+      Leaked: NEG_teeth-106 (1).jpg
+      Leaked: NEG_teeth-90 (1).jpg
+      Leaked: NEG_teeth-34 (1).jpg
+      Leaked: NEG_teeth-35 (1).jpg
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.6482
+    μ_FP  mean score of FP  : 0.6161
+    μ_REJ mean score of rej : 0.2072
+    Decision margin (Δ)     : +0.0021
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=2,000):
+    Precision :   71.30%   [62.61%, 79.49%]
+    Recall    :   23.16%   [18.80%, 27.50%]
+    F1        :   34.97%   [29.26%, 40.24%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 0.985695
+    pₑ (expected agreement) : 0.978182
+    κ                       : 0.3443   (Fair)
+    95% CI                  : [0.2713, 0.4174]
+    SE(κ)                   : 0.037273
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  Interest-point detector      : FAST (SUSAN-substitute), K=40
+  Gabor bank                   : 2 scales × 3 orientations = 6 kernels
+  Vertex attribute dim         : 11 (x, y, R, G, B, 6 Gabor mags)
+  Vertex kernel α              : 3.0
+  Edge kernel β                : 0.0001
+  IND decision threshold λ     : 0.55
+  Matching surrogate           : Hungarian (linear_sum_assignment)
+                                 + pairwise-distance correlation
+  Note: exact MRF/LBP computation is intractable at this graph size (|V|=40); the Hungarian lower-bound is the standard tractable surrogate (Leordeanu & Hebert 2005).
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — Stochastic ARG Matching (r2)
+════════════════════════════════════════════════════════════════════════

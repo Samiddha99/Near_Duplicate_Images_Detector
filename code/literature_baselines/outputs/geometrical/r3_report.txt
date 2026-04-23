@@ -1,0 +1,447 @@
+════════════════════════════════════════════════════════════════════════
+  LITERATURE BASELINE REPORT  —  CEDetector — ViT Copy-Edit Detection (r3)
+  Reference: Lee, Hsu & Lee, CVPRW 2024, pp.6997-7005
+════════════════════════════════════════════════════════════════════════
+  Images              : 326
+  Total pairs         : 52,975
+  Pair predictions    : 52,975
+  Runtime             : 129.6 s
+════════════════════════════════════════════════════════════════════════
+
+DUPLICATE GROUPS DETECTED : 1
+  Group 1 (324 images):
+    • NEG_checkerboard.png
+    • NEG_gradient.png
+    • NEG_solid_purple.png
+    • NEG_stripes.png
+    • abstract_art_ORIGINAL.png
+    • abstract_art_blur_3.png
+    • abstract_art_blur_5.png
+    • abstract_art_bright_050.png
+    • abstract_art_bright_150.png
+    • abstract_art_combo_crop_rot15_dark.png
+    • abstract_art_combo_flip_contrast_blur.png
+    • abstract_art_combo_rot30_bright.png
+    • abstract_art_combo_rot75_small.png
+    • abstract_art_combo_zoom_sharp_bright.png
+    • abstract_art_contrast_040.png
+    • abstract_art_contrast_200.png
+    • abstract_art_crop_center.png
+    • abstract_art_crop_topleft.png
+    • abstract_art_edge_enhance.png
+    • abstract_art_flip_both.png
+    • abstract_art_flip_h.png
+    • abstract_art_flip_v.png
+    • abstract_art_jpeg_q05.jpg
+    • abstract_art_jpeg_q10.jpg
+    • abstract_art_rot120.png
+    • abstract_art_rot15.png
+    • abstract_art_rot180.png
+    • abstract_art_rot203.png
+    • abstract_art_rot270.png
+    • abstract_art_rot33.png
+    • abstract_art_rot350.png
+    • abstract_art_rot45.png
+    • abstract_art_rot67.png
+    • abstract_art_rot90.png
+    • abstract_art_saturate_020.png
+    • abstract_art_saturate_200.png
+    • abstract_art_scale_050.png
+    • abstract_art_scale_200.png
+    • abstract_art_sharpen.png
+    • abstract_art_shift_diag.png
+    • abstract_art_shift_down30.png
+    • abstract_art_shift_right40.png
+    • abstract_art_stretch_h.png
+    • abstract_art_zoom_2x.png
+    • car_ORIGINAL.png
+    • car_blur_3.png
+    • car_blur_5.png
+    • car_bright_050.png
+    • car_bright_150.png
+    • car_combo_crop_rot15_dark.png
+    • car_combo_flip_contrast_blur.png
+    • car_combo_rot30_bright.png
+    • car_combo_rot75_small.png
+    • car_combo_zoom_sharp_bright.png
+    • car_contrast_040.png
+    • car_contrast_200.png
+    • car_crop_center.png
+    • car_crop_topleft.png
+    • car_edge_enhance.png
+    • car_flip_both.png
+    • car_flip_h.png
+    • car_flip_v.png
+    • car_jpeg_q05.jpg
+    • car_jpeg_q10.jpg
+    • car_rot120.png
+    • car_rot15.png
+    • car_rot180.png
+    • car_rot203.png
+    • car_rot270.png
+    • car_rot33.png
+    • car_rot350.png
+    • car_rot45.png
+    • car_rot67.png
+    • car_rot90.png
+    • car_saturate_020.png
+    • car_saturate_200.png
+    • car_scale_050.png
+    • car_scale_200.png
+    • car_sharpen.png
+    • car_shift_diag.png
+    • car_shift_down30.png
+    • car_shift_right40.png
+    • car_stretch_h.png
+    • car_zoom_2x.png
+    • flower_ORIGINAL.png
+    • flower_blur_3.png
+    • flower_blur_5.png
+    • flower_bright_050.png
+    • flower_bright_150.png
+    • flower_combo_crop_rot15_dark.png
+    • flower_combo_flip_contrast_blur.png
+    • flower_combo_rot30_bright.png
+    • flower_combo_rot75_small.png
+    • flower_combo_zoom_sharp_bright.png
+    • flower_contrast_040.png
+    • flower_contrast_200.png
+    • flower_crop_center.png
+    • flower_crop_topleft.png
+    • flower_edge_enhance.png
+    • flower_flip_both.png
+    • flower_flip_h.png
+    • flower_flip_v.png
+    • flower_jpeg_q05.jpg
+    • flower_jpeg_q10.jpg
+    • flower_rot120.png
+    • flower_rot15.png
+    • flower_rot180.png
+    • flower_rot203.png
+    • flower_rot270.png
+    • flower_rot33.png
+    • flower_rot350.png
+    • flower_rot45.png
+    • flower_rot67.png
+    • flower_rot90.png
+    • flower_saturate_020.png
+    • flower_saturate_200.png
+    • flower_scale_050.png
+    • flower_scale_200.png
+    • flower_sharpen.png
+    • flower_shift_diag.png
+    • flower_shift_down30.png
+    • flower_shift_right40.png
+    • flower_stretch_h.png
+    • flower_zoom_2x.png
+    • food_plate_ORIGINAL.png
+    • food_plate_blur_3.png
+    • food_plate_blur_5.png
+    • food_plate_bright_050.png
+    • food_plate_bright_150.png
+    • food_plate_combo_crop_rot15_dark.png
+    • food_plate_combo_flip_contrast_blur.png
+    • food_plate_combo_rot30_bright.png
+    • food_plate_combo_rot75_small.png
+    • food_plate_combo_zoom_sharp_bright.png
+    • food_plate_contrast_040.png
+    • food_plate_contrast_200.png
+    • food_plate_crop_center.png
+    • food_plate_crop_topleft.png
+    • food_plate_edge_enhance.png
+    • food_plate_flip_both.png
+    • food_plate_flip_h.png
+    • food_plate_flip_v.png
+    • food_plate_jpeg_q05.jpg
+    • food_plate_jpeg_q10.jpg
+    • food_plate_rot120.png
+    • food_plate_rot15.png
+    • food_plate_rot180.png
+    • food_plate_rot203.png
+    • food_plate_rot270.png
+    • food_plate_rot33.png
+    • food_plate_rot350.png
+    • food_plate_rot45.png
+    • food_plate_rot67.png
+    • food_plate_rot90.png
+    • food_plate_saturate_020.png
+    • food_plate_saturate_200.png
+    • food_plate_scale_050.png
+    • food_plate_scale_200.png
+    • food_plate_sharpen.png
+    • food_plate_shift_diag.png
+    • food_plate_shift_down30.png
+    • food_plate_shift_right40.png
+    • food_plate_stretch_h.png
+    • food_plate_zoom_2x.png
+    • landscape_ORIGINAL.png
+    • landscape_blur_3.png
+    • landscape_blur_5.png
+    • landscape_bright_050.png
+    • landscape_bright_150.png
+    • landscape_combo_crop_rot15_dark.png
+    • landscape_combo_flip_contrast_blur.png
+    • landscape_combo_rot30_bright.png
+    • landscape_combo_rot75_small.png
+    • landscape_combo_zoom_sharp_bright.png
+    • landscape_contrast_040.png
+    • landscape_contrast_200.png
+    • landscape_crop_center.png
+    • landscape_crop_topleft.png
+    • landscape_edge_enhance.png
+    • landscape_flip_both.png
+    • landscape_flip_h.png
+    • landscape_flip_v.png
+    • landscape_jpeg_q05.jpg
+    • landscape_jpeg_q10.jpg
+    • landscape_rot120.png
+    • landscape_rot15.png
+    • landscape_rot180.png
+    • landscape_rot203.png
+    • landscape_rot270.png
+    • landscape_rot33.png
+    • landscape_rot350.png
+    • landscape_rot45.png
+    • landscape_rot67.png
+    • landscape_rot90.png
+    • landscape_saturate_020.png
+    • landscape_saturate_200.png
+    • landscape_scale_050.png
+    • landscape_scale_200.png
+    • landscape_sharpen.png
+    • landscape_shift_diag.png
+    • landscape_shift_down30.png
+    • landscape_shift_right40.png
+    • landscape_stretch_h.png
+    • landscape_zoom_2x.png
+    • night_scene_ORIGINAL.png
+    • night_scene_blur_3.png
+    • night_scene_blur_5.png
+    • night_scene_bright_050.png
+    • night_scene_bright_150.png
+    • night_scene_combo_crop_rot15_dark.png
+    • night_scene_combo_flip_contrast_blur.png
+    • night_scene_combo_rot30_bright.png
+    • night_scene_combo_rot75_small.png
+    • night_scene_combo_zoom_sharp_bright.png
+    • night_scene_contrast_040.png
+    • night_scene_contrast_200.png
+    • night_scene_crop_center.png
+    • night_scene_crop_topleft.png
+    • night_scene_edge_enhance.png
+    • night_scene_flip_both.png
+    • night_scene_flip_h.png
+    • night_scene_flip_v.png
+    • night_scene_jpeg_q05.jpg
+    • night_scene_jpeg_q10.jpg
+    • night_scene_rot120.png
+    • night_scene_rot15.png
+    • night_scene_rot180.png
+    • night_scene_rot203.png
+    • night_scene_rot270.png
+    • night_scene_rot33.png
+    • night_scene_rot350.png
+    • night_scene_rot45.png
+    • night_scene_rot67.png
+    • night_scene_rot90.png
+    • night_scene_saturate_020.png
+    • night_scene_saturate_200.png
+    • night_scene_scale_050.png
+    • night_scene_scale_200.png
+    • night_scene_sharpen.png
+    • night_scene_shift_diag.png
+    • night_scene_shift_down30.png
+    • night_scene_shift_right40.png
+    • night_scene_stretch_h.png
+    • night_scene_zoom_2x.png
+    • portrait_ORIGINAL.png
+    • portrait_blur_3.png
+    • portrait_blur_5.png
+    • portrait_bright_050.png
+    • portrait_bright_150.png
+    • portrait_combo_crop_rot15_dark.png
+    • portrait_combo_flip_contrast_blur.png
+    • portrait_combo_rot30_bright.png
+    • portrait_combo_rot75_small.png
+    • portrait_combo_zoom_sharp_bright.png
+    • portrait_contrast_040.png
+    • portrait_contrast_200.png
+    • portrait_crop_center.png
+    • portrait_crop_topleft.png
+    • portrait_edge_enhance.png
+    • portrait_flip_both.png
+    • portrait_flip_h.png
+    • portrait_flip_v.png
+    • portrait_jpeg_q05.jpg
+    • portrait_jpeg_q10.jpg
+    • portrait_rot120.png
+    • portrait_rot15.png
+    • portrait_rot180.png
+    • portrait_rot203.png
+    • portrait_rot270.png
+    • portrait_rot33.png
+    • portrait_rot350.png
+    • portrait_rot45.png
+    • portrait_rot67.png
+    • portrait_rot90.png
+    • portrait_saturate_020.png
+    • portrait_saturate_200.png
+    • portrait_scale_050.png
+    • portrait_scale_200.png
+    • portrait_sharpen.png
+    • portrait_shift_diag.png
+    • portrait_shift_down30.png
+    • portrait_shift_right40.png
+    • portrait_stretch_h.png
+    • portrait_zoom_2x.png
+    • underwater_ORIGINAL.png
+    • underwater_blur_3.png
+    • underwater_blur_5.png
+    • underwater_bright_050.png
+    • underwater_bright_150.png
+    • underwater_combo_crop_rot15_dark.png
+    • underwater_combo_flip_contrast_blur.png
+    • underwater_combo_rot30_bright.png
+    • underwater_combo_rot75_small.png
+    • underwater_combo_zoom_sharp_bright.png
+    • underwater_contrast_040.png
+    • underwater_contrast_200.png
+    • underwater_crop_center.png
+    • underwater_crop_topleft.png
+    • underwater_edge_enhance.png
+    • underwater_flip_both.png
+    • underwater_flip_h.png
+    • underwater_flip_v.png
+    • underwater_jpeg_q05.jpg
+    • underwater_jpeg_q10.jpg
+    • underwater_rot120.png
+    • underwater_rot15.png
+    • underwater_rot180.png
+    • underwater_rot203.png
+    • underwater_rot270.png
+    • underwater_rot33.png
+    • underwater_rot350.png
+    • underwater_rot45.png
+    • underwater_rot67.png
+    • underwater_rot90.png
+    • underwater_saturate_020.png
+    • underwater_saturate_200.png
+    • underwater_scale_050.png
+    • underwater_scale_200.png
+    • underwater_sharpen.png
+    • underwater_shift_diag.png
+    • underwater_shift_down30.png
+    • underwater_shift_right40.png
+    • underwater_stretch_h.png
+    • underwater_zoom_2x.png
+
+CONFIRMED PAIRS : 23,370   REJECTED : 29,605
+
+  Top 40 highest-scoring confirmed pairs:
+    score=0.9950 [TP]  food_plate_crop_center.png  ↔  food_plate_stretch_h.png
+    score=0.9949 [TP]  food_plate_crop_center.png  ↔  food_plate_ORIGINAL.png
+    score=0.9949 [TP]  night_scene_crop_topleft.png  ↔  night_scene_stretch_h.png
+    score=0.9949 [TP]  flower_crop_center.png  ↔  flower_scale_050.png
+    score=0.9946 [TP]  night_scene_crop_topleft.png  ↔  night_scene_flip_h.png
+    score=0.9945 [TP]  food_plate_crop_center.png  ↔  food_plate_scale_200.png
+    score=0.9944 [TP]  food_plate_crop_center.png  ↔  food_plate_flip_h.png
+    score=0.9944 [TP]  night_scene_crop_topleft.png  ↔  night_scene_scale_200.png
+    score=0.9933 [TP]  flower_crop_center.png  ↔  flower_scale_200.png
+    score=0.9929 [TP]  flower_crop_center.png  ↔  flower_stretch_h.png
+    score=0.9926 [TP]  flower_crop_center.png  ↔  flower_ORIGINAL.png
+    score=0.9917 [TP]  food_plate_crop_center.png  ↔  food_plate_zoom_2x.png
+    score=0.9903 [TP]  flower_crop_center.png  ↔  flower_sharpen.png
+    score=0.9902 [TP]  flower_ORIGINAL.png  ↔  flower_zoom_2x.png
+    score=0.9902 [TP]  food_plate_contrast_040.png  ↔  food_plate_crop_center.png
+    score=0.9901 [TP]  flower_scale_200.png  ↔  flower_zoom_2x.png
+    score=0.9900 [TP]  flower_stretch_h.png  ↔  flower_zoom_2x.png
+    score=0.9894 [TP]  flower_crop_center.png  ↔  flower_flip_h.png
+    score=0.9891 [TP]  night_scene_bright_150.png  ↔  night_scene_crop_topleft.png
+    score=0.9888 [TP]  abstract_art_crop_center.png  ↔  abstract_art_shift_down30.png
+    score=0.9887 [TP]  food_plate_crop_center.png  ↔  food_plate_sharpen.png
+    score=0.9886 [TP]  portrait_crop_center.png  ↔  portrait_zoom_2x.png
+    score=0.9885 [TP]  food_plate_crop_center.png  ↔  food_plate_shift_diag.png
+    score=0.9885 [TP]  flower_flip_h.png  ↔  flower_zoom_2x.png
+    score=0.9882 [TP]  flower_crop_center.png  ↔  flower_shift_diag.png
+    score=0.9881 [TP]  flower_sharpen.png  ↔  flower_zoom_2x.png
+    score=0.9880 [TP]  food_plate_crop_center.png  ↔  food_plate_flip_both.png
+    score=0.9880 [TP]  food_plate_crop_center.png  ↔  food_plate_rot180.png
+    score=0.9878 [TP]  food_plate_crop_center.png  ↔  food_plate_shift_right40.png
+    score=0.9875 [TP]  food_plate_crop_center.png  ↔  food_plate_flip_v.png
+    score=0.9871 [TP]  flower_crop_center.png  ↔  flower_shift_right40.png
+    score=0.9871 [TP]  abstract_art_crop_center.png  ↔  abstract_art_ORIGINAL.png
+    score=0.9871 [TP]  night_scene_crop_topleft.png  ↔  night_scene_rot270.png
+    score=0.9870 [TP]  abstract_art_crop_center.png  ↔  abstract_art_stretch_h.png
+    score=0.9870 [TP]  abstract_art_crop_center.png  ↔  abstract_art_scale_200.png
+    score=0.9869 [TP]  flower_crop_center.png  ↔  flower_shift_down30.png
+    score=0.9867 [TP]  flower_shift_right40.png  ↔  flower_zoom_2x.png
+    score=0.9866 [TP]  food_plate_crop_center.png  ↔  food_plate_rot90.png
+    score=0.9863 [TP]  night_scene_crop_topleft.png  ↔  night_scene_rot90.png
+    score=0.9863 [TP]  abstract_art_crop_center.png  ↔  abstract_art_rot90.png
+
+════════════════════════════════════════════════════════════════════════
+  EVALUATION METRICS — pair-level (Section 4.2.1)
+════════════════════════════════════════════════════════════════════════
+    True Positives  (TP) : 6,208
+    False Positives (FP) : 17,162
+    False Negatives (FN) : 32
+    True Negatives  (TN) : 29,573
+    Precision            : 26.56%
+    Recall               : 99.49%
+    F1-Score             : 41.93%
+
+  GROUP-LEVEL METRICS (Section 4.2.2)
+    Groups detected      : 1
+    GT classes (≥2 imgs) : 8
+    Pure groups          : 0/1
+    Contaminated groups  : 1
+    Avg group purity     : 0.1235
+    Avg group completeness: 1.0000
+    Grouped / ungrouped  : 324 / 2
+    Contaminated group breakdown:
+      [324 members] food_plate: 40, night_scene: 40, abstract_art: 40, car: 40, landscape: 40, underwater: 40, portrait: 40, flower: 40, NEG__NEG_solid_purple.png: 1, NEG__NEG_stripes.png: 1, NEG__NEG_checkerboard.png: 1, NEG__NEG_gradient.png: 1
+
+  NEG LEAKAGE (Section 4.2.3)
+    NEG images in dataset : 6
+    NEG leaked into groups: 4/6
+      Leaked: NEG_solid_purple.png
+      Leaked: NEG_stripes.png
+      Leaked: NEG_checkerboard.png
+      Leaked: NEG_gradient.png
+
+  SCORE DISTRIBUTION (Section 4.2.5)
+    μ_TP  mean score of TP  : 0.8604
+    μ_FP  mean score of FP  : 0.6878
+    μ_REJ mean score of rej : 0.5311
+    Decision margin (Δ)     : +0.0011
+
+════════════════════════════════════════════════════════════════════════
+  STATISTICAL TESTS (Section 4.3)
+════════════════════════════════════════════════════════════════════════
+
+  Bootstrap 95% CI (B=2,000):
+    Precision :   26.56%   [25.97%, 27.14%]
+    Recall    :   99.49%   [99.30%, 99.65%]
+    F1        :   41.93%   [41.19%, 42.63%]
+
+  Cohen's Kappa (Section 4.3.5):
+    p₀ (observed agreement) : 0.675432
+    pₑ (expected agreement) : 0.544985
+    κ                       : 0.2867   (Fair)
+    95% CI                  : [0.2779, 0.2954]
+    SE(κ)                   : 0.004471
+
+════════════════════════════════════════════════════════════════════════
+  METHOD-SPECIFIC NOTES
+════════════════════════════════════════════════════════════════════════
+  Backbone                : dino_vits16 (pretrained)
+  Patches per image       : 6 (Fig.3 of paper)
+  k-NN retrieval (k)      : 20
+  Decision threshold τ    : 0.62
+  Cross-attention         : surrogate via cosine similarity of patch-vs-global embeddings (identity W1, W2, W3)
+  Device used             : cpu
+  Pairs scored            : 52,975
+
+════════════════════════════════════════════════════════════════════════
+  END OF REPORT — CEDetector — ViT Copy-Edit Detection (r3)
+════════════════════════════════════════════════════════════════════════

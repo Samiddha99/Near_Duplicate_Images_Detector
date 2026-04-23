@@ -1,0 +1,1176 @@
+{
+  "method": "CEDetector \u2014 ViT Copy-Edit Detection (r3)",
+  "paper": "Lee, Hsu & Lee, CVPRW 2024, pp.6997-7005",
+  "runtime_sec": 8.977160453796387,
+  "n_images": 20,
+  "total_pairs": 190,
+  "tp": 0,
+  "fp": 110,
+  "fn": 0,
+  "tn": 80,
+  "precision": 0.0,
+  "recall": 100.0,
+  "f1": 0.0,
+  "kappa": 0.0,
+  "P_ci": [
+    0.0,
+    0.0
+  ],
+  "R_ci": [
+    100.0,
+    100.0
+  ],
+  "F_ci": [
+    0.0,
+    0.0
+  ],
+  "n_groups": 1,
+  "purity": 0.05,
+  "completeness": 1.0,
+  "pure_groups": 0,
+  "contaminated_groups": 1,
+  "neg_leaked": 20,
+  "neg_total": 20,
+  "pair_predictions": [
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (10).jpg",
+      "score": 0.647911787033081,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (11).jpeg",
+      "score": 0.6700114607810974,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (12).jpg",
+      "score": 0.5615732669830322,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (13).jpeg",
+      "score": 0.6082733273506165,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (14).jpg",
+      "score": 0.4065345823764801,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (15).jpeg",
+      "score": 0.6180424690246582,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (16).jpg",
+      "score": 0.6050696969032288,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (17).jpeg",
+      "score": 0.5220569968223572,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.5521523356437683,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.5414258241653442,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.48431703448295593,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.6416727900505066,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.6374449133872986,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.6066677570343018,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6347010135650635,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.479829341173172,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.7077018022537231,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.469980925321579,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (1).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.6604321002960205,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (11).jpeg",
+      "score": 0.6707186102867126,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (12).jpg",
+      "score": 0.7169967889785767,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (13).jpeg",
+      "score": 0.64411860704422,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (14).jpg",
+      "score": 0.6083955764770508,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (15).jpeg",
+      "score": 0.637265682220459,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (16).jpg",
+      "score": 0.7033777236938477,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (17).jpeg",
+      "score": 0.6025958061218262,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.740948498249054,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.6319541931152344,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.6709837913513184,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.6631836891174316,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.616162121295929,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.8345528841018677,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6217385530471802,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.8095751404762268,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.6353880167007446,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.7770417928695679,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (10).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.5637507438659668,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (12).jpg",
+      "score": 0.627530038356781,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (13).jpeg",
+      "score": 0.7560775279998779,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (14).jpg",
+      "score": 0.4434603154659271,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (15).jpeg",
+      "score": 0.6960376501083374,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (16).jpg",
+      "score": 0.5628040432929993,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (17).jpeg",
+      "score": 0.5551657676696777,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.572466254234314,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.6181780099868774,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.4158640205860138,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.6563027501106262,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.6894727945327759,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.5636576414108276,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6729854345321655,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.43833470344543457,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.747239351272583,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.5108652114868164,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (11).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.7474827170372009,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (13).jpeg",
+      "score": 0.5662248134613037,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (14).jpg",
+      "score": 0.6325114965438843,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (15).jpeg",
+      "score": 0.6665917634963989,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (16).jpg",
+      "score": 0.8120646476745605,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (17).jpeg",
+      "score": 0.6950407028198242,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.8502463698387146,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.7079665660858154,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.53117436170578,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.7439510822296143,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.7303938865661621,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.7159429788589478,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6027409434318542,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.5757994651794434,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.7063089609146118,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.6372805833816528,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (12).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.5156010389328003,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (14).jpg",
+      "score": 0.48246198892593384,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (15).jpeg",
+      "score": 0.6187700033187866,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (16).jpg",
+      "score": 0.5838615894317627,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (17).jpeg",
+      "score": 0.5700526237487793,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.5962717533111572,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.6218304634094238,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.6036819815635681,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.6528831720352173,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.6886037588119507,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.6567382216453552,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.7694962620735168,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.647197425365448,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.7251107692718506,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.6607928276062012,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (13).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.7096390724182129,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (15).jpeg",
+      "score": 0.4508167803287506,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (16).jpg",
+      "score": 0.5764000415802002,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (17).jpeg",
+      "score": 0.6400607824325562,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.6534022092819214,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.5778350830078125,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.5255467891693115,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.6245517730712891,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.4753541946411133,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.590826690196991,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.4487193822860718,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.6586175560951233,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.4548746943473816,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.6231006383895874,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (14).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.36365988850593567,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (16).jpg",
+      "score": 0.688831627368927,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (17).jpeg",
+      "score": 0.650485634803772,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.6755896806716919,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.7079585194587708,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.43342527747154236,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.7593275308609009,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.7561243176460266,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.6147063970565796,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6711474657058716,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.451710969209671,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.7595351934432983,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.5491365790367126,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (15).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.6018508672714233,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (17).jpeg",
+      "score": 0.6975699663162231,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.8459951281547546,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.6918735504150391,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.4757613241672516,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.6795991659164429,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.6952012777328491,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.6928062438964844,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6497119069099426,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.5499541163444519,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.5985960960388184,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.6235560178756714,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (16).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.5272589921951294,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (18).jpg",
+      "score": 0.8201669454574585,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.7941077351570129,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.5692433714866638,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.7612630128860474,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.6944113969802856,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.5963897109031677,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.5941877365112305,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.5532858371734619,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.6526976227760315,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.574833333492279,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (17).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.5451531410217285,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (19).jpeg",
+      "score": 0.7607620358467102,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.6452144384384155,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.7480044960975647,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.7573466300964355,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.8176706433296204,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.5944331884384155,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.7647196054458618,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.6261661052703857,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.762560248374939,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (18).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.5234675407409668,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (2).jpg",
+      "score": 0.698421835899353,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.7865382432937622,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.7484159469604492,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.666832685470581,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6414602994918823,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.7231835126876831,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.6668081283569336,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.6503233313560486,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (19).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.5743780136108398,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (2).jpg",
+      "b": "NEG_Melanoma (20).jpeg",
+      "score": 0.6698495149612427,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (2).jpg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.4880934953689575,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (2).jpg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.7205520868301392,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (2).jpg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6122458577156067,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (2).jpg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.8375312089920044,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (2).jpg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.42354634404182434,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (2).jpg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.7640937566757202,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (2).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.40558895468711853,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (20).jpeg",
+      "b": "NEG_Melanoma (3).jpeg",
+      "score": 0.802243709564209,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (20).jpeg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.691550612449646,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (20).jpeg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6641058921813965,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (20).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.7067656517028809,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (20).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.7500626444816589,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (20).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.6477477550506592,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (20).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.6056267023086548,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (3).jpeg",
+      "b": "NEG_Melanoma (4).jpg",
+      "score": 0.6229109764099121,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (3).jpeg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6872162222862244,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (3).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.5113967657089233,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (3).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.7628060579299927,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (3).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.5601130723953247,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (3).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.6073076725006104,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (4).jpg",
+      "b": "NEG_Melanoma (5).jpeg",
+      "score": 0.6081892251968384,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (4).jpg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.858553946018219,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (4).jpg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.5645760893821716,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (4).jpg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.8108552694320679,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (4).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.49784010648727417,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (5).jpeg",
+      "b": "NEG_Melanoma (6).jpg",
+      "score": 0.5999274253845215,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (5).jpeg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.6565083265304565,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (5).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.5683929920196533,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (5).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.6341767311096191,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (6).jpg",
+      "b": "NEG_Melanoma (7).jpeg",
+      "score": 0.49446091055870056,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (6).jpg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.8888602256774902,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (6).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.506537914276123,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (7).jpeg",
+      "b": "NEG_Melanoma (8).jpg",
+      "score": 0.5695778131484985,
+      "pred": 0
+    },
+    {
+      "a": "NEG_Melanoma (7).jpeg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.7112554311752319,
+      "pred": 1
+    },
+    {
+      "a": "NEG_Melanoma (8).jpg",
+      "b": "NEG_Melanoma (9).jpeg",
+      "score": 0.48735034465789795,
+      "pred": 0
+    }
+  ]
+}
