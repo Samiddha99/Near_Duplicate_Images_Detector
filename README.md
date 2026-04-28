@@ -7,7 +7,7 @@
 [![CPU only](https://img.shields.io/badge/runs%20on-CPU-orange.svg)](#hardware-requirements)
 
 > **Companion paper:** *A Zero-Tuning Unsupervised Near-Duplicate Images Detection Using Adaptive Fingerprinting and Geometric Verification Across Diverse Imagery Domains* — Samiddha Chakrabarti, Parthasarathi De.
-> The full PDF is included under [`paper/`](paper/).
+> The paper is available in: (link will be provide after acceptance and publishing).
 
 This repository contains the **reference implementation, datasets, baseline re-implementations, and evaluation harness** for an unsupervised, training-free, threshold-free near-duplicate image detector. It uses **one fixed configuration** to handle natural photographs, synthetic augmentations, dental radiographs, face portraits, and dermoscopic lesion images, and reports **99.92% pair precision and 95.61% macro F1** across 1,594 images / 594,386 pairs.
 
