@@ -1,4 +1,5 @@
 # Zero-Tuning Unsupervised Near-Duplicate Image Detection
+
 ### Adaptive Fingerprinting + Hierarchical Geometric Verification across Diverse Imagery Domains
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
@@ -22,13 +23,13 @@ This repository contains the **reference implementation, datasets, baseline re-i
 5. [Installation](#5-installation)
 6. [Quick start (60 seconds)](#6-quick-start-60-seconds)
 7. [How to run on your own images](#7-how-to-run-on-your-own-images)
-8. [Reproducing the paper's results](#8-reproducing-the-papers-results)
+8. [Reproducing the paper&#39;s results](#8-reproducing-the-papers-results)
 9. [Datasets](#9-datasets)
 10. [Snapshot of outputs and results](#10-snapshot-of-outputs-and-results)
 11. [Evaluation methodology](#11-evaluation-methodology)
 12. [How to verify and validate](#12-how-to-verify-and-validate)
 13. [Configuration reference](#13-configuration-reference)
-14. [Troubleshooting & FAQ](#14-troubleshooting--faq)
+14. [Troubleshooting &amp; FAQ](#14-troubleshooting--faq)
 15. [Citation](#15-citation)
 16. [License](#16-license)
 
@@ -44,14 +45,14 @@ Given a folder of images, the tool partitions them into **near-duplicate groups*
 
 It is robust to the following transformations applied in any combination:
 
-| Geometric | Photometric |
-|---|---|
-| Rotation at any angle (0°&ndash;360°) | Brightness ×0.4 &ndash; ×1.5 |
-| Horizontal / vertical flips | Contrast ×0.4 &ndash; ×2.0 |
-| Cropping (down to ~25% overlap) | Saturation ×0.2 &ndash; ×2.0 |
-| Zoom / scale (×0.5 &ndash; ×2.0) | Gaussian blur (σ up to 5) |
-| Spatial shifts | JPEG compression (Q05) |
-| Stretching | Edge enhancement / sharpen |
+| Geometric                               | Photometric                   |
+| --------------------------------------- | ----------------------------- |
+| Rotation at any angle (0°&ndash;360°) | Brightness ×0.4&ndash; ×1.5 |
+| Horizontal / vertical flips             | Contrast ×0.4&ndash; ×2.0   |
+| Cropping (down to ~25% overlap)         | Saturation ×0.2&ndash; ×2.0 |
+| Zoom / scale (×0.5&ndash; ×2.0)       | Gaussian blur (σ up to 5)    |
+| Spatial shifts                          | JPEG compression (Q05)        |
+| Stretching                              | Edge enhancement / sharpen    |
 
 No training, no GPU, no hand-tuned thresholds, no per-domain configuration.
 
@@ -59,13 +60,13 @@ No training, no GPU, no hand-tuned thresholds, no per-domain configuration.
 
 ## 2. Why a new method
 
-| Existing approach | Failure mode |
-|---|---|
-| Perceptual hashes (pHash, dHash) | Break under arbitrary rotation / cropping |
-| SIFT / SURF / ORB matching alone | Break under heavy brightness/contrast/blur |
-| Deep-learning pipelines (ViT, DINO, CNN) | Need labels, GPUs, and don't transfer to medical / synthetic imagery |
-| Fixed-threshold pipelines | Reject low-texture duplicates *or* admit false matches in texture-rich pairs |
-| Transitive Union-Find on weak pairwise matches | One false-positive merges two entire groups |
+| Existing approach                              | Failure mode                                                                  |
+| ---------------------------------------------- | ----------------------------------------------------------------------------- |
+| Perceptual hashes (pHash, dHash)               | Break under arbitrary rotation / cropping                                     |
+| SIFT / SURF / ORB matching alone               | Break under heavy brightness/contrast/blur                                    |
+| Deep-learning pipelines (ViT, DINO, CNN)       | Need labels, GPUs, and don't transfer to medical / synthetic imagery          |
+| Fixed-threshold pipelines                      | Reject low-texture duplicates*or* admit false matches in texture-rich pairs |
+| Transitive Union-Find on weak pairwise matches | One false-positive merges two entire groups                                   |
 
 This algorithm replaces those points of failure with five novel components &mdash; an **adaptive screening threshold**, a **keypoint-density-aware decision engine**, a **hierarchical (global + quadrant) homography**, a **CLAHE-normalised warp-and-compare**, and a **guarded low-texture template fallback**.
 
@@ -279,14 +280,14 @@ Reference reports (committed to the repo) live in `code/main/reports/` and `code
 
 ## 9. Datasets
 
-| Dataset | Images | Groups | Pairs | Content | Primary stress test |
-|---|---:|---:|---:|---|---|
-| **COCO_augmented** | 1,020 | 51 × 20 | 519,690 | Natural photos (animals, vehicles, food, architecture) | Massive scale, 12 augmentation types per group |
-| **Geometrical image** | 326 | 8 + 6 NEG | 52,975 | Synthetic + natural (car, landscape, portrait, flower, night, underwater, abstract, food plate) | Low texture, dark content, true negatives |
-| **Teeth** | 207 | 32 + 72 NEG | 21,321 | Dental radiographs | Within-domain similarity, few keypoints |
-| **Face** | 21 | 0 (all unique) | 210 | Human face portraits | False-positive resistance |
-| **Melanoma** | 20 | 0 (all unique) | 190 | Dermoscopic skin-lesion images | Medical false-positive resistance |
-| **Total** | **1,594** | **91 + 78 NEG** | **594,386** | | One configuration covers all |
+| Dataset                     |          Images |                Groups |             Pairs | Content                                                                                         | Primary stress test                            |
+| --------------------------- | --------------: | --------------------: | ----------------: | ----------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| **COCO_augmented**    |           1,020 |              51 × 20 |           519,690 | Natural photos (animals, vehicles, food, architecture)                                          | Massive scale, 12 augmentation types per group |
+| **Geometrical image** |             326 |             8 + 6 NEG |            52,975 | Synthetic + natural (car, landscape, portrait, flower, night, underwater, abstract, food plate) | Low texture, dark content, true negatives      |
+| **Teeth**             |             207 |           32 + 72 NEG |            21,321 | Dental radiographs                                                                              | Within-domain similarity, few keypoints        |
+| **Face**              |              21 |        0 (all unique) |               210 | Human face portraits                                                                            | False-positive resistance                      |
+| **Melanoma**          |              20 |        0 (all unique) |               190 | Dermoscopic skin-lesion images                                                                  | Medical false-positive resistance              |
+| **Total**             | **1,594** | **91 + 78 NEG** | **594,386** |                                                                                                 | One configuration covers all                   |
 
 The Geometrical Image dataset is the most informative single dataset for verification: it includes 13 augmentation categories per source image and explicit NEG (negative-control) images that should never be merged.
 
@@ -296,53 +297,53 @@ The Geometrical Image dataset is the most informative single dataset for verific
 
 ### 10.1 Headline numbers
 
-| Metric | Value |
-|---|---:|
-| Total images processed | 1,594 |
-| Total pairs evaluated | 594,386 |
-| Total ground-truth groups | 91 |
-| **Groups correctly detected** | **90 / 91** |
-| **Datasets with perfect grouping** | **4 / 5** |
-| Total contaminated groups | 2 (both Teeth) |
-| Total NEG leakage | 1 / 78 |
-| FP stress tests passed | 2 / 2 (Face: 0 FP, Melanoma: 0 FP) |
-| **Overall pair precision** | **99.92%** |
-| Overall pair recall (micro) | 86.59% |
-| **Overall macro F1** | **95.61%** |
+| Metric                                   |                              Value |
+| ---------------------------------------- | ---------------------------------: |
+| Total images processed                   |                              1,594 |
+| Total pairs evaluated                    |                            594,386 |
+| Total ground-truth groups                |                                 91 |
+| **Groups correctly detected**      |                  **90 / 91** |
+| **Datasets with perfect grouping** |                    **4 / 5** |
+| Total contaminated groups                |                     2 (both Teeth) |
+| Total NEG leakage                        |                             1 / 78 |
+| FP stress tests passed                   | 2 / 2 (Face: 0 FP, Melanoma: 0 FP) |
+| **Overall pair precision**         |                   **99.92%** |
+| Overall pair recall (micro)              |                             86.59% |
+| **Overall macro F1**               |                   **95.61%** |
 
 ### 10.2 Per-dataset performance
 
-| Dataset | Pair Precision | Pair Recall | Pair F1 | Pure / Total Groups | Contaminated | NEG Leakage |
-|---|---:|---:|---:|:---:|---:|---:|
-| COCO_augmented | 100.00% | 96.22% | 98.08% | 51 / 51 | 0 | 0 / 0 |
-| Geometrical | 100.00% | 71.06% | 83.08% | 8 / 8 | 0 | 0 / 6 |
-| Teeth | 96.89% | 96.89% | 96.89% | 29 / 31 | 2 | 1 / 72 |
-| Face | 100.00% | 100.00% | 100.00% | 0 / 0 | 0 | 0 / 21 |
-| Melanoma | 100.00% | 100.00% | 100.00% | 0 / 0 | 0 | 0 / 20 |
+| Dataset        | Pair Precision | Pair Recall | Pair F1 | Pure / Total Groups | Contaminated | NEG Leakage |
+| -------------- | -------------: | ----------: | ------: | :-----------------: | -----------: | ----------: |
+| COCO_augmented |        100.00% |      96.22% |  98.08% |       51 / 51       |            0 |       0 / 0 |
+| Geometrical    |        100.00% |      71.06% |  83.08% |        8 / 8        |            0 |       0 / 6 |
+| Teeth          |         96.89% |      96.89% |  96.89% |       29 / 31       |            2 |      1 / 72 |
+| Face           |        100.00% |     100.00% | 100.00% |        0 / 0        |            0 |      0 / 21 |
+| Melanoma       |        100.00% |     100.00% | 100.00% |        0 / 0        |            0 |      0 / 20 |
 
 (Source: `code/main/reports/<dataset>.txt`.)
 
 ### 10.3 Comparison with the literature on COCO_augmented
 
-| Method | TP | FP | FN | Precision | Recall | F1 | κ |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **Proposed (ours)** | **9,324** | **0** | **366** | **100.00%** | **96.22%** | **98.08%** | **0.980** |
-| pHash + ViT + Siamese (Jakhar & Borah 2025) | 5,063 | 323 | 4,627 | 94.00% | 52.25% | 67.17% | 0.667 |
-| Stochastic ARG Matching (Zhang & Chang 2004) | 1,325 | 0 | 8,365 | 100.00% | 13.67% | 24.06% | 0.237 |
-| CEDetector / DINO ViT (Lee et al. 2024) | 8,874 | 2,557 | 816 | 77.63% | 91.58% | 84.03% | 0.837 |
-| DWT + CNN + KNN (Singh et al. 2024) | 4,397 | 6 | 5,293 | 99.86% | 45.38% | 62.40% | 0.620 |
-| PCET + GDP (Babu & Rao 2022) | 3,881 | 15,532 | 5,809 | 19.99% | 40.05% | 26.67% | 0.248 |
+| Method                                       |              TP |          FP |            FN |         Precision |           Recall |               F1 |              κ |
+| -------------------------------------------- | --------------: | ----------: | ------------: | ----------------: | ---------------: | ---------------: | --------------: |
+| **Proposed (ours)**                    | **9,324** | **0** | **366** | **100.00%** | **96.22%** | **98.08%** | **0.980** |
+| pHash + ViT + Siamese (Jakhar & Borah 2025)  |           5,063 |         323 |         4,627 |            94.00% |           52.25% |           67.17% |           0.667 |
+| Stochastic ARG Matching (Zhang & Chang 2004) |           1,325 |           0 |         8,365 |           100.00% |           13.67% |           24.06% |           0.237 |
+| CEDetector / DINO ViT (Lee et al. 2024)      |           8,874 |       2,557 |           816 |            77.63% |           91.58% |           84.03% |           0.837 |
+| DWT + CNN + KNN (Singh et al. 2024)          |           4,397 |           6 |         5,293 |            99.86% |           45.38% |           62.40% |           0.620 |
+| PCET + GDP (Babu & Rao 2022)                 |           3,881 |      15,532 |         5,809 |            19.99% |           40.05% |           26.67% |           0.248 |
 
 McNemar's test, Wilcoxon signed-rank, and Friedman+Nemenyi all reject the null hypothesis at p<0.001 in favour of the proposed method (see `code/literature_baselines/outputs/coco/comparison_report.txt`).
 
 ### 10.4 Sample run-time profile (16 CPU threads)
 
-| Stage | COCO_aug (1020) | Geometrical (326) | Teeth (207) | Face (21) | Melanoma (20) |
-|---|---:|---:|---:|---:|---:|
-| Fingerprinting | 7 s | 2 s | 2 s | 1 s | 1 s |
-| Screening | 12 s | 1 s | 1 s | 0 s | 0 s |
-| Verification | 6.1 h | 4.6 m | 10.7 m | 8 s | 2 s |
-| **Total** | **6.11 h** | **4.65 m** | **10.75 m** | **9 s** | **3 s** |
+| Stage           |  COCO_aug (1020) | Geometrical (326) |       Teeth (207) |     Face (21) | Melanoma (20) |
+| --------------- | ---------------: | ----------------: | ----------------: | ------------: | ------------: |
+| Fingerprinting  |              7 s |               2 s |               2 s |           1 s |           1 s |
+| Screening       |             12 s |               1 s |               1 s |           0 s |           0 s |
+| Verification    |            6.1 h |             4.6 m |            10.7 m |           8 s |           2 s |
+| **Total** | **6.11 h** |  **4.65 m** | **10.75 m** | **9 s** | **3 s** |
 
 Verification accounts for ≈99.9% of the total time; the adaptive screen filters out 57.2% of the pairs on average.
 
@@ -377,6 +378,7 @@ All metrics are computed automatically by `duplicate_detector.py` and written in
 **Pair-level (Section 4.2.1 of the paper).** TP, FP, FN, TN, pair precision, pair recall, pair F1.
 
 **Group-level (Section 4.2.2).**
+
 - Group purity = max class share in each detected group (1.0 = no contamination).
 - Group completeness = max share of a GT class captured in one detected group.
 - Number of pure / contaminated groups.
@@ -416,6 +418,7 @@ grep -E "Groups|False Positives|F1-Score" face_check.txt
 ```
 
 Expected:
+
 ```
 Groups    : 0
 True Positives  (TP)  : 0
@@ -442,24 +445,24 @@ Run all five datasets per Section [8](#8-reproducing-the-papers-results) and agg
 
 Each novelty can be disabled independently to confirm its contribution:
 
-| Config | What to change in `duplicate_detector.py` |
-|---|---|
-| **A1** Disable adaptive threshold | In `adaptive_screen_threshold()`, return `0.30` unconditionally |
+| Config                                      | What to change in `duplicate_detector.py`                                                                                                                   |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **A1** Disable adaptive threshold     | In `adaptive_screen_threshold()`, return `0.30` unconditionally                                                                                           |
 | **A2** Disable density-aware decision | In `decide_duplicate()`, remove the `if kp_factor < 0.3` and `elif kp_factor < 0.6` branches, forcing all pairs into the rich-texture weight assignment |
-| **A3** Disable quadrant matching | In `find_homography_hierarchical()`, remove the Level 2 quadrant loop that activates when `inliers < 15 or ratio < 0.4` |
-| **A4** Disable CLAHE warp | In `warp_and_compare()`, comment out the `gpu_clahe` calls and the z-score normalisation |
-| **A5** Disable low-texture fallback | In `verify_pair()`, remove the `if max_kp < 80 and inliers < 15` block that triggers the template matching fallback |
+| **A3** Disable quadrant matching      | In `find_homography_hierarchical()`, remove the Level 2 quadrant loop that activates when `inliers < 15 or ratio < 0.4`                                   |
+| **A4** Disable CLAHE warp             | In `warp_and_compare()`, comment out the `gpu_clahe` calls and the z-score normalisation                                                                  |
+| **A5** Disable low-texture fallback   | In `verify_pair()`, remove the `if max_kp < 80 and inliers < 15` block that triggers the template matching fallback                                       |
 
 Expected ablation results (group level):
 
-| Config | Detected/Expected | Pure | Contaminated | NEG Leak | Ungrouped Images |
-|---|:---:|---:|---:|---:|---:|
-| Full system | 90 / 91 | 88 | 2 | 1 / 78 | 3 |
-| A1: Fixed threshold | 88 / 91 | 83 | 4 | 1 / 78 | 3 |
-| A2: Fixed weights | 90 / 91 | 88 | 2 | 1 / 78 | 4 |
-| A3: No quadrant | 90 / 91 | 87 | 3 | 1 / 78 | 3 |
-| A4: No CLAHE warp | **54 / 91** | 40 | **14** | **47 / 78** | **33** |
-| A5: No fallback | 90 / 91 | 88 | 2 | 1 / 78 | 15 |
+| Config              | Detected/Expected | Pure | Contaminated |          NEG Leak | Ungrouped Images |
+| ------------------- | :---------------: | ---: | -----------: | ----------------: | ---------------: |
+| Full system         |      90 / 91      |   88 |            2 |            1 / 78 |                3 |
+| A1: Fixed threshold |      88 / 91      |   83 |            4 |            1 / 78 |                3 |
+| A2: Fixed weights   |      90 / 91      |   88 |            2 |            1 / 78 |                4 |
+| A3: No quadrant     |      90 / 91      |   87 |            3 |            1 / 78 |                3 |
+| A4: No CLAHE warp   | **54 / 91** |   40 | **14** | **47 / 78** |     **33** |
+| A5: No fallback     |      90 / 91      |   88 |            2 |            1 / 78 |               15 |
 
 A4 is the largest single contributor; removing CLAHE-warp-and-compare collapses recall and explodes contamination from 2 → 14 groups.
 
@@ -469,16 +472,16 @@ A4 is the largest single contributor; removing CLAHE-warp-and-compare collapses 
 
 ## 13. Configuration reference
 
-| Flag | Default | Meaning |
-|---|---|---|
-| `folder` (positional) | &mdash; | Path to a directory of images (recursive) |
-| `--threshold` | `0.50` | Final decision-engine confidence cut-off |
-| `--max-dim` | `512` | Longest side after Lanczos resize |
-| `--screen-thresh` | `0.30` | Base value of the adaptive screening threshold |
-| `--workers` | `0` (auto) | Number of threads |
-| `--gpu` | off | Enable OpenCL acceleration if available |
-| `--fast` | off | Skip Stage 3 verification (screen score only) |
-| `--report` | `None` | Path to write the full text report |
+| Flag                    | Default      | Meaning                                        |
+| ----------------------- | ------------ | ---------------------------------------------- |
+| `folder` (positional) | &mdash;      | Path to a directory of images (recursive)      |
+| `--threshold`         | `0.50`     | Final decision-engine confidence cut-off       |
+| `--max-dim`           | `512`      | Longest side after Lanczos resize              |
+| `--screen-thresh`     | `0.30`     | Base value of the adaptive screening threshold |
+| `--workers`           | `0` (auto) | Number of threads                              |
+| `--gpu`               | off          | Enable OpenCL acceleration if available        |
+| `--fast`              | off          | Skip Stage 3 verification (screen score only)  |
+| `--report`            | `None`     | Path to write the full text report             |
 
 All defaults are the values used in the paper. Changing them is **not required** to reproduce the published metrics.
 
@@ -506,26 +509,7 @@ Some OpenCV wheels are built without OpenCL on Windows. Reinstall with `pip inst
 
 ---
 
-## 15. Citation
-
-If you use this code, the datasets, or the methodology in academic work, please cite:
-
-```bibtex
-@article{Chakrabarti2026ZeroTuningDup,
-  title   = {A Zero-Tuning Unsupervised Near-Duplicate Images Detection Using
-             Adaptive Fingerprinting and Geometric Verification Across
-             Diverse Imagery Domains},
-  author  = {Chakrabarti, Samiddha and De, Parthasarathi},
-  year    = {2026},
-  note    = {Manuscript; PDF in paper/near_duplicate_detection.pdf}
-}
-```
-
-The five literature baselines re-implemented for comparison are cited inline at the top of `code/literature_baselines/baseline_r{1..5}.py`.
-
----
-
-## 16. License
+## 15. License
 
 The code in this repository is released for **research and educational use**. Datasets are aggregated from publicly available sources (COCO, Roboflow dental dataset, ISIC-style dermoscopy samples) plus synthetic augmentations generated by us; please respect the original source licenses where applicable.
 
